@@ -1,26 +1,23 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
+const slugify = require('slugify');
 
 const RegionSchema = new mongoose.Schema({
     country: { 
-        type: String, required: false
+        type: String, required: [true, `Company's region must placed in a country.`]
     },
     state: { 
         type: String 
     },
     city: { 
-        type: String, required: false
+        type: String
     }
 }, {
     _id: false 
 });
 
 const LocationSchema = new mongoose.Schema({
-    address: { 
-        type: String, required: false
-    },
-    region: { 
-        type: RegionSchema, required: false
-    }
+    address: String,
+    region: RegionSchema
 }, { 
     _id: false
 });
@@ -29,55 +26,31 @@ const LocationSchema = new mongoose.Schema({
 const CompanySchema = new mongoose.Schema({
     name: { 
         type: String, 
-        required: [false, 'Company must has name.'] 
+        required: [true, 'Company must has name.'] 
     },
     logoBackground: String,
     logo: String,
-    url: { 
-        type: String,
-        required: [false, 'Company must has url.']
-    },
-    stacks: { 
-        type: [String],
-        required: [false, 'Company must has stacks.']
-    },
-    progLangs: { 
-        type: [String], 
-        required: [false, 'Company must has programming Languages.'] 
-    },
+    url: String,
+    stacks: [String],
+    progLangs: [String],
     frontend: [String],
     backend: [String],
     isHiring: Boolean,
     offerInternships: Boolean,
     p: Number,
-    // location: {
-    //     type: [LocationSchema],
-    //     _id: false
-    // },
+    location: [LocationSchema],
     slug: { 
-        type: String, 
-        required: [false, 'Company must has slug.'], 
+        type: String,
         unique: true 
     },
-    description: { 
-        type: String, 
-        required: [false, 'Company must has description.'] 
-    },
-    industry: { 
-        type: [String], 
-        required: [false, 'Company must has industry.']
-    },
+    description: String, 
+    industry: [String],
     socialMedia: {
         type: Map,
         of: String
     },
     careersLinks: [String],
     verified: Boolean,
-    uniqueName: { 
-        type: String,
-        required: [false, 'Company must has unique name.'], 
-        unique: true 
-    },
     sourceOfData: [String],
     hidden: { 
         type: Boolean, 
@@ -90,6 +63,13 @@ const CompanySchema = new mongoose.Schema({
     timestamps: true 
 });
 
+// auto-generate slug from name before saving
+CompanySchema.pre("save", function (next) {
+    if (this.isModified("name") || this.isNew) {
+        this.slug = slugify(this.name, { lower: true, strict: true });
+    }
+    next();
+});
 
 const Company = mongoose.model("Company", CompanySchema);
 
