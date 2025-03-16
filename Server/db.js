@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
 
-const db = process.env.DATABASE_URL.replace('<db_password>', process.env.DATABASE_PASSWORD);
+const DB = process.env.DATABASE_URL.replace('<DATABASE_PASSWORD>', process.env.DATABASE_PASSWORD);
 
 mongoose
-    .connect(db)
+    .connect(DB)
     .then(() => console.log('✅ DB connected successfully...'))
     .catch(() => console.log('❌ DB tailed to connect...'));
