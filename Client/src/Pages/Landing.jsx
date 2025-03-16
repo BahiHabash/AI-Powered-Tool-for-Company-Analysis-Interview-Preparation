@@ -1,6 +1,8 @@
 import React from "react";
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
+import Signin from "./Signin";
+
 function Landing() {
   return (
     <div className="bg-[#120F25] w-full h-full text-white">
@@ -9,7 +11,7 @@ function Landing() {
         <p className="p-44 text-[#A855F7] mb-[-165px]">
           Ace Your Job Interview with AI!
         </p>
-        <h1 className=" text-3xl text-wrap ">
+        <h1 className=" text-3xl font-bold ">
           Discover Your Future Company Before You Apply!
         </h1>
         <p className="text-[#D1D5DB] text-sm mt-[11px] mb-[11px]">
@@ -17,9 +19,12 @@ function Landing() {
           culture in one place
         </p>
         <div className="bg-[#9333EA] text-white rounded-full p-1.5 pl-2 ml-10 shadow-md flex justify-center items-center inline-flex">
-          <a className="inline-flex" href="">
+          <a className="inline-flex" href="/signin">
             Get Started
-            <img className="p-1.5 pl-6" src="/Client/public/assets/Component 1.svg" />
+            <img
+              className="p-1.5 pl-6"
+              src="/Client/public/assets/Component 1.svg"
+            />
           </a>
         </div>
         <div className="flex justify-center items-center">
@@ -37,7 +42,7 @@ function Landing() {
           />
         </div>
         <div>
-          <h1 className=" mt-32 text-2xl mb-[11px] ">
+          <h1 className=" mt-32 text-2xl mb-[11px] font-bold ">
             Empower Your Career with AI-driven Insights
           </h1>
           <p className="text-[#D1D5DB] text-sm mb-8">
@@ -51,7 +56,7 @@ function Landing() {
             <div className="flex w-[65%] justify-center items-center">
               <div className="border-2 border-transparent shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4">
                 <h1 className="text-[#F9FAFB] text-lg">Company Analysis</h1>
-                <p className="text-[#D1D5DB] text-sm">
+                <p className="text-[#D1D5DB] text-sm mt-[6px]">
                   Gain deep insights into company culture, technologies, job
                   openings, and real employee experiences before you apply.
                 </p>
@@ -59,7 +64,7 @@ function Landing() {
               </div>
               <div className="border-2 border-transparent shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4">
                 <h1 className="text-[#F9FAFB] text-lg">Mock Interviews</h1>
-                <p className="text-[#D1D5DB] text-sm">
+                <p className="text-[#D1D5DB] text-sm mt-[6px]">
                   Sharpen your interview skills with AI-powered practice
                   sessions, instant feedback, and expert recommendations.
                 </p>
@@ -68,26 +73,28 @@ function Landing() {
             </div>
           </div>
           <div className="flex m-8 justify-center items-center">
-          <div className="border-2 w-[65%] border-transparent text-start shadow-[#1F2937] shadow-lg rounded-2xl p-4 m-4">
-            <h1 className="text-[#F9FAFB] text-lg">CV Analysis</h1>
-            <p className="text-[#D1D5DB] text-sm">
-              Optimize your resume with AI-driven suggestions to match job
-              requirements and stand out to recruiters. Take control of your
-              career journey today! 🚀
-            </p>
-            <img src="/Client/assets/image_fx_ (10) 2.png" />
-          </div>
+            <div className="border-2 w-[65%] border-transparent text-start shadow-[#1F2937] shadow-lg rounded-2xl p-4 m-4">
+              <h1 className="text-[#F9FAFB] text-lg">CV Analysis</h1>
+              <p className="text-[#D1D5DB] text-sm mt-[6px]">
+                Optimize your resume with AI-driven suggestions to match job
+                requirements and stand out to recruiters. Take control of your
+                career journey today! 🚀
+              </p>
+              <img src="/Client/assets/image_fx_ (10) 2.png" />
+            </div>
           </div>
         </div>
-        <div className="bg-[url(/Client/public/assets/Background pattern.png)] bg-cover bg-center bg-no-repeat mt-32"> 
-          <h1 className="text-white text-2xl m-[11px]">Unlock the Power of AI for Your Career Growth</h1>
+        <div className="bg-[url(/Client/public/assets/Background pattern.png)] bg-cover bg-center bg-no-repeat mt-32">
+          <h1 className="text-white text-2xl m-[11px] font-bold">
+            Unlock the Power of AI for Your Career Growth
+          </h1>
           <p className="text-[#D1D5DB] text-sm mb-8">
             Take the guesswork out of job applications! Our AI-powered platform
             helps you analyze companies, prepare for interviews, and refine your
             CV to stand out.
           </p>
           <div className="bg-[#9333EA] mb-36 text-white rounded-full p-1.5 pl-2 ml-10 shadow-md flex justify-center items-center inline-flex">
-            <a className="inline-flex" href="">
+            <a className="inline-flex" href="/signin">
               Start now → and take control of your career journey today!
               <img
                 className="p-1.5 pl-6"
