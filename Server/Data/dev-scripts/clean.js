@@ -7,6 +7,10 @@ const outputPath = '../data/companies.json';
 const companies = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
 
 for (const company of companies) {
+    delete company['_id'];
+    delete company['__v'];
+    delete company['uniqueName'];
+
     for (const location of company.location) {
         delete location.__v;
         delete location._id;
