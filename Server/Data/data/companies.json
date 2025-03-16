@@ -77,7 +77,6 @@
         }
       }
     ],
-    "slug": "halan",
     "description": "Halan is Egypt's Leading FinTech App! We’re mission-oriented and our north star is to fulfill consumers’ everyday needs in one application through a real inclusive experience, demonstrated in: - Empowering the unbanked with our Buy Now Pay Later solution. - Supporting small and medium businesses with micro funds. - Digitizing monthly utility and service providers’ bill payments. - Securing a reliable digital wallet service for cash deposits and withdrawals and bill payments.",
     "industry": [
       "Financial Services",
@@ -158,7 +157,6 @@
         }
       }
     ],
-    "slug": "nawy",
     "description": "Nawy is a one-stop-shop that will provide you with the key to your new home by presenting all the necessary information and helps you make an informed decision via reliable brokers. Users are able to search for available units by selecting criteria that match their needs. We are partnered with all the big real estate developers. Our team includes experienced real estate brokers that facilitate the transaction.",
     "industry": [
       "Real Estate",
@@ -229,7 +227,6 @@
         }
       }
     ],
-    "slug": "sakneen",
     "description": "The easiest, fastest, and most enjoyable way to buy or sell a home in Egypt.",
     "industry": [
       "Real Estate",
@@ -314,7 +311,6 @@
         }
       }
     ],
-    "slug": "thndr",
     "description": "Thndr is a digital investment platform that is designed to simplify investing. Thndr facilitates access to the right tools and resources that can empower investors with the means to achieve financial freedom. With Thndr you can currently invest commission free in public companies and mutual funds in Egypt.",
     "industry": [
       "Financial Services",
@@ -415,7 +411,6 @@
       "66da318c1e3ec9e8ad2f658e"
     ],
     "preRTFIds": [],
-    "slug": "abwabai",
     "linkedinCompanyId": "104619548"
   },
   {
@@ -491,7 +486,6 @@
       "66ce48552bc809a6971cb425"
     ],
     "preRTFIds": [],
-    "slug": "blind",
     "linkedinCompanyId": "6411304"
   },
   {
@@ -556,7 +550,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/telda/jobs/"
     ],
-    "slug": "telda",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -626,7 +619,6 @@
       "https://www.levels.fyi/careers/",
       "https://www.linkedin.com/company/levels-fyi/jobs/"
     ],
-    "slug": "levelsfyi",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -701,7 +693,6 @@
       "https://www.ycombinator.com/companies/nsave/jobs",
       "https://www.linkedin.com/company/nsavecom/jobs/"
     ],
-    "slug": "nsave",
     "sourceOfData": [
       "Abdallah AbuHashem"
     ],
@@ -790,7 +781,6 @@
       "https://buffer.com/journey",
       "https://www.linkedin.com/company/bufferapp/jobs/"
     ],
-    "slug": "buffer",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -881,7 +871,6 @@
       "https://www.linkedin.com/company/neptuneai/jobs/",
       "https://neptune.ai/jobs"
     ],
-    "slug": "neptuneai",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -960,7 +949,6 @@
       "https://www.linkedin.com/company/smartly-io/jobs/",
       "https://www.smartly.io/careers"
     ],
-    "slug": "smartlyio",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -1063,7 +1051,6 @@
       "https://www.linkedin.com/company/treyd/jobs/",
       "https://career.treyd.io/"
     ],
-    "slug": "treyd",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -1164,7 +1151,6 @@
       "https://picnic.app/careers",
       "https://www.linkedin.com/company/picnictechnologies/jobs/"
     ],
-    "slug": "picnictechnologies",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -1271,7 +1257,6 @@
       "https://www.anghami.com/careers",
       "https://www.linkedin.com/company/anghami/jobs"
     ],
-    "slug": "anghami",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -1358,7 +1343,6 @@
       "https://getbaraka.com/careers",
       "https://www.linkedin.com/company/getbaraka/jobs"
     ],
-    "slug": "baraka",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -1456,7 +1440,6 @@
       "https://careers.trivago.com/join/open-positions/",
       "https://www.linkedin.com/company/trivagonv/jobs/"
     ],
-    "slug": "trivago",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -1537,7 +1520,6 @@
     "careersLinks": [
       "https://www.notion.so/amieso/Work-at-Amie-72cf33563fd04efdabc48bbc64f5174f"
     ],
-    "slug": "amie",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -1620,7 +1602,6 @@
       "https://alqemam.com/%d8%a7%d9%84%d9%88%d8%b8%d8%a7%d8%a6%d9%81/",
       "https://www.linkedin.com/company/alqemam/jobs"
     ],
-    "slug": "qtech",
     "sourceOfData": [
       "Ahmed Shams"
     ],
@@ -1704,7 +1685,6 @@
       "https://linear.app/careers",
       "https://www.linkedin.com/company/linearapp/jobs"
     ],
-    "slug": "linear",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -1771,7 +1751,6 @@
     "careersLinks": [
       "https://www.freeletics.com/en/corporate/jobs/"
     ],
-    "slug": "freeletics",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -1853,7 +1832,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/hotdeskinc/jobs/"
     ],
-    "slug": "hotdesk",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -1933,7 +1911,6 @@
       "https://kenzz.zohorecruit.com/jobs/Careers",
       "https://www.linkedin.com/company/kenzz/jobs/"
     ],
-    "slug": "kenzz",
     "sourceOfData": [
       "Mohamed Salah"
     ],
@@ -2015,7 +1992,6 @@
       "https://www.notion.so/careers",
       "https://www.linkedin.com/company/notionhq/jobs/"
     ],
-    "slug": "notion",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -2095,7 +2071,6 @@
       "https://www.framer.com/careers/",
       "https://www.linkedin.com/company/framer//jobs/"
     ],
-    "slug": "framer",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -2179,7 +2154,6 @@
       "https://huspy.com/careers",
       "https://www.linkedin.com/company/huspy/jobs/"
     ],
-    "slug": "huspy",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -2278,7 +2252,6 @@
       "https://tamara.co/jobs",
       "https://www.linkedin.com/company/tamara/jobs/"
     ],
-    "slug": "tamara",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -2356,7 +2329,6 @@
       "https://www.appliedintuition.com/careers",
       "https://www.linkedin.com/company/applied-intuition-inc/jobs/"
     ],
-    "slug": "appliedintuition",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -2444,7 +2416,6 @@
       "https://launchdarkly.com/careers/",
       "https://www.linkedin.com/company/launchdarkly/jobs/"
     ],
-    "slug": "launchdarkly",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -2525,7 +2496,6 @@
       "https://remote.com/openings",
       "https://www.linkedin.com/company/remote.com/jobs/"
     ],
-    "slug": "remote",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -2618,7 +2588,6 @@
       "https://www.easygenerator.com/en/career/",
       "https://www.linkedin.com/company/easygenerator//jobs/"
     ],
-    "slug": "easygenerator",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -2690,7 +2659,6 @@
       "https://invisible.co/join-us#jobs",
       "https://www.linkedin.com/company/invisible-technologies-inc-/jobs/"
     ],
-    "slug": "invisibletechnologies",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -2774,7 +2742,6 @@
       "https://www.gather.town/careers",
       "https://www.linkedin.com/company/gathertown//jobs/"
     ],
-    "slug": "gather",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -2848,7 +2815,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/efgholding/jobs/"
     ],
-    "slug": "efgholding",
     "sourceOfData": [
       "Khaled Ayman"
     ],
@@ -2953,7 +2919,6 @@
       "https://www.getyourguide.careers/open-roles",
       "https://www.linkedin.com/company/getyourguide-ag/jobs/"
     ],
-    "slug": "getyourguide",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -3020,7 +2985,6 @@
       "https://mnzl.notion.site/Careers-543d2c1576ce4da2a91a626c98658158",
       "https://www.linkedin.com/company/mnzl/jobs/"
     ],
-    "slug": "mnzl",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -3091,7 +3055,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/swypex/jobs/"
     ],
-    "slug": "swypex",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -3171,7 +3134,6 @@
       "https://hdbc.co/careers",
       "https://www.linkedin.com/company/hdbc/jobs/"
     ],
-    "slug": "hdbc",
     "sourceOfData": [
       "Omar Mohamed Elsayed Metmwah"
     ],
@@ -3271,7 +3233,6 @@
       "https://apply.workable.com/nana-grocery-direct/",
       "https://www.linkedin.com/company/nana-app/jobs/"
     ],
-    "slug": "nana",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -3358,7 +3319,6 @@
       "https://jobs.lever.co/sylndr",
       "https://www.linkedin.com/company/sylndr/jobs/"
     ],
-    "slug": "sylndr",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -3426,7 +3386,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/mahaseel-masr/jobs/"
     ],
-    "slug": "mahaseelmasr",
     "sourceOfData": [
       "Ahmed"
     ],
@@ -3497,7 +3456,6 @@
     "sourceOfData": [
       "Shehab Adel"
     ],
-    "slug": "buf",
     "linkedinCompanyId": "68684262"
   },
   {
@@ -3588,7 +3546,6 @@
       "66895011216b3cf19a551b9f"
     ],
     "preRTFIds": [],
-    "slug": "adjoe",
     "linkedinCompanyId": "12601466"
   },
   {
@@ -3659,7 +3616,6 @@
       "66a7d53f515e88bfcb5e1a01"
     ],
     "preRTFIds": [],
-    "slug": "datagear",
     "linkedinCompanyId": "14833532"
   },
   {
@@ -3749,7 +3705,6 @@
       "66afe07b0a3fc1998b59cafd"
     ],
     "preRTFIds": [],
-    "slug": "tatmeen",
     "linkedinCompanyId": "85100799"
   },
   {
@@ -3840,7 +3795,6 @@
       "66cdfaff340906178a162071"
     ],
     "preRTFIds": [],
-    "slug": "staffbase",
     "linkedinCompanyId": "17978067"
   },
   {
@@ -3924,7 +3878,6 @@
       "66e556bbf6aff3d43be39fb3"
     ],
     "preRTFIds": [],
-    "slug": "techsa",
     "linkedinCompanyId": "85623568"
   },
   {
@@ -4008,7 +3961,6 @@
       "66f4a84ce9c7b2db758b9171"
     ],
     "preRTFIds": [],
-    "slug": "celus",
     "linkedinCompanyId": "18377921"
   },
   {
@@ -4093,7 +4045,6 @@
       "671601322841982add18984a"
     ],
     "preRTFIds": [],
-    "slug": "intalio",
     "linkedinCompanyId": "36991263"
   },
   {
@@ -4142,7 +4093,6 @@
         }
       }
     ],
-    "slug": "eksab",
     "description": "Eksab's mission is to make football more exciting for every fan in the Middle-East & Africa through an integrated gaming and content experience. Our philosophy revolves around partnering with sports teams, athletes, broadcasters, and advertisers to bring a world-class digital experience to fans in the region. Since launching in 2018, Eksab has processed over 20 million games on its daily fantasy and predictions platforms, and been listed as a top 5 gaming app on the Google Play store.",
     "industry": [
       "Entertainment Providers",
@@ -4225,7 +4175,6 @@
         }
       }
     ],
-    "slug": "robusta",
     "description": "Robusta is a tech agency working with a diverse client base across different sectors & industries on implementing digital transformation programs. Engagements are typically focused on digitization of existing operations & processes and/or activation of digital customer engagement channels. With a team of 100+ tech and market consultants, robusta maintains an impactful footprint across EMEA and engages with its clients through its two key operations hubs in Egypt and Germany.",
     "industry": [
       "Information Services"
@@ -4303,7 +4252,6 @@
         }
       }
     ],
-    "slug": "procore-technologies",
     "description": "Procore Technologies, Inc. (NYSE: PCOR) provides cloud-based construction software to clients across the globe. Using its award-winning suite of project management tools, hundreds of thousands of registered Procore users manage all types of construction projects, including industrial plants, office buildings, apartment complexes, university facilities, retail centers, and more.",
     "industry": [
       "Software Development",
@@ -4380,7 +4328,6 @@
         }
       }
     ],
-    "slug": "moweex",
     "description": "A digital software development agency based in Austria (Linz) providing reliable solutions to many multinational companies of all sizes. Our main focus is on software development, we aim to achieve total customer satisfaction by ensuring high-quality products and non-stop support.",
     "industry": [
       "Software Development",
@@ -4444,7 +4391,6 @@
         }
       }
     ],
-    "slug": "stakpak",
     "description": "For all developers out there blocked on deployments and configuration changes. We build developer tools to make going to production on Kubernetes or ECS as simple as spinning up a docker compose file.",
     "industry": [
       "DevOps",
@@ -4531,7 +4477,6 @@
       "Retail",
       "RetailTech"
     ],
-    "slug": "amazon-wwspsteam",
     "careersLinks": [
       "https://www.linkedin.com/company/amazon/jobs",
       "https://www.amazon.jobs/en-gb"
@@ -4596,7 +4541,6 @@
       "SaaS",
       "Gaming"
     ],
-    "slug": "microsoft-savingsteam",
     "careersLinks": [
       "https://www.linkedin.com/company/microsoft/jobs",
       "https://www.microsoft.com/en-us/insidetrack/careers"
@@ -4674,7 +4618,6 @@
       "FinTech",
       "Financial Services"
     ],
-    "slug": "mdp",
     "careersLinks": [
       "https://www.linkedin.com/company/mdp-eg/jobs",
       "https://www.mdp-eg.com/careers"
@@ -4778,7 +4721,6 @@
     ],
     "offerRemoteWork": true,
     "offerVisaSponsorship": true,
-    "slug": "aboutyou",
     "careersLinks": [
       "https://www.linkedin.com/company/about-you/jobs",
       "https://corporate.aboutyou.de/en/our-jobs"
@@ -4858,7 +4800,6 @@
     ],
     "offerRemoteWork": false,
     "offerVisaSponsorship": true,
-    "slug": "scalablegmbh",
     "careersLinks": [
       "https://www.linkedin.com/company/scalable-capital/jobs",
       "https://de.scalable.capital/en/careers"
@@ -4949,7 +4890,6 @@
       "https://www.linkedin.com/company/asset-technology-group/jobs",
       "https://asset-technology.com/careers/"
     ],
-    "slug": "assettechnologygroup",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5044,7 +4984,6 @@
       "https://careers.spacetoongo.com/",
       "https://www.linkedin.com/company/spacetoon/jobs"
     ],
-    "slug": "spacetoon",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5124,7 +5063,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/transport-for-cairo/jobs/"
     ],
-    "slug": "transportforcairo",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5196,7 +5134,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/diverse-dev/jobs/"
     ],
-    "slug": "diverseteam",
     "sourceOfData": [
       "Kerollos Ragaie Youssef"
     ],
@@ -5267,7 +5204,6 @@
       "https://www.linkedin.com/company/dashlane/jobs/",
       "https://www.dashlane.com/about/careers"
     ],
-    "slug": "dashlane",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5340,7 +5276,6 @@
       "https://www.linkedin.com/company/catawiki/jobs/",
       "https://catawiki.careers/"
     ],
-    "slug": "catawiki",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5424,7 +5359,6 @@
       "https://www.linkedin.com/company/careem/jobs/",
       "https://jobs.careem.com/"
     ],
-    "slug": "careem",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5506,7 +5440,6 @@
       "https://www.linkedin.com/company/bit68/jobs/",
       "https://wuzzuf.net/jobs/careers/bit68-Egypt-25631"
     ],
-    "slug": "bit68",
     "sourceOfData": [
       "Omar Raafat"
     ],
@@ -5579,7 +5512,6 @@
       "https://www.linkedin.com/company/1password/jobs/",
       "https://1password.com/jobs"
     ],
-    "slug": "1password",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5651,7 +5583,6 @@
       "https://linkedin.com/company/airtable/jobs/",
       "https://airtable.com/careers"
     ],
-    "slug": "airtable",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5718,7 +5649,6 @@
       "https://www.linkedin.com/company/alaanpay/jobs/",
       "https://www.alaanpay.com/careers"
     ],
-    "slug": "alaan",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5813,7 +5743,6 @@
       "https://www.gizasystemscareers.com/",
       "https://www.linkedin.com/company/giza-systems/jobs"
     ],
-    "slug": "gizasystems",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5902,7 +5831,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/4sale-international-co/jobs/"
     ],
-    "slug": "4sale",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -5978,7 +5906,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/digitalsound/jobs/"
     ],
-    "slug": "digitalsoundmazzikagroup",
     "sourceOfData": [
       "Mahmoud Mostafa Desoky Ahmed"
     ],
@@ -6053,7 +5980,6 @@
       "66d0df796068c9549819f56d"
     ],
     "preRTFIds": [],
-    "slug": "techiematter",
     "linkedinCompanyId": "19187635"
   },
   {
@@ -6104,7 +6030,6 @@
         }
       }
     ],
-    "slug": "trella",
     "description": "Trella is a technology platform that removes the trucking hassle by connecting shippers with qualified carriers to move and manage loads seamlessly.  Currently operating in Egypt, Saudi Arabia, United Arab Emirates, and Pakistan.",
     "industry": [
       "Transportation, Logistics, Supply Chain and Storage"
@@ -6162,7 +6087,6 @@
         }
       }
     ],
-    "slug": "khazna",
     "description": "Khazna was founded in April 2019 with a mission to improve the financial well-being of 20M+ underbanked Egyptians who have little access to formal financial services by providing access to convenient, effective and secure smartphone based financial services. The company is led by a team with over 50 years of combined global experience in finance, corporate strategy and technology. Furthermore, the company has also closed an initial round of funding from leading local and international fintech funds and investors.",
     "industry": [
       "Financial Services",
@@ -6226,7 +6150,6 @@
         }
       }
     ],
-    "slug": "capiter",
     "description": "Capiter brings a hybrid business model to the B2B e-commerce market combining the operations, marketplace, and financing business models with technology, serving MSMEs across the food and beverage, FMCG, and electronics sectors. It’s a marketplace where MSMEs can order inventory, obtain delivery, and access buy-now-pay-later (SNPL) financing facilities via one single platform.",
     "industry": [
       "Internet Publishing",
@@ -6282,7 +6205,6 @@
         }
       }
     ],
-    "slug": "brimore",
     "description": "Brimore is a social commerce platform, that enables the local manufacturers to overcome the Go-to-Market challenges and grow on a national scale through a powerful commercial arm of ’Individuals’. This network sells and recommends the products in their surrounding circles either to other individuals or to their small trade shops in their streets via all possible channels (OmniChannel)",
     "industry": [
       "Manufacturing",
@@ -6343,7 +6265,6 @@
         }
       }
     ],
-    "slug": "maxab",
     "description": "MaxAB is a B2B e-commerce platform that connects food and grocery retailers to suppliers in the most under-served geographies. We are Re-engineering the informal grocery and food market using empowering technologies and innovative supply chains that is designed to fit the needs of retailers in the areas we serve. We are on a mission to empower the retailers, by availing access to a wide range of products, premium service and operational support. Our technology enabled supply chain is helping put the correct amount of food at the right place at the right time.",
     "industry": [
       "Technology, Information and Internet",
@@ -6408,7 +6329,6 @@
         }
       }
     ],
-    "slug": "bosta",
     "description": "Launched in 2017, Bosta is an overnight delivery provider for E-commerce companies in Egypt. Leveraging technology to empower businesses is what we do best. Our goal is to disrupt the logistics industry by bringing technology and experience altogether to provide a one-stop-shop for delivery solutions.",
     "industry": [
       "Technology, Information and Internet",
@@ -6475,7 +6395,6 @@
         }
       }
     ],
-    "slug": "gameball",
     "description": "*Shopify recently featured Gameball in Staff Picks* Gameball is a growth marketing platform that uses gamification to offer intelligent and customizable loyalty and rewards programs, behavior-based notifications, and referral management system, all within a single gamified experience. With Gameball, online businesses can offer super personalized and engaging experiences to their customers, turning one-timers into retained and loyal customers. Gameball is supported on Shopify, WooCommerce, and through our website. Our customer support team is available to answer all your questions and help you through the entire on-boarding process.",
     "industry": [
       "Software Development",
@@ -6544,7 +6463,6 @@
         }
       }
     ],
-    "slug": "zyda",
     "description": "Get more direct customers by breaking free from third parties, and having total control over your brand, marketing and sales campaigns.",
     "industry": [
       "SaaS",
@@ -6616,7 +6534,6 @@
         }
       }
     ],
-    "slug": "nodogoro",
     "description": "We’re a tight family of high-performing computer scientists from Egypt with a passion for hard technology problems.",
     "industry": [
       "Research Services",
@@ -6668,7 +6585,6 @@
         }
       }
     ],
-    "slug": "benchmarklabs",
     "description": "As our name implies we strive for excellence. Driven by our passion for making new discoveries, we come up with innovative solutions through experimentation, research and development. Our group consists of three labs, each specializing in a different field: Creative, Animation and Tech. Our unifying force is our commitment to making ideas work!",
     "industry": [
       "Advertising Services",
@@ -6748,7 +6664,6 @@
         }
       }
     ],
-    "slug": "elmenus",
     "description": "We're an integrated food discovery and online ordering mobile app & website, where you can find new dishes & restaurants, search by mood, occasion, meal type, see & write reviews, and order online seamlessly.",
     "industry": [
       "Technology, Information and Internet",
@@ -6809,7 +6724,6 @@
         }
       }
     ],
-    "slug": "klivvr",
     "description": "Klivvr is a subsidiary of Orascom Financial Holding targeting the Egyptian Fintech market. We are revolutionizing the way people manage their finances, and are working to provide the public with solutions to facilitate their day-to-day lives. Join us at Klivvr to build #TheNextBigThing.",
     "industry": [
       "Financial Services",
@@ -6892,7 +6806,6 @@
         }
       }
     ],
-    "slug": "zammit",
     "description": "A ready to launch eCommerce Platform that is Simple, Quick, Personalized & Localized! You don’t need any technical background to start your shop with all the needed integrations in minutes.",
     "industry": [
       "IT Services and IT Consulting",
@@ -6958,7 +6871,6 @@
         }
       }
     ],
-    "slug": "brantu",
     "description": "BRANTU is on the mission to build the most integrated fashion operating system by digitizing the fashion demand and supply chain; connecting brands, retailers, and manufacturers in frontier markets under a single technology stack. Today BRANTU works with more than 250 brands, 100+ retailers, and 50 manufacturers. Founded in 2019, BRANTU has over 50 employees in Cairo and Stockholm and is backed by top regional and global investors.",
     "industry": [
       "Technology, Information and Internet",
@@ -7034,7 +6946,6 @@
         }
       }
     ],
-    "slug": "lyrise",
     "description": "LyRise is a platform that helps companies work with vetted AI talents easier & faster. We're solving the mismatch of jobs and AI talents by assessing and matching them with global companies while providing an efficient infrastructure for work. As a Microsoft partner we’ve worked with companies backed by Goldman Sachs, Kleiner Perkins, AXA and many more. Our mission is to connect all organizations to AI expertise & infrastructure, maximizing their impact. Visit our website or contact us on hello@lyrise.ai for more information.",
     "industry": [
       "IT Services and IT Consulting",
@@ -7089,7 +7000,6 @@
         }
       }
     ],
-    "slug": "softec",
     "description": "Softec Technologies is one of the most innovative and progressive technology companies providing Intelligence and Visibility solutions for on-road motions to empower logistics, transportation and mobility organizations around the globe and enable them to achieve more.",
     "industry": [
       "Software Development"
@@ -7183,7 +7093,6 @@
         }
       }
     ],
-    "slug": "coformatique",
     "description": "We are a team of 25 based in Cairo and working internationally. We do apps and responsive webapps; we architect them, secure them, develop them, test them, and deliver them! We can advise you on how to create your own apps or help you to develop and publish them, one version at a time.",
     "industry": [
       "Software Development"
@@ -7239,7 +7148,6 @@
         }
       }
     ],
-    "slug": "orangeegypt",
     "description": "Orange is one of the world’s leading telecommunications operators with sales of 42.5 billion euros in 2021 and 140,000 employees worldwide at 31 December 2021, including 78,000 employees in France.",
     "industry": [
       "Telecommunications",
@@ -7306,7 +7214,6 @@
         }
       }
     ],
-    "slug": "breadfast",
     "description": "We are changing the way household goods are delivered in Egypt. At Breadfast, we work hard, dream big, and live life to the fullest. We are in an exciting period of expansion and are looking for creative problem solvers, passionate innovators, and growth-minded people. If that sounds like you, we hope you will join our family.",
     "industry": [
       "Transportation, Logistics, Supply Chain and Storage",
@@ -7369,7 +7276,6 @@
         }
       }
     ],
-    "slug": "adamai",
     "description": "Meetings are the soul of every workplace. Our mission is to capture the collective genius of teams & empower everyone to bring their best to the table.",
     "industry": [
       "Software Development",
@@ -7436,7 +7342,6 @@
         }
       }
     ],
-    "slug": "proteinea",
     "description": "The AI platform for bio-therapeutics engineering along with the novel production process promises innovative therapeutic modalities accessible to everyone. The company is based in Egypt and the US, with presence across MENA.🌍",
     "industry": [
       "Biotechnology Research",
@@ -7520,7 +7425,6 @@
         }
       }
     ],
-    "slug": "vois",
     "description": "_VOIS (Vodafone Intelligent Solutions) is a strategic arm of Vodafone Group Plc, creating value and enhancing quality and efficiency across 28 countries, and operating from 6 locations: Albania, Egypt, Hungary, India, Romania, and the UK.",
     "industry": [
       "IT Services and IT Consulting",
@@ -7583,7 +7487,6 @@
         }
       }
     ],
-    "slug": "rabbit",
     "description": "We are on a mission to launch on-demand retail We are now live in Cairo delivering groceries and more with 20 minutes",
     "industry": [
       "Technology, Information and Internet",
@@ -7657,7 +7560,6 @@
         }
       }
     ],
-    "slug": "zealpay",
     "description": "ZealPay is an innovative Cairo-based startup backed by global strategic investors to empower brands with the next generation of payments, loyalty, and AI-powered insights. We provide our merchants with world-class data, analytics & tools to predict consumer behavior using Artificial Intelligence. Merchants can unlock the full potential of the customers in the most convenient user experience. ZealPay is on a mission to create a digital ecosystem for transactions & consumer behavioral insights.",
     "industry": [
       "IT Services and IT Consulting",
@@ -7743,7 +7645,6 @@
         }
       }
     ],
-    "slug": "linkdevelopment",
     "description": "Link Development is a global technology solutions provider leading the digitalization of private and public sectors. We drive the business transformation of our customers by delivering integrated, inventive and digitally productive experiences that blend cloud, analytics, mobility, smart services, Dynamics 365 - CRM/ERP, infrastructure, IOT, augmented reality and others.",
     "industry": [
       "Software Development",
@@ -7825,7 +7726,6 @@
         }
       }
     ],
-    "slug": "cassbana",
     "description": "Cassbana is a technology solution that builds financial identities for the underserved communities in Egypt through micro-lending and building a behavior-based scoring system; making us the future data-based financial advisory collective.",
     "industry": [
       "Financial Services",
@@ -7889,7 +7789,6 @@
         }
       }
     ],
-    "slug": "octo",
     "description": "Octo is an app based digital platform focused on serving digital freelancers and the gig economy worker base.",
     "industry": [
       "Financial Services",
@@ -7960,7 +7859,6 @@
         }
       }
     ],
-    "slug": "moneyhash",
     "description": "We are Africa and Middle East’s first all-in-one flexible payment orchestration and revenue operations platform that covers all of your payment needs. We help you build, optimize, and scale your payment infrastructure at any stage of growth.",
     "industry": [
       "Financial Services",
@@ -8038,7 +7936,6 @@
         }
       }
     ],
-    "slug": "intouch",
     "description": "Intouch.com is a two-sided media network in which physical retailers enrol their in-store digital displays and advertisers compete to advertise on them. The problem we’re solving - Digital retailers use data to study shoppers’ online behaviour, predict their needs, and eliminate any friction points in the decision-making process. As a result, they provide shopping journeys that are very low on cognitive-stress and therefore high on conversions / revenue. The problem is that digital-born retailers are moving to the offline world to increase their market share, and physical retailers are lacking the technology to compete with the complex data models digital ones have.",
     "industry": [
       "Advertising Services"
@@ -8092,7 +7989,6 @@
         }
       }
     ],
-    "slug": "nexta",
     "description": "Born out of a desire to re-imagine payments and money management in Egypt, nexta offers a new way to bank right from your phone. We’re focused on simplifying money management for everyone and always looking to make money tasks simple, fast, and affordable, with an evolving suite of tools and features to be added along the way.  ",
     "industry": [
       "Financial Services",
@@ -8146,7 +8042,6 @@
         }
       }
     ],
-    "slug": "octopods",
     "description": "Helping your business connect to the most popular social messaging apps.",
     "industry": [
       "IT Services and IT Consulting",
@@ -8216,7 +8111,6 @@
         }
       }
     ],
-    "slug": "cartona",
     "description": "Cartona is one of the fastest growing B2B e-commerce marketplaces in Egypt. Streamlining the distribution process, we directly connect retailers with suppliers, wholesalers, and producing companies. Through Cartona, retailers can browse, compare, and order their merchandise, saving time, money, and effort in their daily operations.",
     "industry": [
       "E-commerce",
@@ -8278,7 +8172,6 @@
         }
       }
     ],
-    "slug": "el-dokan",
     "description": "El-Dokan is smart, localized and flexible for customization eCommerce web and mobile SDK software designed for medium-sized and large chain businesses in MENA to satisfy their needs and increase their online sales.",
     "industry": [
       "Software Development",
@@ -8352,7 +8245,6 @@
         }
       }
     ],
-    "slug": "affectiva",
     "description": "Affectiva is a Smart Eye company. We are merging the two companies to form a global AI powerhouse. Affectiva is on a mission to humanize technology. An MIT Media Lab spin-off, Affectiva created and defined the Emotion AI and Human Perception AI categories. Built on deep learning, computer vision, speech science and massive amounts of real-world data, Affectiva’s technology can detect nuanced human emotions, complex cognitive states, activities, interactions and objects people use. In automotive, Affectiva’s Interior Sensing AI is enabling leading car manufacturers, fleet managers and ridesharing companies to build next-generation mobility that understands the state of the driver, the cabin and the occupants in it. Affectiva’s technology is also used by 28 percent of the Fortune Global 500 companies to test consumer engagement with ads, videos and TV programming.",
     "industry": [
       "Software Development",
@@ -8427,7 +8319,6 @@
         }
       }
     ],
-    "slug": "mendelai",
     "description": "At Mendel.ai, our mission is to use our novel AI aided by clinical experts to streamline global oncology research by organizing real world data and automating clinical trials. We build software to solve problems at each stage of the clinical trial process, from feasibility to post-trial pharmacovigilance.",
     "industry": [
       "Software Development",
@@ -8525,7 +8416,6 @@
         }
       }
     ],
-    "slug": "bldai",
     "description": "Our mission is to create meaningful jobs for millions of people, by teaching them how to build human-centered AI products.",
     "industry": [
       "Technology, Information and Internet",
@@ -8595,7 +8485,6 @@
         }
       }
     ],
-    "slug": "aimtechnologies",
     "description": "We are a young, talented and ambitious artificial intelligence company, founded in Delaware in 2018, creating solutions to better understand and act upon customer conversations and feedback.",
     "industry": [
       "Data Analytics",
@@ -8652,7 +8541,6 @@
         }
       }
     ],
-    "slug": "milango",
     "description": "Introducing the next generation of community management solutions.",
     "industry": [
       "Consumer Services"
@@ -8715,7 +8603,6 @@
         }
       }
     ],
-    "slug": "paysky",
     "description": "PaySky is a digital payments ecosystem builder, building the payments infrastructure to power the new digital economy across Africa & the Middle East. With a mission of \"Democratizing e-payments\", PaySky empowers financial institutions, businesses and individuals remit, pay & get paid.",
     "industry": [
       "Financial Services",
@@ -8784,7 +8671,6 @@
         }
       }
     ],
-    "slug": "vezeeta",
     "description": "Vezeeta is a patient-centric digital healthcare platform that is re-imagining the future of the out-patient globally. As a a single point-of-care, the platform offers convenient and unparalleled digital journeys to 10 million patients across 78 cities via three outpatient touchpoints –Doctors Consultations, Pharmacy and Diagnostics. Recognized as one of the ‘Most Innovative Company’ by Fast Company and as one of the ‘Top 5 Startups’ by Forbes Middle East, Vezeeta has built an unmatched tech and operational powerhouse that ensures patients’ easy access to healthcare across its growing footprint.",
     "industry": [
       "IT Services and IT Consulting",
@@ -8860,7 +8746,6 @@
         }
       }
     ],
-    "slug": "delltechnologies",
     "description": "Technology drives human progress. This tenet is the core of our business and vision. Our customers and team members are integral to our continuing success as we provide the essential infrastructure for organizations to transform their digital futures.",
     "industry": [
       "Software Development",
@@ -8948,7 +8833,6 @@
         }
       }
     ],
-    "slug": "avidbeam",
     "description": "AvidBeam is a video AI analytics software company. AvidBeam offers cutting edge solutions for Smart Communities, Smart Buildings & Cities. AvidBeam is a multi-award winner; recognized at CES 2018 with best AI award in Las Vegas & selected as one of the Top 100 AI companies in MENA region that will impact the 4th industrial revolution, by reputable international awarding organizations, such as IFC and the World Economic Forum. AvidBeam has delivered multiple projects in different verticals including smart cities, smart communities, technology parks, malls, Industrial factories, and others. AvidBeam is a private company with offices in Netherlands, US, and Egypt",
     "industry": [
       "IT Services and IT Consulting",
@@ -9023,7 +8907,6 @@
         }
       }
     ],
-    "slug": "vapulus",
     "description": "We grant entrepreneurs worldwide access to all the essential services they need to start a global internet business in just a few clicks.",
     "industry": [
       "Banking",
@@ -9083,7 +8966,6 @@
         }
       }
     ],
-    "slug": "flapkap",
     "description": "Turbocharge your growth without losing equity !",
     "industry": [
       "Financial Services",
@@ -9140,7 +9022,6 @@
         }
       }
     ],
-    "slug": "inploy",
     "description": "Inploy is an online marketplace that connects businesses to premium freelance talent & SMEs. Clients can freely surf its directory of service providers across 30+ service categories and instantly connect using free contact exchange, with payment facilitation offered for any job transaction that our clients engage in digitally.",
     "industry": [
       "HRTech",
@@ -9201,7 +9082,6 @@
         }
       }
     ],
-    "slug": "efinance",
     "description": "eFinance is a pioneer national developer of digital payments infrastructure, FinTech leaders and architects of digital space, known as the Digital Partner of Choice for Egypt’s growing digital economy and financial digital transformation",
     "industry": [
       "Financial Services",
@@ -9283,7 +9163,6 @@
         }
       }
     ],
-    "slug": "wuzzuf",
     "description": "WUZZUF is the #1 Career Destination in Egypt serving more than 500,000 job seekers each month and more than 15,000 of Egypt's top companies actively posting jobs and searching for talent.",
     "industry": [
       "HRTech",
@@ -9357,7 +9236,6 @@
         }
       }
     ],
-    "slug": "fawry",
     "description": "Fawry for Banking Technology and Electronic Payments S.A.E. is the leading Egyptian digital transformation & fintech platform that revolutionized the concept of Omni channel payment in Africa and the Middle East over the past decade.",
     "industry": [
       "Financial Services",
@@ -9421,7 +9299,6 @@
         }
       }
     ],
-    "slug": "rsasecurity",
     "description": "From on-premises to cloud to hybrid, RSA provides identity-first solutions for security-first organizations to thrive in a digital world with modern authentication, lifecycle management, and identity governance.",
     "industry": [
       "IT Services and IT Consulting",
@@ -9489,7 +9366,6 @@
         }
       }
     ],
-    "slug": "sary",
     "description": "Sary is a B2B marketplace connecting small businesses with wholesalers and lenders to procure supply efficiently.",
     "industry": [
       "RetailTech",
@@ -9550,7 +9426,6 @@
         }
       }
     ],
-    "slug": "anspire",
     "description": "Anspire Agency is a 100% Egyptian company, offering our customers with graphic design, web design, and mobile application designs that reflects their needs and attract their customers. We consistently deliver creativity and simplicity to our customers whether they are business men, or individuals. We also have other varieties in the advertisements, books, magazines, and computer games designs.",
     "industry": [
       "Software Development",
@@ -9612,7 +9487,6 @@
         }
       }
     ],
-    "slug": "ntsal",
     "description": "Ntsal offers the perfect mix of strategy, design, & technology to your company’s life cycle and journey. Through our international team and three service chambers: Branding & Design, Strategy Consultancy and Software Development - we develop concepts that work, identities that stand out, and technologies that live. We help you grow. And as your strategic adviser we develop together with you strategic directions, detect new value pockets and unleash your sales and monetization potential. Our concepts are unique and customized. While we spend a significant amount of time thinking through our recommendations, we love building practical solutions that work. Currently we are based out of three offices: Egypt, Germany and Austria",
     "industry": [
       "Business Consulting and Services",
@@ -9684,7 +9558,6 @@
         }
       }
     ],
-    "slug": "rasayel",
     "description": "A true omnichannel platform for your business. Connect with your customers on all their social media and chat channels.",
     "industry": [
       "Software Development",
@@ -9763,7 +9636,6 @@
         }
       }
     ],
-    "slug": "ejada",
     "description": "EJADA is a leading IT services provider in the Middle East and Africa (MEA) region, enabling enterprises and public-sector organizations to maintain and increase their competitive edge through innovative IT solutions. We offer a unique value proposition by combining a locally based, culturally aware workforce with comprehensive cross-industry solutions and strategic partnerships with global technology vendors. We have been recognized among the top IT services providers serving Saudi Arabia and the MEA region, and as number one in multiple domains including application consulting and customization, application management outsourcing, and custom application development. Through a network of five offices and multiple solution centers in Saudi Arabia and Egypt, we have successfully delivered thousands of large-scale IT projects with the highest standard of implementation, integration, consulting, and support services. Currently, we serve more than 300 large government entities and private sector companies across key industries, through a highly experienced team of over 1000 technical professionals who regularly exceed the expectations of our clients. Their expertise and passion for excellence have positioned EJADA amongst the leading service providers across the government, financial services, telecommunications industries, and have paved the way to expand our business to other targeted sectors, such as healthcare and transportation. Our dynamic growth and success with clients are rooted in our commitment to the highest standards of quality through the entire cycle of engagement. We believe in partnerships with our clients to ensure business excellence, a faster time to market, and the best value for money.",
     "industry": [
       "IT Services and IT Consulting"
@@ -9821,7 +9693,6 @@
         }
       }
     ],
-    "slug": "shouf",
     "description": "Book amazing travel activities and experiences in Egypt and beyond!",
     "industry": [
       "Travel Arrangements"
@@ -9886,7 +9757,6 @@
         }
       }
     ],
-    "slug": "geidea",
     "description": "We believe that the latest payments and commerce technology should be accessible, affordable and intuitive for everyone. Whether on the go, in store or online, we give merchants of all types the freedom to spend less time on complex tasks, and more time with the parts of the business they know and love. Supporting small businesses succeed is at the heart of what we do, and innovation is what powers us to do that. Our 2-in-1 business solution seamlessly allows merchants to accept all payment types from chip and pin, to contactless and digital wallets, while providing simple and powerful tools to manage inventory, sales, online orders and much more, all from one single app. Founded locally in 2008 by entrepreneur Abdullah Faisal Al-Othman, Geidea has evolved into a leading and fully licensed payment service provider offering digital banking technology, Point-of-Sale (POS) Terminals and business management solutions serving both financial institutions and small businesses in retail and digital commerce. As the leading payment solutions provider, we are proudly based in Riyadh, Saudi Arabia, and offer services in several locations across the GCC, including the United Arab Emirates and Egypt. Today, we have over 1,000 employees, serve over 150,000 merchants, and provide more than 700,000 payment terminals in addition to ATM networks with 75% market share across the Kingdom alone. Until recently, only the bigger players could enjoy the latest tech. Now, we are making it available for everyone, giving smaller businesses the chance to get ahead and reach for more. Just like the nimble businesses we serve and the latest technology that we provide, the secret is in our inclusive and forward-thinking strategy.",
     "industry": [
       "Financial Services",
@@ -9952,7 +9822,6 @@
         }
       }
     ],
-    "slug": "seqoon",
     "description": "A service for finding and purchasing co-ownership shares in a second home. We form an LLC for each home, vet both the prospective co-owners and the property itself, and manage the home from that point onwards.",
     "industry": [
       "Real Estate",
@@ -10023,7 +9892,6 @@
         }
       }
     ],
-    "slug": "envisionemploymentsolutions",
     "description": "Envision was founded in 2013 to support the Egyptian market with both temporary and permanent recruitment solutions. We now successfully support some of the country’s largest businesses across the EMEA regions with hard-to fill roles. We have been immensely successful in creating a global network of highly adept intelligent workforce that can help a company achieve their mission critical projects and goals",
     "industry": [
       "Staffing and Recruiting",
@@ -10084,7 +9952,6 @@
         }
       }
     ],
-    "slug": "turboeg",
     "description": "Your Logistech Partner",
     "industry": [
       "Transportation, Logistics, Supply Chain and Storage",
@@ -10149,7 +10016,6 @@
         }
       }
     ],
-    "slug": "dsquares",
     "description": "Dsquares specializes in offering loyalty programs that bring our customers closer to their consumers. Through our different range of solutions, we deliver an end-to-end experience, managing and executing all technical, operational and commercial aspects of our customers’ loyalty programs. From full loyalty programs,couponing solutions to interactive directory services, coupled with an extensive network of merchants, Dsquares serves some of the most loved brands in the region. Visit our website: www.dsquares.com Contact us: info@dsquares.com For Vacancies: careers@dsquares.com",
     "industry": [
       "IT Services and IT Consulting",
@@ -10230,7 +10096,6 @@
         }
       }
     ],
-    "slug": "rubikal",
     "description": "Rubikal is a premier custom software development company with an elite engineering workforce, providing exceptional expertise in planning and developing real-time, scalable, fault-tolerant solutions. ",
     "industry": [
       "IT Services and IT Consulting",
@@ -10289,7 +10154,6 @@
         }
       }
     ],
-    "slug": "subsbase",
     "description": "A cloud-based subscription and billing platform that empowers subscription-based businesses with operational, analytics and billing tools to efficiently manage their subscribers, taking away the entire overhead of subscriber's lifecycle management from the business and keeping them focused on their core product/service.",
     "industry": [
       "Financial Services",
@@ -10360,7 +10224,6 @@
         }
       }
     ],
-    "slug": "digified",
     "description": "Digified is an Egyptian fin-tech startup that provides Digital Identity Verification Solutions based on cutting machine learning and computer vision technologies in Egypt, the Middle East and Africa. We thrive to be the leading Digital Identity provider across the region. Digified offers digital identity solutions that include but are not limited to;Fraud detection, Arabic data extraction, face matching and anti-spoofing and authentication with government databases.",
     "industry": [
       "Financial Services",
@@ -10450,7 +10313,6 @@
         }
       }
     ],
-    "slug": "siemens",
     "description": "Siemens Digital Industries Software is driving transformation to enable a digital enterprise where engineering, manufacturing and electronics design meet tomorrow. Our solutions help companies of all sizes create and leverage digital twins that provide organizations with new insights, opportunities and levels of automation to drive innovation.",
     "industry": [
       "Automotive",
@@ -10552,7 +10414,6 @@
         }
       }
     ],
-    "slug": "integrantinc",
     "description": "Integrant, Inc. is a custom software development company focused on providing tailor made software solutions to fit your needs to a tee.  We strive to uncover your pain points and identify how our team can seamlessly integrate with you and your business for a one-team approach.",
     "industry": [
       "IT Services and IT Consulting",
@@ -10639,7 +10500,6 @@
         }
       }
     ],
-    "slug": "valeo",
     "description": "As a technology company, Valeo is a partner to all automakers worldwide and to new actors in mobility, working together to create mobility that is cleaner, safer and smarter through its innovations. Valeo is focused on four key domains – electrification, advanced driver assistance systems, reinventing interior experience and lighting. Valeo is listed on the Paris Stock Exchange. In 2021, Valeo generated 17.3 billion euros in sales and invested 8.7% of turnover in R&D. As of Dec. 31, 2021, Valeo has 103,300 employees in 31 countries, 185 production sites, 21 research centers, 44 development centers and 18 distribution platforms. Valeo, entreprise technologique, partenaire de tous les constructeurs automobiles et des nouveaux acteurs de la mobilité, œuvre pour une mobilité plus propre, plus sûre et plus intelligente, grâce à ses innovations. Valeo est focalisé sur quatre domaines clés – l’électrification, les aides à la conduite, la réinvention de l’expérience intérieure et l’éclairage. Valeo est coté à la Bourse de Paris. Valeo en chiffres : 17,3 milliards d’euros de CA en 2021 ; 8,7% de son chiffre d’affaires investi en R&D ; 103 300 collaborateurs au 31 décembre 2021 ; 31 pays, 185 sites de production, 21 centres de recherche, 44 centres de développement, 18 plateformes de distribution.",
     "industry": [
       "Motor Vehicle Manufacturing",
@@ -10711,7 +10571,6 @@
         }
       }
     ],
-    "slug": "banquemisr",
     "description": "Banque Misr was established in 1920 by the pioneer economist Mohamed Talaat Harb Pasha, who came up with the concept of investing national saving and directing them towards economic and social development and thus Banque Misr became the first bank to be wholly owned by Egyptians.",
     "industry": [
       "Banking"
@@ -10785,7 +10644,6 @@
         }
       }
     ],
-    "slug": "ericsson",
     "description": "Our purpose To create connections that make the unimaginable possible. Our vision A world where limitless connectivity improves lives, redefines business and pioneers a sustainable future. Our values Perseverance, professionalism, respect and integrity. The future is a place for purpose & vision – ours are clear, and we invite partners, customers and consumers to join us in our journey. For a brighter future. For all. Let's #ImaginePossible",
     "industry": [
       "IT Services and IT Consulting",
@@ -10849,7 +10707,6 @@
         }
       }
     ],
-    "slug": "o7therapy",
     "description": "We believe that each one of you deserves to pursue mental wellness and healing, through top-notch psychotherapy–support that is safe and trusted, thorough enough to resolve challenges, and powerful enough to lead an impact. That’s why O7 Therapy has revolutionized the definition of online therapeutic support, by providing polished and meaningful services hosted by thoughtfully selected psychiatrists and psychologists, to Arabic-speaking people around the globe.",
     "industry": [
       "Mental Health Care",
@@ -10915,7 +10772,6 @@
         }
       }
     ],
-    "slug": "pylon",
     "description": "Pylon is a comprehensive utility management platform powering millions of smart meters in some of the world’s largest emerging markets. We transform conventional water and electricity utilities in emerging markets into efficient, interoperable and data driven ones. With a myriad of challenges from energy waste, theft and tampering to an increase in CO2 emissions, Pylon takes a wholesome approach to tackling these utility management challenges in emerging markets.",
     "industry": [
       "Utilities",
@@ -10994,7 +10850,6 @@
         }
       }
     ],
-    "slug": "pharossolutions",
     "description": "We enlighten your business! Pharos Solutions, located in Karlsruhe, has the aim to help small and medium sized enterprises to come up with their visions and missions through Offshore Development.",
     "industry": [
       "IT Services and IT Consulting",
@@ -11078,7 +10933,6 @@
         }
       }
     ],
-    "slug": "blink22",
     "description": "We are a web and mobile development company, based in Egypt, that has been turning incredible ideas into innovative software for smart companies across the globe since 2015. With a team of over 50 highly-skilled technology and admin professionals, we work directly with your team to produce world-class apps from conception to launch, allowing you to focus on expanding your business ventures. We are proud to have worked with recognizable clients from 13+ different countries, and we actively support women in technology with a vibrant female workforce making up nearly half of our team. As a company run by developers for developers, we firmly believe that passion and a keen interest in emerging technologies make the difference between an app and a profitable app.",
     "industry": [
       "IT Services and IT Consulting"
@@ -11142,7 +10996,6 @@
         }
       }
     ],
-    "slug": "preventiatechnologies",
     "description": "Preventia Technologies is company seeking to solve the most pressing problem facing healthcare globally - the lack of access to primary care physicians. Our proprietary AI technology increases the efficiency of doctors, nurses and pharmacies by 10x, allowing us to scale globally, and bring healthcare to those who are lacking it.",
     "industry": [
       "Technology, Information and Internet",
@@ -11205,7 +11058,6 @@
         }
       }
     ],
-    "slug": "oneorder",
     "description": "A technology enabled supplier and wholesale distributor, catering to HORECA, with a passion to reduce all your supply chain costs and related overheads, therefore maximizing your business profitability and simplifying the process for your business.",
     "industry": [
       "FoodTech",
@@ -11268,7 +11120,6 @@
         }
       }
     ],
-    "slug": "deepirisai",
     "description": "An AI product studio based in Egypt, solving real-world problems in Computer Vision for customers & businesses.",
     "industry": [
       "Technology, Information and Internet",
@@ -11347,7 +11198,6 @@
       "Software Development",
       "Design Services"
     ],
-    "slug": "baianat",
     "careersLinks": [
       "https://www.linkedin.com/company/baianat/jobs",
       "https://www.baianat.com/careers"
@@ -11457,7 +11307,6 @@
       "Embedded Systems",
       "Telecommunications"
     ],
-    "slug": "eventumitsolutions",
     "careersLinks": [
       "https://www.linkedin.com/company/eventum-it-solutions/jobs",
       "http://eventumsolutions.com/careers/"
@@ -11527,7 +11376,6 @@
       "Community",
       "Streaming Services"
     ],
-    "slug": "heroslive",
     "careersLinks": [
       "https://www.linkedin.com/company/heroslive-eg/jobs"
     ],
@@ -11600,7 +11448,6 @@
       "Human Resources",
       "CRM"
     ],
-    "slug": "codezone",
     "careersLinks": [
       "https://www.linkedin.com/company/codezone/jobs"
     ],
@@ -11665,7 +11512,6 @@
       "IT Services and IT Consulting",
       "Outsourcing/Offshoring"
     ],
-    "slug": "dxctechnology",
     "careersLinks": [
       "https://www.linkedin.com/company/dxctechnology/jobs",
       "https://careers.dxc.com/"
@@ -11740,7 +11586,6 @@
       "Digital Agency",
       "Mobile Applications"
     ],
-    "slug": "enozomsoftware",
     "careersLinks": [
       "https://www.linkedin.com/company/enozom-software/jobs",
       "https://enozom.com/Company/Join_Us/"
@@ -11825,7 +11670,6 @@
       "BNPL",
       "FinTech"
     ],
-    "slug": "tabby",
     "careersLinks": [
       "https://www.linkedin.com/company/tabbypay/jobs",
       "https://tabby.ai/careers"
@@ -11884,7 +11728,6 @@
       "SaaS",
       "IT Services and IT Consulting"
     ],
-    "slug": "twerlo",
     "careersLinks": [
       "https://www.linkedin.com/company/twerlo/jobs",
       "https://twerlo.com/join-us/"
@@ -11959,7 +11802,6 @@
       "EdTech",
       "ERP"
     ],
-    "slug": "coligo",
     "careersLinks": [
       "https://www.linkedin.com/company/coligoedu/jobs",
       "https://web.coligotech.com/jobs"
@@ -12026,7 +11868,6 @@
     "industry": [
       "IT Services and IT Consulting"
     ],
-    "slug": "sumerge",
     "careersLinks": [
       "https://linkedin.com/company/sumerge/jobs",
       "https://www.sumerge.com/careers/"
@@ -12094,7 +11935,6 @@
     ],
     "offerRemoteWork": false,
     "offerVisaSponsorship": false,
-    "slug": "gebhaly",
     "careersLinks": [
       "https://www.linkedin.com/company/gebhaly/jobs"
     ],
@@ -12178,7 +12018,6 @@
     ],
     "offerRemoteWork": false,
     "offerVisaSponsorship": false,
-    "slug": "mondiagroup",
     "careersLinks": [
       "https://www.linkedin.com/company/mondia-media/jobs",
       "https://mondia.com/mondia-home/mondia-careers/"
@@ -12262,7 +12101,6 @@
     ],
     "offerRemoteWork": true,
     "offerVisaSponsorship": false,
-    "slug": "auteon",
     "careersLinks": [
       "https://www.linkedin.com/company/auteon/jobs",
       "https://www.auteon.com/unternehmen/karriere"
@@ -12343,7 +12181,6 @@
     ],
     "offerRemoteWork": true,
     "offerVisaSponsorship": false,
-    "slug": "lifetimely",
     "careersLinks": [
       "https://www.linkedin.com/company/lifetimely/jobs",
       "https://lifetimely.breezy.hr/"
@@ -12432,7 +12269,6 @@
     ],
     "offerRemoteWork": true,
     "offerVisaSponsorship": false,
-    "slug": "stickermule",
     "careersLinks": [
       "https://www.linkedin.com/company/sticker-mule/jobs",
       "https://www.stickermule.com/careers"
@@ -12539,7 +12375,6 @@
     ],
     "offerRemoteWork": true,
     "offerVisaSponsorship": true,
-    "slug": "luxoft",
     "careersLinks": [
       "https://www.linkedin.com/company/luxoft/jobs",
       "https://career.luxoft.com/"
@@ -12641,7 +12476,6 @@
       "https://www.linkedin.com/company/wearablabs/jobs",
       "https://apply.workable.com/blabs/?lng=en#jobs"
     ],
-    "slug": "blabs",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -12720,7 +12554,6 @@
       "https://www.linkedin.com/company/workmotionglobal/jobs/",
       "https://workmotion.com/careers/"
     ],
-    "slug": "workmotion",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -12834,7 +12667,6 @@
       "https://www.linkedin.com/company/netguru/jobs/",
       "https://www.netguru.com/career"
     ],
-    "slug": "netguru",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -12896,7 +12728,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/raneen/jobs"
     ],
-    "slug": "raneencom",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -12974,7 +12805,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/the-food-lab-egy/jobs/"
     ],
-    "slug": "thefoodlab",
     "sourceOfData": [
       "Salah Elhossiny"
     ],
@@ -13031,7 +12861,6 @@
     "careersLinks": [
       "https://thebrowser.company/careers"
     ],
-    "slug": "thebrowsercompany",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -13108,7 +12937,6 @@
       "https://modeso.bamboohr.com/careers",
       "https://www.linkedin.com/company/modeso/jobs/"
     ],
-    "slug": "modeso",
     "sourceOfData": [
       "Abdelrahman Bayoumi"
     ],
@@ -13169,7 +12997,6 @@
         }
       }
     ],
-    "slug": "homzmart",
     "description": "Homzmart is an eCommerce platform that sells home furniture, home décor, lighting and home supplies through a visualized community.",
     "industry": [
       "Technology, Information and Internet",
@@ -13230,7 +13057,6 @@
         }
       }
     ],
-    "slug": "moneyfellows",
     "description": "MoneyFellows is a collaborative Group Lending and Savings Platform. It is a trusted and more convenient way of finding and managing Money Circles online, by digitizing the traditional, informal offline ROSCA (Rotating Savings and Credit Association) Model, allowing users to meet their financial and saving needs. ROSCAs are found in over 90 countries worldwide, with a variety of names, such as 'Gam’eya' in the Arab World, 'Chit Funds' in India, 'Tandas' in Mexico and 'Committees' in Pakistan. MoneyFellows combines Saving and Credit by establishing Money Circles for users to participate in: 1 - Based on a user’s MoneyFellows Credit Score they can search and find a suitable Money Circle to join. 2 - The Money Circle begins and all users pay a matching monthly installment, for a pre-defined number of months, placed in a common pot. 3 - Each month, one member receives the total money in the common pot, until all members have received their Payout once, ending the Money Circle. For thousands of years, people have participated in offline Money Circles in the same way, facing a great number of difficulties and limitations. MoneyFellows digitizes the ROSCA model, making it more convenient, secure, manageable and automated. Users can always find available Money Circles without being limited to their social network or geographic location and with a much larger variety of Payout dates and amounts. MoneyFellows users can benefit from some of the following features: - Flexible payment options (Credit Card– Salary Deduction – Direct Debit – Fawry Payments – Cash Collection). - Guaranteed Payout dates and amounts. - Secure Money Circles, users always receive 100% of their Payout, even if other members of the circle are late or miss payments. - Smart Credit Scoring System, where users continuously build up their score to unlock higher Payouts. - A variety of benefits for employees of our corporate partners. Download the MoneyFellows app and try it out now!",
     "industry": [
       "Financial Services",
@@ -13286,7 +13112,6 @@
         }
       }
     ],
-    "slug": "chefaa",
     "description": "At Chefaa Your health comes first that’s why we put people over profits. Insured or uninsured, we provide you with the medication and support that you need to have a better quality of life. Our free “Ask pharmacist” functionality is available 24/7 for anyone, anywhere in Egypt, and we take it very seriously to find you the medication that you need, and if not available, a suitable substitution. By constantly developing our offering and business model, we are committed to prioritizing your health, while supporting local pharmacies in the process. ",
     "industry": [
       "Marketplace",
@@ -13343,7 +13168,6 @@
         }
       }
     ],
-    "slug": "roboost",
     "description": "the first Automated home delivery management solution that uses AI to digitally mimics real-life operations and handles day-to-day situations with an AI system that is capable of self-learning to optimize every aspect of the operation, so Roboost put delivery operation on autopilot.",
     "industry": [
       "Transportation, Logistics, Supply Chain and Storage",
@@ -13418,7 +13242,6 @@
         }
       }
     ],
-    "slug": "waslabrowser",
     "description": "Wasla is the first emerging markets mobile web browser that helps users save money, pay securely, build their credit profiles and gain access to flexible and convenient financing through an End-to-End E-commerce Experience!",
     "industry": [
       "Technology, Information and Internet",
@@ -13497,7 +13320,6 @@
         }
       }
     ],
-    "slug": "instabug",
     "description": "The best-in-class mobile application performance monitoring (APM), secure crash reporting, bug reporting, and powerful infrastructure that supports over two billion devices and counting. Instabug is the most intuitive mobile-first observability platform that can be utilized throughout the entire mobile app life-cycle, empowering you to optimize your user experience and overall performance. Check instabug.com/product for more details. WE'RE HIRING! Become part of the BugSquad: www.instabug.com/careers",
     "industry": [
       "Software Development",
@@ -13572,7 +13394,6 @@
         }
       }
     ],
-    "slug": "shahry",
     "description": "Shahry is an AI powered mobile credit card. Launched in 2019, we have grown exponentially accelerating access to credit for unbanked Egyptians. Positioned as a buy-now-pay-later app for goods, Shahry offers Egypt’s only fully digital lending solution where applying for credit happens without a `wet signature`. We source products exclusively from reputable merchants and allow monthly repayment of purchases through digital payments, credit cards, or Egypt’s vast network of over 200k PoS. Shahry is also Egypt’s only startup funded and partnered with a regulated bank, allowing us unlimited to access financing and industry expertise to build a radical and innovative fintech platform. This is an example of the stuff that allows us to geek out: automating credit scorecards, digitizing behavioral footprints, (automating) user profiling, and rocking the boat in general.",
     "industry": [
       "Financial Services",
@@ -13630,7 +13451,6 @@
         }
       }
     ],
-    "slug": "instatus",
     "description": "A quick & beautiful status page for your company.",
     "industry": [
       "Software Development",
@@ -13698,7 +13518,6 @@
         }
       }
     ],
-    "slug": "extremesolutions",
     "description": "Since our early days ES has been a leading tech house taking on software Development & Digital products as a craft and art. Building experiences people love through technology & art. Our work goes beyond individual forms or platforms, we design systems of brand, product, and service. Our work results in changing the way businesses and industries operate, creating measurable value for our clients, end users and society.",
     "industry": [
       "Software Development",
@@ -13789,7 +13608,6 @@
         }
       }
     ],
-    "slug": "swvl",
     "description": "Swvl is a global provider of transformative tech-enabled mass transit solutions that enhance mass transit safety, reliability, and convenience in some of the world’s most challenging and complex emerging markets. Swvl is uniquely positioned to capitalize on the $1tn global mass transit market opportunity with daily commuting, inter-city travel, TaaS, and SaaS transportation solutions. Swvl currently operates in 115 cities in 18 countries across Latin America, Europe, Africa, and Asia. The differentiated proprietary technology stack features dynamic routing of high capacity vehicles allowing unprecedented vehicle utilization and earnings levels for drivers and massively reduced walk to station distances and prices for riders. With a track record of exponential growth, Swvl achieved annual gross revenue growth of 430% over the past four years. More than 2 million riders to date have booked more than 75 million rides with more than 20 thousand drivers on Swvl’s platform. TaaS offerings have grown gross revenue per client by 4x with > 100% revenue retention over the past two years. Swvl has undergone rapid geographic expansion, including a launch into Europe and Latin America one year ahead of schedule through the recent acquisitions of Shotl and Viapool. Swvl recently entered into a business combination with Queen’s Gambit Growth Capital. Implied, fully diluted equity value is $1.5bn, including an upsized PIPE of $122.5m, of which $65.5mn has been pre-funded to accelerate the company’s growth plans. Swvl is the first $1bn+ unicorn from the region to list on NASDAQ and the first mass transit solutions company on any exchange. The PIPE was led by strategic and financial investors, including Agility, Luxor Capital, Zain, EBRD, and Chimera. Founded on strong ESG principles, Swvl advances social and economic equity while reducing more than 15 million person-hours congestion. Since its inception, the platform has prevented more than 250 million pounds of Co2 emissions.",
     "industry": [
       "Technology, Information and Internet",
@@ -13856,7 +13674,6 @@
         }
       }
     ],
-    "slug": "itworx",
     "description": "\"Building solutions that make people happy\" We are dedicated to creating people-first solutions that make the world a better place for everyone Established in 1994 as a full-service global technology provider, ITWorx partners with the world’s leading organizations throughout their digital transformation journeys providing expertise across an integrated portfolio of services that includes customer experience, employee experience, data analytics, business process automation, DevOps, advanced infrastructure services, and cloud capabilities. Our culture is rooted in our core values of happiness, agility, people, profit, passion, and integrity. Our employees and their well-being are always at the heart of our operations, and we believe that creating respectful and inclusive workplaces founded on these values is what guides our mission to build technologies that make people happier. Our 25+ years proven track record of achievements in building award-winning solutions for government and enterprise organizations leverages our vast talent pool, diverse partnerships, and global delivery capabilities through strategically located representative offices and development centers in Egypt, United States, Switzerland, and United Arab Emirates. Our experts are always proud to build solutions that make countless customers, employees, students, citizens, and stakeholders happier.",
     "industry": [
       "Software Development"
@@ -13908,7 +13725,6 @@
         }
       }
     ],
-    "slug": "spokn",
     "description": "Spokn brings human connection to the new world of work. Our two products, Stories and Podcasts, enable employees to connect from a far in an easy, async and human way. On Spokn, employees can share wins, celebrate birthdays, find common hobbies, and get to know their coworkers.",
     "industry": [
       "Software Development",
@@ -13962,7 +13778,6 @@
         }
       }
     ],
-    "slug": "pravica",
     "description": "A unified communication suite meets the WEB 3.0 standards and utilizes Blockchain technology to empower user's privacy.",
     "industry": [
       "Software Development",
@@ -14037,7 +13852,6 @@
         }
       }
     ],
-    "slug": "tactful",
     "description": "Tactful is a leading and private technology company based in the UK, with a presence in EMEA. Tactful offers omnichannel and AI-powered customer experience software to help businesses thrive by enabling meaningful and effective engagement with their customers across touchpoints. Tactful's unified customer experience platform (UCX) is a comprehensive customer experience platform that incorporates all technologies and tools businesses need to deliver the best customer experience, reduce costs, and boost customer loyalty and sales.",
     "industry": [
       "Software Development",
@@ -14111,7 +13925,6 @@
         }
       }
     ],
-    "slug": "cross-workers",
     "description": "CrossWorkers is a Danish offshoring company working in the software development sector, supplying our clients with professional IT resources. The company has been in business since 2009 and provides excellent services within offshoring software development. The headquarters are in Copenhagen, Denmark and the Offshore Development Center is located in the 5th Settlement, Cairo.",
     "industry": [
       "IT Services and IT Consulting",
@@ -14196,7 +14009,6 @@
         }
       }
     ],
-    "slug": "axispay",
     "description": "Axis Pay is an Egyptian FinTech on a mission to promote financial inclusion and increase access to finance through its digital financial products",
     "industry": [
       "Financial Services",
@@ -14262,7 +14074,6 @@
         }
       }
     ],
-    "slug": "nagwa",
     "description": "Nagwa is an educational technology startup that offers online digital educational services and products for students of all ages, their teachers, and parents. We believe that high quality educational materials should be available to all, no matter where people live or the language they speak.",
     "industry": [
       "E-Learning Providers",
@@ -14320,7 +14131,6 @@
         }
       }
     ],
-    "slug": "yodawy",
     "description": "At Yodawy, we are on a mission to help people lead healthier lives by making access to medication easier and affordable for everyone. Yodawy is your modern-day digital pharmacy, powered by technology, advanced fulfillment capabilities, and integrations with pharmacies, insurance companies, and healthcare providers. This allows Yodawy to seamlessly manage prescriptions at scale and deliver medications to patients, door-to-door, and nationwide. It’s simple, and it’s for everyone.",
     "industry": [
       "Technology, Information and Internet",
@@ -14398,7 +14208,6 @@
         }
       }
     ],
-    "slug": "paymob",
     "description": "Paymob is a financial technology company based in Cairo, Egypt that builds infrastructures for the digital economy.",
     "industry": [
       "Financial Services",
@@ -14466,7 +14275,6 @@
         }
       }
     ],
-    "slug": "digisay",
     "description": "About Us - ESTABLISHED SUMMER 2010 - Launched Over 400 YouTube Channels With 750 Million Views - Managing 7 YouTube Content Networks (6 Middle East + 1 In UK) YouTube Certified (Audience Growth) What we do? - We are experts in content Management on Youtube tools & Systems. - We help you in setting up a professional presence on YouTube. - We are Youtube Certified Agency (Audience growth - Digital Rights) DigiSay Services: - CONTENT MANAGEMENT The process of making sure that all your video content available on the YouTube network is registered and linked to a reference, even if the uploader is another user. DigiSay does the following to protect your content: • Claiming all content uploaded through your channel and officially labeling as copyrighted. • Claim content owned by you but that was uploaded by other youTube users. AD MANAGEMENT & MONETIZATION • Putting ads on your content and optimizing it to increase revenues • Monitor earnings and performance • Prepare reports",
     "industry": [
       "Online Audio and Video Media"
@@ -14522,7 +14330,6 @@
         }
       }
     ],
-    "slug": "survv",
     "description": "SURVV is your daily app assisting you with all your daily on-demand needs. SURVV gives you the convenience you need to get through the day by offering a seamless ordering and delivery experience.",
     "industry": [
       "Transportation, Logistics, Supply Chain and Storage"
@@ -14587,7 +14394,6 @@
         }
       }
     ],
-    "slug": "trianglzllc",
     "description": "TrianglZ Software is a privately held software development and outsourcing services office in Alexandria, Egypt.",
     "industry": [
       "IT Services and IT Consulting",
@@ -14646,7 +14452,6 @@
         }
       }
     ],
-    "slug": "synapseanalytics",
     "description": "Synapse Analytics is a data science, machine learning, and artificial intelligence company that offers both services and products that help organizations better use and monetize their data.  ",
     "industry": [
       "Artificial Intelligence",
@@ -14712,7 +14517,6 @@
         }
       }
     ],
-    "slug": "elcoach",
     "description": "ElCoach is an on-demand fitness and wellness app that aims to meet the ever-growing need to lead a healthier lifestyle through guided and customized physical exercising and nutrition plans.",
     "industry": [
       "Wellness and Fitness Services",
@@ -14781,7 +14585,6 @@
         }
       }
     ],
-    "slug": "blnk",
     "description": "We are a fintech company with a mission of enabling inclusion through point-of-sale financing. Less than 4% of Egyptians have access to credit cards and can only afford to purchase products/services with cash that they have saved or are forced to borrow from hard money lenders at high interest rates. We’re changing this by enabling all consumers to instantly receive credit within minutes at their favorite merchants.",
     "industry": [
       "Financial Services",
@@ -14846,7 +14649,6 @@
         }
       }
     ],
-    "slug": "arqamfc",
     "description": "A Sports Media Hub with one of the most talented teams globally delivering content that fulfills your goals. We had the honour of being the first agency from MENA and Africa to be listed as finalists at the Football Business Awards in London! We produce content for the likes of FIFA, CAF, AFC, EA Sports, UAE Federation, UAE Pro League, Saudi Football Federation, FootballCO, Goal.com, TotalEnergies, and many more.",
     "industry": [
       "Media Production",
@@ -14920,7 +14722,6 @@
         }
       }
     ],
-    "slug": "dxwand",
     "description": "DXwand is not about Bots or AI, it’s about your success and growth. It’s about how our advanced technology would impact your business growth and contribute to your success 🙏 You may have a challenge in responding to each and every customer conversation with a relevant, personalized and satisfactory answer. But just getting a ChatBot or even a person to respond is not going to unleash insights that help you grow. Insights like which products are in demand, or most chronic customers’ complaints👇 Actually, having an ordinary chatbot or moderation team would probably disconnect you from your customers voice 😱 DXwand built a Conversational AI application that easily helps businesses turn conversations into \"Growth Insights\". It responds to conversations with \"Contextual and personalized\" approach and with AI, it converts conversations into Growth Insights Dashboards such as leads, demands, opportunities, threats, complaints and much more. Growth insights are presented to business owners to keep them connected with their customers' voice while not required to tap into every conversation and helps them take informative decisions to grow! Solution is available in Facebook Messenger, Facebook Comments, Instagram, Twitter, WhatsApp, Website, SMS and Voice. Solution supports several Arabic slangs natively such as Egyptian, Gulf and Lebanese in addition to English, French and Spanish. Our goal is partnering in your success 💪",
     "industry": [
       "Software Development",
@@ -14972,7 +14773,6 @@
         }
       }
     ],
-    "slug": "funnelll",
     "description": "Ask questions about your marketing performance in plain English, get answers and insights. Funnelll (500 Global / Flat6Labs) makes it possible for startups, small & medium businesses, and agencies to unlock the insights they need to run high-performing marketing campaigns that maximize the return on their marketing budgets. No coding or complex dashboards needed. With Funnelll, you can automatically track meaningful actions customers take on your website, get high-quality data flowing from and to your marketing accounts on Google and Facebook, and get all your data into a single dashboard, so you can get the insights needed to optimize your organic and paid marketing activities. We're 100% remote with teammates spanning 3 continents around the world We're hiring! Try Funnelll free for 14 days: https://www.funnelll.com/signup-start-tracking-conversions.html",
     "industry": [
       "Software Development",
@@ -15031,7 +14831,6 @@
         }
       }
     ],
-    "slug": "bringy",
     "description": "bringy enables customers to buy and claim insurance services instantly, with a few clicks.",
     "industry": [
       "IT Services and IT Consulting",
@@ -15090,7 +14889,6 @@
         }
       }
     ],
-    "slug": "minly",
     "description": "Minly is a platform that enables the spread of positivity from (من) a celebrity to (لي) their fan, with the purpose of creating joyous and unforgettable moments through personalized experiences.",
     "industry": [
       "Entertainment Providers"
@@ -15164,7 +14962,6 @@
         }
       }
     ],
-    "slug": "jumia",
     "description": "Jumia is a leading e-commerce platform in Africa. It is built around a marketplace, Jumia Logistics, and JumiaPay. The marketplace helps millions of consumers and sellers to connect and transact. Jumia Logistics enables the delivery of millions of packages through our network of local partners. JumiaPay facilitates the payments of online transactions for Jumia's ecosystem. With over 1 billion people and 500 million internet users in Africa, Jumia believes that e-commerce is making people's lives easier by helping them shop and pay for millions of products at the best prices wherever they live. E-commerce is also creating new opportunities for SMEs to grow, and job opportunities for a new generation to thrive.",
     "industry": [
       "E-commerce",
@@ -15220,7 +15017,6 @@
         }
       }
     ],
-    "slug": "kiwe",
     "description": "The social way to pay and get paid.",
     "industry": [
       "Financial Services",
@@ -15284,7 +15080,6 @@
         }
       }
     ],
-    "slug": "hypercell",
     "description": "Hypercell is a growing software engineering company focusing on Mobile and Enterprise applications design and development, delivering end-to-end enterprise and customer solutions.",
     "industry": [
       "IT Services and IT Consulting"
@@ -15341,7 +15136,6 @@
         }
       }
     ],
-    "slug": "expandcart",
     "description": "ExpandCart is the largest ecommerce platform in the Middle East. ExpandCart is a comprehensive true cloud ecommerce platform with native Arabic support. ExpandCart enables individuals and businesses to create a stunning professional online shop in minutes by themselves without the need for any technical experience or assistance. ExpandCart is available in many languages including English, Arabic, and French, enabling business owners to manage and run their stores in a unique multilingual platform that pays attention to details.",
     "industry": [
       "Software Development",
@@ -15396,7 +15190,6 @@
         }
       }
     ],
-    "slug": "creditfins",
     "description": "CreditFins is Egypt’s and the region’s first FinTech platform focusing on alleviating financial stress through an innovative debt management solution that enables clients to pay-off their credit card debt faster & cheaper via a streamlined subscription-based model. With its proprietary scoring system and plans for machine learning, CreditFins will be able to offer its clients tailored, more inclusive financial services that focus on helping them improve their financial wellbeing while making them better informed, empowered, and connected.",
     "industry": [
       "Financial Services",
@@ -15451,7 +15244,6 @@
         }
       }
     ],
-    "slug": "munjz",
     "description": "Munjz is the leading mobile app for connecting individuals/corporate sector looking for household services with top-quality, pre-screened professionals. we are providing many types of services that needed in every property with seamless 60 second booking process, secure payment, and 100% money-back guarantee. Munjz creating values for both customers and professionals to make this market field fast, reliable and convenient",
     "industry": [
       "Facilities Services"
@@ -15529,7 +15321,6 @@
         }
       }
     ],
-    "slug": "speakol",
     "description": "Speakol is a performance-driven display native advertising solution and content discovery platform in the MENA and GCC. We display personalized recommendations using AI and machine learning technologies as users explore online content that reflects their interests and analyzes their behavior in real-time. We enable publishers to boost users' engagement and monetize their online presence. We empower advertisers to promote their products, raise their brand awareness, boost engagement, maximize conversion and realize the full potential of their business. Ads present a non-disruptive user experience blending in with the visual and contextual background of the website appearing alongside relevant recommended articles that address the users' interests and preferences.",
     "industry": [
       "IT Services and IT Consulting",
@@ -15590,7 +15381,6 @@
         }
       }
     ],
-    "slug": "kwentra",
     "description": "Kwentra is an all-in-one hospitality management system founded by hoteliers to combine the strength of legacy systems with the efficiency of cloud-based solutions.",
     "industry": [
       "Hospitality",
@@ -15651,7 +15441,6 @@
         }
       }
     ],
-    "slug": "webops",
     "description": "The journey of WebOps began on the 23rd of November, 2017. The three partners were technically working on the three projects, managing their clientele and also working in parallel to support the business through marketing, recruiting and seeking new projects.The team worked very hard to establish connections, work on our reputation as a software house that offers fully customized services to be able to gain new clients through the word of mouth! In just 2 weeks time, we managed to move into a 20 meters office for four months ( up-till the 21st of June) handling 17 projects , that include projects for the ministry of health, ministry of education and several entrepreneurial others like eldoctor and meetbuzz ; working on the them through development and support :). We are now a team of 16 including 4 interns who just moved in less than a year into a 50 meters office :), Our team consists of 1 CEO and 1 CTO and 10 technicians of frontend, backend, mobile developers and interns. We are software house that creates completely tailored serviced with high-end quality. We combine both customization and having a standardized quality in delivering our projects.",
     "industry": [
       "Software Development"
@@ -15715,7 +15504,6 @@
         }
       }
     ],
-    "slug": "rabbitmobility",
     "description": "Rabbit is a micro-mobility platform offering rides and day rentals via electric vehicles such as scooters, bikes and other light vehicles.",
     "industry": [
       "Technology, Information and Internet",
@@ -15778,7 +15566,6 @@
         }
       }
     ],
-    "slug": "shipblu",
     "description": "Amazon Level Logistics for eCommerce Companies in MENA.",
     "industry": [
       "Freight and Package Transportation"
@@ -15856,7 +15643,6 @@
         }
       }
     ],
-    "slug": "noon",
     "description": "noon is a digital ecosystem of products and services that are built in the region. Our vision is to become the engine of efficiency and convenience for the people we serve. We will elevate the quality of life by inspiring people with what we built and how we built it.",
     "industry": [
       "Retail",
@@ -15912,7 +15698,6 @@
         }
       }
     ],
-    "slug": "kashier",
     "description": "Kashier is a payments platform built to empower and simplify your business by providing you with simple and efficient tools to make it easier to run your business. Kashier is a product of Elements Financial Technologies. Elements Financial Technologies was founded in 2017 with the vision of its founders to build innovative technology products to bridge the gap between financial services and their intended consumers. We are building the financial infrastructure of the future,combining innovation and technological capabilities,creating the perfect mix to build products that reshape finance.",
     "industry": [
       "Financial Services",
@@ -15964,7 +15749,6 @@
         }
       }
     ],
-    "slug": "naqla",
     "description": "NAQLA is the first trucking platform in Egypt since 2016. Our mission is to simplify the process of the transportation of goods and ensure efficient and hassle-free shipping through our mobile App that connects shippers with a network of trusted carriers. The Application streamlines shipping form load pricing, pick up to delivery, payment, and documentation to put an end to manual process and save valuable time.",
     "industry": [
       "Transportation, Logistics, Supply Chain and Storage"
@@ -16013,7 +15797,6 @@
         }
       }
     ],
-    "slug": "shatablee",
     "description": "The 1st Digital Design & Build platform.",
     "industry": [
       "Construction"
@@ -16079,7 +15862,6 @@
         }
       }
     ],
-    "slug": "atomica",
     "description": "Atomica is a US-based startup that helps doctors provide the best patient care possible using the power of AI, Robotics, and 3D Printing. With groundbreaking technology at the core, Atomica is ushering in a new era of patient care - that is more personalized, precise, and affordable. We are actively building a world-class team.",
     "industry": [
       "Artificial Intelligence",
@@ -16136,7 +15918,6 @@
         }
       }
     ],
-    "slug": "o-projects",
     "description": "We are a Software developing house located in Cairo, Egypt that provides their services all around the world . We create a solution to help you grow your business and automate your daily life processes, through various Services we are proudly invested in like : - UI/UX Design - Mobile Application design/development - Web Application design/development - E-commerce - ERP - POS - CMS - Augmented reality - Virtual reality - Game Development We work hard towards providing our customers with optimal solutions with the best possible quality. We always try to improve and enhance our product qualities through the use of creative and innovative ideas. We strive to bring customer’s ideas to life.",
     "industry": [
       "Software Development"
@@ -16196,7 +15977,6 @@
         }
       }
     ],
-    "slug": "xpovi",
     "description": "Xpovi is an enterprise software, enabling startups to tailor their financial and business plans through an easy-to-answer questionnaire.",
     "industry": [
       "Financial Services",
@@ -16264,7 +16044,6 @@
         }
       }
     ],
-    "slug": "silverkeytechnologies",
     "description": "SilverKey Technologies was formed in 2003 with the idea of bringing the best of technology to companies that have yet to benefit from it. Since 2003, SilverKey has expanded from the US and into Eastern Europe, the Middle East, and Asia.",
     "industry": [
       "Artificial Intelligence",
@@ -16342,7 +16121,6 @@
         }
       }
     ],
-    "slug": "codescalers",
     "description": "CodeScalers Egypt mission is to develop promising technology for start-up companies in cloud computing and data centers. Our customers are high tech startups that have found with CodeScalers Egypt a pool of talent that extends their R&D organizations.",
     "industry": [
       "Software Development",
@@ -16402,7 +16180,6 @@
         }
       }
     ],
-    "slug": "oolatechnologies",
     "description": "Building software to enable digital insurance.",
     "industry": [
       "Insurance"
@@ -16474,7 +16251,6 @@
         }
       }
     ],
-    "slug": "cyshield",
     "description": "Established in 2016, CyShield is a leading digital services company with specializations in Artificial Intelligence, Cyber Security, Data Science, IoT and Software Engineering. CyShield works with large companies including financial, media, healthcare and governmental organizations.",
     "industry": [
       "Computer and Network Security",
@@ -16543,7 +16319,6 @@
         }
       }
     ],
-    "slug": "circlepay",
     "description": "CirclePay provides Businesses with Multiple payment Solutions & Financial services through single API integration.",
     "industry": [
       "Financial Services",
@@ -16609,7 +16384,6 @@
         }
       }
     ],
-    "slug": "taager",
     "description": "Taager’s mission is simple – we enable anyone to start and grow their social e-commerce business! We are democratizing the social e-commerce space by enabling budding entrepreneurs to start selling online with no required capital, inventory, or operational experience as we handle their merchandising, warehousing, shipping, and cash collection needs. In just two years, We have served more than 34K social e-commerce sellers from incredibly diverse backgrounds – from students earning a part-time income to highly ambitious digital marketing experts looking to become solo entrepreneurs. The sellers on our platform benefit from access to 2,500+ highly marketable products. We are currently operating in Egypt, KSA, and UAE with additional market launches underway. Our people are driven by our mission and motivated by our desire to deliver the most seamless customer experience to the sellers on our platform. With a continuous focus on quality and execution, we are changing the social e-commerce landscape in the MENA region!",
     "industry": [
       "Retail",
@@ -16669,7 +16443,6 @@
         }
       }
     ],
-    "slug": "forsainc",
     "description": "Forsa provides a catered service through it's platform to match engineers around the world with the perfect remote job. For companies, we make it easy to build remote teams, and manage onboarding, payroll, and compliance while you focus on what you do best.",
     "industry": [
       "IT Services and IT Consulting",
@@ -16730,7 +16503,6 @@
         }
       }
     ],
-    "slug": "qurba",
     "description": "Qurba is a tech startup based in Egypt, it aims to connect Egyptian foodies with their favorite restaurants and help them discover new ones. At Qurba, we talk about food! Foodies can like, comment, reply and share what they think about their favorite offers and meals with their friends!",
     "industry": [
       "IT Services and IT Consulting",
@@ -16789,7 +16561,6 @@
         }
       }
     ],
-    "slug": "tagaddod",
     "description": "Tagaddod is empowering communities and businesses to build sustainable impact and income through waste, as part of our mission to leverage data, technology and logistics to support worldwide energy security and waste elimination.",
     "industry": [
       "Technology, Information and Internet",
@@ -16862,7 +16633,6 @@
         }
       }
     ],
-    "slug": "trufla",
     "description": "Trufla delivers a 360° digital strategy – a complete suite of digital solutions for modern insurance brokerages. From SEO and web design to lead management, branded mobile apps, data and analytics, and APIs, Trufla Technology will let you take full advantage of your brokerage’s data and allow you to make data-driven decisions that will GROW your business. Trufla understands the insurance industry because we come from it. We started by building the solutions we needed. Our tools give you a customer-centric ecosystem that reimagines the way people interact with insurance.",
     "industry": [
       "Software Development",
@@ -16919,7 +16689,6 @@
         }
       }
     ],
-    "slug": "shezlong",
     "description": "We, wholeheartedly, believe that caring for one’s mental health is crucial. Mental health can affect various areas of your life, including your relationships, work or school, and even your physical health. This is why we think that it is highly essential to make mental health care accessible for all people and overcome barriers to accessing mental health services. We aim to provide therapeutic services for anyone who asks for help. Shezlong is the first Arab online psychotherapy platform in the world. It provides online therapy, offering over 300 psychiatrists and psychologists to choose from, who are carefully selected. We offer mental health services not only to people residing in Egypt but also to individuals who live abroad. We have therapists who speak different languages including Arabic, English, Deutch, French, Spanish, Dutch, Turkish, Italian, Armenian as well as sign language. Because we know that going to therapy is not an easy step, we wanted to make the rest of the process easier. We also have a matching tool, where the client selects their symptoms or how they have been feeling and our intelligent tool matches them with a few appropriate therapists, which they then choose from. We are keen to provide each individual with the optimum quality of service, which is our therapists undergo supervision, so they are constantly developing and evolving as therapists. We also highly value the clients’ right to privacy and confidentiality, so we utilize a program that maintains the privacy of the information disclosed in therapy sessions. We also engage in spreading mental health awareness and fighting the mental health stigma as we believe this is a vital aspect of our lives and should be normalized and prioritized. Your mental health matters. There is no shame in asking for help. Just ask and you’ll find us right by your side. You talk, we help.",
     "industry": [
       "Mental Health Care"
@@ -16987,7 +16756,6 @@
         }
       }
     ],
-    "slug": "fabminds",
     "description": "Fab Minds is about introducing a new concept of personalized 3D Printing Applications that offers endless possibilities for imagination and creation to the minds of all ages using 3D novel solutions.",
     "industry": [
       "Software Development",
@@ -17054,7 +16822,6 @@
         }
       }
     ],
-    "slug": "intella",
     "description": "intella is a visibility and insights provider that delivers intelligence to businesses in real time. Our on demand data collection platform helps businesses act faster & smarter. How it's done you may wonder? We enable rich market research by providing our clients with access to our on demand surveys & verified online community; giving them access to a vast pool of audience ranging from the general to the very niche.",
     "industry": [
       "Market Research",
@@ -17121,7 +16888,6 @@
         }
       }
     ],
-    "slug": "suplyd",
     "description": "We are a company founded in January 2022 with the mission of optimizing the supply chain of Egypt's rapidly growing F&B sector through the provision of a comprehensive digital solution that bridges the gap between restaurant operators and their suppliers in order to disrupt an untouched market with extreme fragmentation and resolve the problem end-to-end.",
     "industry": [
       "Food and Beverage Services",
@@ -17180,7 +16946,6 @@
         }
       }
     ],
-    "slug": "crowdanalyzer",
     "description": "Crowd Analyzer is a tool that enables companies to monitor people's feelings about their brands expressed on social media through sentiment analysis. This enables companies to improve customer insights or understand why a particular campaign may have failed. Crowd Analyzer can even be used to uncover sentiment about a competitor’s brand to use in comparison.",
     "industry": [
       "Technology, Information and Internet",
@@ -17250,7 +17015,6 @@
         }
       }
     ],
-    "slug": "yassir",
     "description": "Yassir offer on-demand services such as ride-hailing and last-mile delivery. Building on this infrastructure, we are now introducing financial services to help our users pay, save and borrow digitally. Helping usher the continent into a digital economy era.",
     "industry": [
       "IT Services and IT Consulting",
@@ -17309,7 +17073,6 @@
         }
       }
     ],
-    "slug": "r2s",
     "description": "R2S Logistics is an Egyptian last-mile delivery company providing leading fulfillment and transportation logistics solutions to e-commerce and traditional businesses. Our mission is to develop trusted long term partnerships with local merchants and businesses through providing innovative technology driven logistics solutions to serve them and their customers'​ needs in a timely, efficient and affordable manner.",
     "industry": [
       "Transportation, Logistics, Supply Chain and Storage",
@@ -17374,7 +17137,6 @@
         }
       }
     ],
-    "slug": "farmtopia",
     "description": "FarmTopia is an Agricultural Development and Technology Research company aiming to fully autonomoize precision farming technologies through out the full cycle from seeding to harvest with the help of advanced AI computer vision & compact embedded solutions & AI-aided management tools our farming modules are able to reach historical low rates on basic farming costs.",
     "industry": [
       "Farming",
@@ -17455,7 +17217,6 @@
       "Education",
       "Software Development"
     ],
-    "slug": "oureducation",
     "careersLinks": [
       "https://www.linkedin.com/company/our-education-for-investment/jobs"
     ],
@@ -17518,7 +17279,6 @@
       "Software Development",
       "Digital Agency"
     ],
-    "slug": "lirtensolutions",
     "careersLinks": [
       "https://www.linkedin.com/company/software-company-lirten-solutions/jobs",
       "https://lirten.com/joinOurTeam"
@@ -17579,7 +17339,6 @@
       "Digital Agency",
       "Design Services"
     ],
-    "slug": "webkeyz",
     "careersLinks": [
       "https://www.linkedin.com/company/webkeyz/jobs",
       "https://webkeyz.com/careers/"
@@ -17641,7 +17400,6 @@
       "EdTech",
       "Education"
     ],
-    "slug": "career180",
     "careersLinks": [
       "https://www.linkedin.com/company/career-180/jobs"
     ],
@@ -17711,7 +17469,6 @@
       "Financial Services",
       "FinTech"
     ],
-    "slug": "agel",
     "careersLinks": [
       "https://www.linkedin.com/company/agelegypt/jobs"
     ],
@@ -17779,7 +17536,6 @@
       "Artificial Intelligence",
       "Data Analytics"
     ],
-    "slug": "tensorgraph",
     "careersLinks": [
       "https://www.linkedin.com/company/tensorgraph/jobs",
       "https://wuzzuf.net/jobs/careers/TensorGraph-Egypt-32724"
@@ -17840,7 +17596,6 @@
       "Blockchain",
       "Data Analytics"
     ],
-    "slug": "envnt",
     "careersLinks": [
       "https://www.linkedin.com/company/envntofficial/jobs"
     ],
@@ -17902,7 +17657,6 @@
       "InsurTech",
       "Technology, Information and Internet"
     ],
-    "slug": "amanleek",
     "careersLinks": [
       "https://www.linkedin.com/company/amanleek/jobs",
       "https://amanleek.com/en/vacancies/"
@@ -17971,7 +17725,6 @@
       "EdTech",
       "ERP"
     ],
-    "slug": "educatly",
     "careersLinks": [
       "https://www.linkedin.com/company/educatly/jobs",
       "https://educatly.zohorecruit.com/jobs/Careers"
@@ -18034,7 +17787,6 @@
       "HealthTech",
       "SaaS"
     ],
-    "slug": "bypa-ss",
     "careersLinks": [
       "https://www.linkedin.com/company/bypa-ss/jobs",
       "https://bypa-ss.com/careers"
@@ -18097,7 +17849,6 @@
     "industry": [
       "Real Estate"
     ],
-    "slug": "houst",
     "offerRemoteWork": true,
     "careersLinks": [
       "https://www.linkedin.com/company/houst/jobs",
@@ -18180,7 +17931,6 @@
     ],
     "offerRemoteWork": true,
     "offerVisaSponsorship": false,
-    "slug": "lucidya",
     "careersLinks": [
       "https://www.linkedin.com/company/lucidya/jobs",
       "https://lucidya.com/careers-at-lucidya"
@@ -18249,7 +17999,6 @@
     ],
     "offerRemoteWork": false,
     "offerVisaSponsorship": false,
-    "slug": "valify",
     "careersLinks": [
       "https://www.linkedin.com/company/valifysolutions/jobs"
     ],
@@ -18336,7 +18085,6 @@
     ],
     "offerRemoteWork": true,
     "offerVisaSponsorship": false,
-    "slug": "tachyhealth",
     "careersLinks": [
       "https://www.linkedin.com/company/tachyhealth/jobs",
       "https://www.tachyhealth.com/career"
@@ -18406,7 +18154,6 @@
       "https://www.linkedin.com/company/amenli/jobs",
       "https://wuzzuf.net/jobs/careers/Amenli-Egypt-63545"
     ],
-    "slug": "amenli",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -18491,7 +18238,6 @@
       "https://www.linkedin.com/company/brainly-com/jobs/",
       "https://careers.brainly.com/"
     ],
-    "slug": "brainly",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -18562,7 +18308,6 @@
       "https://www.linkedin.com/company/monzo-bank/jobs/",
       "https://monzo.com/careers/"
     ],
-    "slug": "monzo",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -18654,7 +18399,6 @@
       "https://careers.smartrecruiters.com/ValU1",
       "https://www.linkedin.com/company/valuegypt/jobs/"
     ],
-    "slug": "valu",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -18741,7 +18485,6 @@
       "https://www.linkedin.com/company/dkilo/jobs",
       "https://www.dkilo.com/careers"
     ],
-    "slug": "dkilo",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -18808,7 +18551,6 @@
       "https://unkey.dev/careers",
       "https://www.linkedin.com/company/unkeyed/jobs"
     ],
-    "slug": "unkey",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -18876,7 +18618,6 @@
       "https://jobs.lever.co/dru-app",
       "https://www.linkedin.com/company/dru-app/jobs"
     ],
-    "slug": "dru",
     "sourceOfData": [
       "Stack Info - Human"
     ],
@@ -18944,7 +18685,6 @@
     "careersLinks": [
       "https://www.linkedin.com/company/MetMans/jobs/"
     ],
-    "slug": "misrhigherinstituteofengineeringandtechnologyinmansouramet",
     "sourceOfData": [
       "eng.emankhashan@gmail.com"
     ],
@@ -19028,7 +18768,6 @@
     "preRTFIds": [
       "6675650590c04e05de4a7f4e"
     ],
-    "slug": "wrike",
     "linkedinCompanyId": "612239"
   },
   {
@@ -19107,7 +18846,6 @@
       "66cdf725340906178a162066"
     ],
     "preRTFIds": [],
-    "slug": "mrsool",
     "linkedinCompanyId": "18581278"
   },
   {
@@ -19174,7 +18912,6 @@
       "66b8713f6558fd6e88636cd7"
     ],
     "preRTFIds": [],
-    "slug": "pulley",
     "linkedinCompanyId": "42343737"
   },
   {
@@ -19237,8 +18974,7 @@
     "requestIds": [
       "676efce6333137949cde6ae6"
     ],
-    "preRTFIds": [],
-    "slug": "golyv"
+    "preRTFIds": []
   },
   {
     "name": "IT-Fusion Software House",
@@ -19278,7 +19014,6 @@
         }
       }
     ],
-    "slug": "it-fusionsoftwarehouse",
     "description": "Over 12+ years of experience providing insurance software solutions, we delivered high-value innovative solutions by connecting the gap between insurance business know-how and Information technology to support wide, diversified, multicultural business environments in Egypt and Sudan. We understand that what matters most is to better understand our clients and how uniquely they each aspire to success. That is why our approach starts with people guided by CMMI-appraised processes.",
     "industry": [
       "Software Development",
@@ -19336,7 +19071,6 @@
         }
       }
     ],
-    "slug": "yaoota",
     "description": "Yaoota is Egypt's premier shopping engine.",
     "industry": [
       "Software Development",
@@ -19392,7 +19126,6 @@
         }
       }
     ],
-    "slug": "waffarx",
     "description": "WaffarX is Egypt’s first Cash Back provider connecting consumers with ongoing savings via current offers from our growing network of advertiser partners.",
     "industry": [
       "Technology, Information and Internet",
@@ -19457,7 +19190,6 @@
         }
       }
     ],
-    "slug": "aqarmap",
     "description": "Aqarmap.com is an online Real Estate marketplace that makes buying, selling, and renting properties easy and convenient. We help thousands of Real Estate Developers and Brokers to promote their projects and properties to millions of qualified buyers. In 2016, we helped sell more than 17,000 units with a total value of more than 550 Million USD.",
     "industry": [
       "Real Estate",
@@ -19507,7 +19239,6 @@
         }
       }
     ],
-    "slug": "eshtriaqar",
     "description": "E-commerce real estate platform that offers an end to end buying journey. Seamless, transparent & safe home buying experience.",
     "industry": [
       "Marketing Services",
@@ -19572,7 +19303,6 @@
         }
       }
     ],
-    "slug": "inova",
     "description": "We are a software development company, headquartered in Alexandria, Egypt. We have another branch in Saudi Arabia. We have more than 9 years experience in mobile and web development. We have released more than 60 apps in apple store and google play.",
     "industry": [
       "Software Development"
@@ -19620,7 +19350,6 @@
         }
       }
     ],
-    "slug": "road9media",
     "description": "A synergistic, experienced and well established Tech and Digital Agency founded in 2007 by Dutch entrepreneurs, in Cairo, Egypt. We are a comprehensive Digital services provider including Web Design, Mobile Apps Development, Strategic Digital Marketing and Branding. A group of digital craftsmen, whose cleverness comes out of mastering both creative & technical aspects. We believe that a good digital product isn’t the one that only looks great but also generates a better return to our partners. Crafting a digital product that truly pays off, is what we consider Road9 Media’s purpose of life. Our innovative and creative method of thinking, alongside relying on science and factual reasoning, have allowed us to serve local and overseas clients, from every corner of the globe. Over the years we have served clients from Egypt, MENA, Gulf, USA and Europe.",
     "industry": [
       "Advertising Services",
@@ -19680,7 +19409,6 @@
         }
       }
     ],
-    "slug": "olx",
     "description": "At OLX Egypt, our goal is to become the leading platform for providing easy and convenient solutions for all buying and selling transactions in Egypt.",
     "industry": [
       "Technology, Information and Internet",
@@ -19737,7 +19465,6 @@
         }
       }
     ],
-    "slug": "sahlpay",
     "description": "Simplifying the way people handle their day-to-day finances in Egypt.",
     "industry": [
       "Software Development",
@@ -19788,7 +19515,6 @@
         }
       }
     ],
-    "slug": "waffarha",
     "description": "Launched in October 2012, Waffarha.com is Egypt's No. 1 Group-buying website and mobile App.'Waffarha' is a locally used word means 'Save it' so you can guess that We aim to make a great saving to our online customers by offering our fancy Daily Deals with big discounts starts from 50% up to 90%!",
     "industry": [
       "Loyalty & Retention Solutions",
@@ -19856,7 +19582,6 @@
         }
       }
     ],
-    "slug": "pentavalue",
     "description": "PentaValue is a company that always strives for perfection, interested in all what is new and innovative in the field of information technology. We work in different fields and the creativity is our goal. PentaValue specializes in: - Mobile Application Programming ( iPhone, iPad, Windows Phone, Android and BlackBerry ). - Websites design and development and also website hosting. - Computer and Web applications design and development. - Games design and programming for mobile, computer and internet. - Applications design and development with the technology of augmented reality. - Multimedia works and 3D presentations.",
     "industry": [
       "Software Development"
@@ -19927,7 +19652,6 @@
         }
       }
     ],
-    "slug": "talabat",
     "description": "When you think of food delivery in the MENA region, we’d be pretty surprised if talabat didn’t pop into your mind first! Since delivering our first order in Kuwait in 2004, we’ve grown quite a lot over the past 17 years.",
     "industry": [
       "Technology, Information and Internet",
@@ -19986,7 +19710,6 @@
         }
       }
     ],
-    "slug": "elves",
     "description": "Elves is a travel app that helps you experience exciting destinations safely with the knowledge and support of local travel experts (our elves) available in chat 24/7. Our local experts know their hometowns inside and out and are here to support you in every step of your trip - from planning to making arrangements, to giving you local insights and recommendations, our elves help you navigate from the moment you decide to travel and throughout your trip. Our essential travel services are available to you 24/7 where you can: - Get free pre-trip planning & advice - Get your Covid & PCR requirements handled - Book flights & hotels - Get free recommendations on things to do & where to go from local travel experts - Book local experiences & top attractions - Hail trusted transportation - Get free restaurant & nightlife reservations - Change flights/reschedule travel plans - Buy event & museum tickets Our app is completely free to use. You only pay when you make a purchase like a flight, hotel, transportation, or book an experience. If you'd like to get some ideas on how to plan your trip, download elves and head to chat to get started! To download, click http://onelink.to/hxg7yn",
     "industry": [
       "Hospitality"
@@ -20045,7 +19768,6 @@
         }
       }
     ],
-    "slug": "movo",
     "description": "Everyone has their own financial goals, dreams and aspirations. At MOVO it's our mission to help you make them a reality by providing high quality, online Financial Advice at an affordable price. Whether you're a beginner or an experienced investor, MOVO gives you everything you need to take control of your financial future. Set your goals, create a budget, maximize your returns, and get the advice you need in a safe and secure online environment. What are you waiting for? After all, the future belongs to those who plan for it.",
     "industry": [
       "Financial Services",
@@ -20103,7 +19825,6 @@
         }
       }
     ],
-    "slug": "cequens",
     "description": "CEQUENS is a global Communication Platform as a Service (CPaaS) provider that aims to bridge communication gaps in a communication-driven world. CEQUENS proprietary, PCI/DSS compliant Communication Platform leverages the latest cloud technologies and features a comprehensive portfolio of products and solutions that are industry-focused, agile, scalable, and cost-effective. Powered by innovation and guided by a Cloud-First and Mobile-First approach, we provide omnichannel communication APIs that enable enterprises and developers to communicate with their customer base worldwide. As Endeavor Entrepreneur and industry player, CEQUENS plays a pivotal role in transforming business communication. If you have the passion for success and eager to constantly challenge yourself within a collaborative team-environment, explore our available jobs and join our team today. For more info, contact hello@cequens.com",
     "industry": [
       "Telecommunications",
@@ -20158,7 +19879,6 @@
         }
       }
     ],
-    "slug": "raisa",
     "description": "Founded in 2014 and based in Denver with a tech hub in Cairo, Raisa Energy is an independent Oil & Gas exploration and production company that creates value by owning and leasing mineral and non-operated working interests in a diversified pool of low-risk, medium to high return wells in major oil & gas basins across North America.",
     "industry": [
       "Oil and Gas"
@@ -20226,7 +19946,6 @@
         }
       }
     ],
-    "slug": "incorta",
     "description": "Incorta provides a unified data and analytics platform that makes it quick and easy to unlock the full potential of data from multiple complex source systems. By eliminating traditional data transformation, modeling and aggregation steps, it makes 100% of data instantly ready for analysis. Pre-packaged data apps for common business applications make it easy to prepare data for analysis.",
     "industry": [
       "Software Development",
@@ -20281,7 +20000,6 @@
         }
       }
     ],
-    "slug": "widebot",
     "description": "WideBot is the leading Arabic-focused conversational AI chatbot building platform in the MENA region. Our mission to empower businesses with AI-powered bots that chat like human beings, so they can build strong relationships with their customers and maximize their outcomes through a seamless personalized experience. We offer basic to full-fledged solutions from data training and building, tailoring and optimization to hosting and maintenance, with ongoing technical support.",
     "industry": [
       "Software Development",
@@ -20341,7 +20059,6 @@
         }
       }
     ],
-    "slug": "docusign",
     "description": "DocuSign helps organizations connect and automate how they prepare, sign, act on and manage agreements. As part of the DocuSign Agreement Cloud, DocuSign offers eSignature, the world's #1 way to sign electronically on practically any device, from almost anywhere, at any time. Today, over a million customers and more than a billion users in over 180 countries use the DocuSign Agreement Cloud to accelerate the process of doing business and simplify people's lives.",
     "industry": [
       "Software Development"
@@ -20394,7 +20111,6 @@
         }
       }
     ],
-    "slug": "yashry",
     "description": "Yashry is an online fashion website, founded in April 2019, sells clothing, footwear, bags and accessories for men, women and kids.",
     "industry": [
       "Technology, Information and Internet",
@@ -20450,7 +20166,6 @@
         }
       }
     ],
-    "slug": "hawaya",
     "description": "Finding true love goes beyond the match. At Hawaya: The match is only the starting point. We don’t just spark meaningful connections, we make sure they blossom into genuine relationships. Most importantly, we ensure that the journey to discovering your soulmate remains respectful of your values, culture, and intentions",
     "industry": [
       "Technology, Information and Internet",
@@ -20507,7 +20222,6 @@
         }
       }
     ],
-    "slug": "cloudstick",
     "description": "Robust, flexible and affordable control panel for your mission critical applications",
     "industry": [
       "IT Services and IT Consulting",
@@ -20570,7 +20284,6 @@
         }
       }
     ],
-    "slug": "garmentio",
     "description": "Garment IO is a plug and play Garment Manufacturing Management Solution combining software and hardware to give garment factory managers and owners a complete overview on production processes, worker performance and production cost calculation. All down to the transaction detail, real-time and accessible online.",
     "industry": [
       "Manufacturing",
@@ -20626,7 +20339,6 @@
         }
       }
     ],
-    "slug": "dayra",
     "description": "Dayra is a data-driven fintech company providing financial services to unbanked gig-workers and micro-businesses via API integration. We partner up with companies to empower them to offer financial services, such as virtual bank accounts and access to credit, to unbanked individuals they transact with. Dayra’s financial services are instant, hassle-free, and at a lower costs than traditional lenders.",
     "industry": [
       "Financial Services",
@@ -20682,7 +20394,6 @@
         }
       }
     ],
-    "slug": "lenme",
     "description": "Lenme is a mobile app that facilitates peer-to-peer lending. The intuitive design easily connects borrowers in need of a small loan - up to $5000 - and lenders who are looking to make a return.",
     "industry": [
       "Financial Services",
@@ -20739,7 +20450,6 @@
         }
       }
     ],
-    "slug": "flextock",
     "description": "Powering the next generation of commerce in MEA",
     "industry": [
       "Transportation, Logistics, Supply Chain and Storage",
@@ -20794,7 +20504,6 @@
         }
       }
     ],
-    "slug": "talabeyah",
     "description": "Talabeyah will lead the Transformation of Traditional Trade. As a Digital Wholesaler through Talabeyah App, We are Connecting Suppliers with Supermarkets & Groceries Across Egypt, with a portfolio includes Existing and New Consumer Goods Brands.",
     "industry": [
       "Software Development",
@@ -20847,7 +20556,6 @@
         }
       }
     ],
-    "slug": "bynarsystems",
     "description": "We provide hassle free accounting, invoicing, bookkeeping, payment and taxation services. Bring your business to the twenty-first century with our cloud based solutions.",
     "industry": [
       "IT Services and IT Consulting",
@@ -20911,7 +20619,6 @@
         }
       }
     ],
-    "slug": "cegedim",
     "description": "Founded in 1969, Cegedim is an innovative technology and services company in the field of digital data flow management for healthcare ecosystems and B2B, and a business software publisher for healthcare and insurance professionals. Cegedim employs more than 5,300 people in more than 10 countries and generated revenue of €500 million in 2020. Cegedim SA is listed in Paris (EURONEXT: CGM). To learn more, please visit: www.cegedim.com And follow Cegedim on Twitter: @CegedimGroup & Facebook http://bit.ly/2sI2OEa",
     "industry": [
       "IT Services and IT Consulting"
@@ -20977,7 +20684,6 @@
         }
       }
     ],
-    "slug": "mazadat",
     "description": "Our mission is to improve lives, increase sustainability and catalyze cyclic economies through encouraging reuse, efficient value chains and reduction of unnecessary transport of goods. Mazadat is an innovative X2C auctioning and e-commerce marketplace platform where individuals (C2C) and businesses (B2C) sell their items and products (used or new) using a time-boxed auction, a fixed-price Buy-Now listing or a hybrid format, while buyers enjoy the combined variety of offerings in one place. Mazadat bridges innovatively the online and offline worlds through complementing the online platform with an ever-expanding network of decentralized physical service centers to enable efficient, convenient, safe and secure drop-offs and pick-ups of goods and orders, provide users with the convenience, personal safety, security, privacy and anonymity they need, and simultaneously support merchants and vendors with the storage, logistics and fulfilment quick ops to take their businesses to the next level while growing their brands.",
     "industry": [
       "Technology, Information and Internet",
@@ -21040,7 +20746,6 @@
         }
       }
     ],
-    "slug": "nowpay",
     "description": "NowPay is a FinTech company that focuses on improving the financial-wellness of corporate employees. We enable employees to get paid at any point in time during the month.",
     "industry": [
       "Financial Services",
@@ -21099,7 +20804,6 @@
         }
       }
     ],
-    "slug": "cashcall",
     "description": "Cashcall is a fintech company that brings global financial inclusion experience to the Egyptian local market allowing them to enable electronic payments and receivables through flexible and various Omni channels. Cashcall is a linking service provider between billers and customers by providing them with highly secured and up to date financial solution and technologies. Our services include collection services, customer acquisition, electronic cash, payment facilitation.",
     "industry": [
       "Financial Services",
@@ -21160,7 +20864,6 @@
         }
       }
     ],
-    "slug": "migrationit",
     "description": "We're a Cairo-based IT recruitment & employment assistance company who endeavor to improve specialized IT recruitment and job finding. Our goal is to ensure that in the vast field of Information Technology the right people are brought into the right place.",
     "industry": [
       "Staffing and Recruiting",
@@ -21215,7 +20918,6 @@
         }
       }
     ],
-    "slug": "algoriza",
     "description": "Algoriza is a leading software house specialized in Software Development and Information Technology Services. What we do? We run four business lines: - Web and Mobile development - Hybrid Offshore Delivery Model - Artificial Intelligence - Digital Marketing. Our philosophy is to deliver the products in an effective and efficient manner at very competitive rate. Our teams are working to serve different regions such as United Arab Emirates, Saudi Arabia and Egypt with a deep experience to ensure our products and services are in line with global best practices and achieve enduring business outcomes.",
     "industry": [
       "IT Services and IT Consulting"
@@ -21271,7 +20973,6 @@
         }
       }
     ],
-    "slug": "el-mawkaa",
     "description": "Elmawkaa is an intelligent marketplace for building materials. We help contractors, Engineers even property owners to get competitive, accurate quotations for their materials, from our vetted suppliers, in a few minutes in a documented & automated process through our innovation the matching algorithms.",
     "industry": [
       "Civil Engineering",
@@ -21326,7 +21027,6 @@
         }
       }
     ],
-    "slug": "paynas",
     "description": "Paynas is a digital platform transforming how employers manage, pay, and guarantee financial wellness & wellbeing to their employees by unlocking the resources they need.",
     "industry": [
       "Financial Services",
@@ -21391,7 +21091,6 @@
         }
       }
     ],
-    "slug": "dreidev",
     "description": "A Digital Agency that aims at helping businesses professionally market for themselves online and connect with the world.",
     "industry": [
       "IT Services and IT Consulting",
@@ -21451,7 +21150,6 @@
         }
       }
     ],
-    "slug": "fatura",
     "description": "FATURA is an All in one POS (Point Of Sale) management system. Fatura adopts the latest trends of AI (Artificial Intelligence) technology to manage different types of Retail & Food & Beverage Business from scratch up to reaching ultimate clients satisfaction.",
     "industry": [
       "IT Services and IT Consulting",
@@ -21502,7 +21200,6 @@
         }
       }
     ],
-    "slug": "buseet",
     "description": "Buseet transforms the daily commute into a pleasant experience for all",
     "industry": [
       "Transportation/Trucking/Railroads"
@@ -21574,7 +21271,6 @@
         }
       }
     ],
-    "slug": "dlivr",
     "description": "Delivery - evolved. Schedule, route, track, take payment, get proof of delivery and notify your customers and drivers in real time like a Fortune 500 ... all for just $0.25 per job. DLIVR provides a full SaaS technology platform: our goal is to provide the tools for every business, large or small, to provide the best delivery experience possible to their customers while improving profitability. We operate on a consumption model: companies pay only for what they consume, so even if you are a sole trader you can now provide your customers the same experience as multi-nationals with custom built applications.",
     "industry": [
       "Transportation, Logistics, Supply Chain and Storage",
@@ -21655,7 +21351,6 @@
         }
       }
     ],
-    "slug": "agolo",
     "description": "We believe that the human mind is capable of producing transformative insights that can change a company’s fortunes. Agolo summarizes information faster and with broader coverage than any human. Agolo helps analysts act strategically instead of processing information.",
     "industry": [
       "Software Development",
@@ -21720,7 +21415,6 @@
         }
       }
     ],
-    "slug": "shiphaly",
     "description": "ShipHaly is a mobile app that connects shoppers who want to buy products from different countries with travelers who can buy and deliver these products in return for cash reward that could cover their trip expenses. ShipHaly is 100% safe and secure for both Shoppers and Travelers. Since 2020 ShipHaly travelers earned more than $100,000 for deliveries and counting.",
     "industry": [
       "Technology, Information and Internet",
@@ -21777,7 +21471,6 @@
         }
       }
     ],
-    "slug": "refilex",
     "description": "Refilex is a specialized and leading Software Company for Better business solutions. with a professional creative team having a high level of experience in designing websites, mobile apps and developing various systems with the highest quality and efficiency.",
     "industry": [
       "Software Development"
@@ -21845,7 +21538,6 @@
         }
       }
     ],
-    "slug": "espace",
     "description": "For 20 years we’ve been helping businesses and organizations of every size and structure in digital transformation, improve their digital presence and their processes.",
     "industry": [
       "IT Services and IT Consulting"
@@ -21895,7 +21587,6 @@
         }
       }
     ],
-    "slug": "goodsmart",
     "description": "GoodsMart wants you to let go of your daily errands, enjoy daily fresh products and save money! Thus allowing you to have more quality time for yourself & with your loved ones. GoodsMart offers its clients access to order a wide variety of products covering almost everything their households need through its smart app and reliable daily delivery system of the orders while ensuring their safety through its innovative unattended delivery solutions",
     "industry": [
       "E-commerce",
@@ -21959,7 +21650,6 @@
         }
       }
     ],
-    "slug": "kitessoftware",
     "description": "Kites Software is a software company specialized in enterprise solutions. We offer Kites ERP, the first SaaS ERP for Import and Distribution for SMEs in Egypt.",
     "industry": [
       "Software Development",
@@ -22017,7 +21707,6 @@
         }
       }
     ],
-    "slug": "estshara",
     "description": "Estshara is a platform that provides health services online, aiming to make healthcare consultation and other services accessible to everyone in the MENA region, also sustain an advanced technological growth level in the sector of healthcare.",
     "industry": [
       "Wellness and Fitness Services"
@@ -22074,7 +21763,6 @@
         }
       }
     ],
-    "slug": "qpix",
     "description": "We are a young team of highly passionate IT professionals with several years of experience in the software industry. Our fast-growing team is a mix of graphic designers, computer scientists, IT business managers & product mangers all with the goal of providing the highest level of software services.",
     "industry": [
       "Software Development",
@@ -22138,7 +21826,6 @@
         }
       }
     ],
-    "slug": "checkmehealth",
     "description": "Check me is a marketplace mobile application that provides on-demand blood sampling services via multiple partner labs, offering a timely service within a two-hour window from the moment of booking.",
     "industry": [
       "Software Development",
@@ -22196,7 +21883,6 @@
         }
       }
     ],
-    "slug": "1trolley",
     "description": "1Trolley is an end to end solution that empowers retailers by digitising their last mile and helping them transition to online ordering. We digitise neighbourhoods meeting increased consumer demand for immediate delivery.",
     "industry": [
       "Technology, Information and Internet"
@@ -22250,7 +21936,6 @@
         }
       }
     ],
-    "slug": "dopay",
     "description": "We’re dopay. We’re a young, exciting, innovative, and fast-growing international team of thinkers, creators, and technologists. We connect businesses and people with fast, convenient, and rewarding options to pay and get paid. And we’re working constantly to devise, develop and deliver new ways to make their financial lives easier and more fulfilling. We enable the millions of businesses still paying their workers with physical money to move seamlessly to a cashless payroll. Those workers can access their wages via ATMs and make purchases without having to carry banknotes. We make this possible with our virtual banking platform, dopay for business, and its prepaid debit cards. Freed from cash, employers pay employees electronically whenever they like. Including weekends and holiday periods when banks are closed. Their teams can use their cards to withdraw money any time that suits them, without worrying about running out of cash. We’re driving economies, growing choices, and responding to financial aspirations in frontier economies. In our first market of Egypt, we have hundreds of active businesses of all sizes and thousands of card users. We have attracted significant investment and we are building a range of services and choices to complement our core payroll offer. We’re doing this because we’re dopay, the people who identify opportunity in financial innovation.",
     "industry": [
       "Financial Services",
@@ -22310,7 +21995,6 @@
         }
       }
     ],
-    "slug": "zeew",
     "description": "We started Zeew on November 2017 as B2B on demand delivery platform for small businesses in Riga, Latvia. servicing flowers shops, cusmotics shops, gift shops and book stores. By January 2018 Zeew became one of the first companies in Europe to offer on demand delivery technology built on top of ethereum blockchain and launched an ICO in March 2018 that gained over 2,000 investors to the platform. By August 2018 Zeew entered the food delivery business delivering food from near by restaurants to its users until June 2019. Today Zeew is leading provider of on-demand delivery technology to many companies worldwide. Our products includes: Food delivery script Grocery delivery scrip Pharamcy delivery script Single Store script All in one delivery List of full products could be found on our website: zeew.eu Investors & Awards: Proud Alumni of StartupWiseGuys Accelerator program One of companies selected for YouStartit program Winner of LatBan pitch competition prize “Zeew” has been recognized as the most promising start-up enterprise by the Latvian Business Angels Network (LatBAN) and Inno Energy initiative at the \"Digital Freedom Festival” 10 Latvian startups to look out for in 2019 - Zeew No.1 Join us: http://zeew.eu",
     "industry": [
       "Transportation, Logistics, Supply Chain and Storage"
@@ -22362,7 +22046,6 @@
         }
       }
     ],
-    "slug": "avelabs",
     "description": "Avelabs is a future focused supplier of embedded solutions and services for the automotive industry, with offices in Munich, Stuttgart and Cairo, we cater to clients across the globe. With major contributions in vast variety of ECUs for many vehicles manufacturers, Avelabs enables its clients to focus on innovation by offering solutions and services for AUTOSAR, embedded linux, MBD, functional safety and ADAS.",
     "industry": [
       "Software Development",
@@ -22416,7 +22099,6 @@
         }
       }
     ],
-    "slug": "orcas",
     "description": "A learning platform that offers lesson plans, courses, free practice, assessments, and learning video content to help students learn",
     "industry": [
       "Education",
@@ -22468,7 +22150,6 @@
         }
       }
     ],
-    "slug": "3attar",
     "description": "With over 10 years of experience in Food, e-commerce, finance and marketing; the founders of 3attar.com convened to establish a singular food destination with quality offerings and product freshness, it's the house of spice and nuts",
     "industry": [
       "Retail",
@@ -22524,7 +22205,6 @@
         }
       }
     ],
-    "slug": "nasnav",
     "description": "NasNav empowers the trillion-dollar retail sector to commercialize VR by delivering a 360 panorama integrated to a tailored ecommerce platform built with a POS Barcode Scanning device. We are a team of young and innovative entrepreneurs that are anxious to change the way consumers shop, finding things around us, and making our life more convenient.",
     "industry": [
       "Point of Sale",
@@ -22586,7 +22266,6 @@
         }
       }
     ],
-    "slug": "koinz",
     "description": "Building social commerce for restaurants with a focus on the takeout experience.",
     "industry": [
       "Technology, Information and Internet",
@@ -22635,7 +22314,6 @@
         }
       }
     ],
-    "slug": "beezr",
     "description": "Beezr is a no-code/low code software platform to build custom-fit solutions & complex workflows fast.",
     "industry": [
       "SaaS"
@@ -22682,7 +22360,6 @@
         }
       }
     ],
-    "slug": "packnsave",
     "description": "First Online Grocery Bulk-Buying Solution for Families in Egypt",
     "industry": [
       "RetailTech",
@@ -22746,7 +22423,6 @@
         }
       }
     ],
-    "slug": "convertedin",
     "description": "Convertedin is a marketing operating system for e-commerce, which utilizes data and shoppers' insights to create personalized multi-channel marketing that boosts customer engagement and maximizes ROI.",
     "industry": [
       "AdTech",
@@ -22799,7 +22475,6 @@
         }
       }
     ],
-    "slug": "devisionx",
     "description": "DevisionX enables Manufacturers/ Businesses to apply AI & Machine vision in solving their daily challenges [such as: Quality Inspection Process] through using \"TUBA\" AI-Enabling Tool: a NO-Code AutoML Tool helps Manufacturers & Businesses to build their own AI - Machine Vision/Computer Vision App without coding or AI experience.",
     "industry": [
       "Software Development",
@@ -22873,7 +22548,6 @@
         }
       }
     ],
-    "slug": "badgewell",
     "description": "Badgewell started as a digital credentialing platform, but soon it turned into a startup studio and a software engineering house specialized in highly innovative technology solutions. We develop custom solutions using tools and techniques we acquired from the startup world. Learn more about us at www.badgewellsoftware.com.",
     "industry": [
       "Technology, Information and Internet"
@@ -22929,7 +22603,6 @@
         }
       }
     ],
-    "slug": "shory",
     "description": "We're on a mission to create a new insurance experience. Insurance with ease of mind. Finally. Shory is the kindhearted shake-up the insurance industry never knew it needed. We use cutting-edge technology to deliver insurance in a way that's more accessible and trustworthy than ever before. After all, insurance shouldn't be something that drags you down, but something that actually empowers you. By combining the newest technology with lighthearted usability, we offer our customers an easy, convenient experience throughout their insurance journey. We take the guesswork out of purchasing insurance and give people the ease of mind that comes from knowing they have made the right decision. We believe that positivity, respect, and fairness can go a long way. With that philosophy, we aim to make a difference for our customers, community and environment. We're Shory. Insurance. But good.",
     "industry": [
       "Insurance"
@@ -22995,7 +22668,6 @@
         }
       }
     ],
-    "slug": "haader",
     "description": "As fast as we say the word.",
     "industry": [
       "Truck Transportation",
@@ -23051,7 +22723,6 @@
         }
       }
     ],
-    "slug": "betahubs",
     "description": "We take the time to talk through your business needs, goals and expectations.We help you determine the benefits and costs of each technology.",
     "industry": [
       "Software Development",
@@ -23109,7 +22780,6 @@
         }
       }
     ],
-    "slug": "technopolitan",
     "description": "We are currently the only PropTech player in Egypt that provides an all-in-one solution covering multiple industries, unlocking the enormous value held in developing unique experiences for customers across these verticals. With occupier safety now critical, we also offer multi-location Access, automated lead management, billing & e-payment, contactless access, agile, mobile space-booking, tenant, member & employee management, arrival time management, and the ability to prioritize teams by HR and office managers. We firmly believe that by building engaged communities and simplifying access to on-site facilities, we can provide organizations with the tools they need to remain competitive in an ever-changing and increasingly competitive landscape.",
     "industry": [
       "Leasing Non-residential Real Estate",
@@ -23185,7 +22855,6 @@
       "FinTech",
       "Technology, Information and Internet"
     ],
-    "slug": "amanholding",
     "careersLinks": [
       "https://www.linkedin.com/company/aman-holding-for-financials/jobs",
       "https://amanmicrofinance.com/careers"
@@ -23243,7 +22912,6 @@
       "Computer Games",
       "Technology, Information and Internet"
     ],
-    "slug": "gbarena",
     "careersLinks": [
       "https://linkedin.com/company/gbarena/jobs"
     ],
@@ -23310,7 +22978,6 @@
       "Graphic Design",
       "Design Services"
     ],
-    "slug": "mimocodes",
     "careersLinks": [
       "https://www.linkedin.com/company/mimocodes/jobs",
       "https://mimocodes.com/careers"
@@ -23384,7 +23051,6 @@
       "Graphic Design",
       "Design Services"
     ],
-    "slug": "creativeeagleskg",
     "careersLinks": [
       "https://www.linkedin.com/company/creative-eagles-kg/jobs"
     ],
@@ -23459,7 +23125,6 @@
     "careersLinks": [
       "https://linkedin.com/company/zjunior/jobs/"
     ],
-    "slug": "zjunior",
     "sourceOfData": [
       "Mahmoud Galal"
     ],

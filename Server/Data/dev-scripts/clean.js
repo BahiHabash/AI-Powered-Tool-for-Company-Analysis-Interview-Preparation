@@ -10,6 +10,7 @@ for (const company of companies) {
     delete company['_id'];
     delete company['__v'];
     delete company['uniqueName'];
+    delete company['slug'];
 
     for (const location of company.location) {
         delete location.__v;
