@@ -2,13 +2,13 @@ const mongoose = require("mongoose");
 
 const RegionSchema = new mongoose.Schema({
     country: { 
-        type: String, required: true 
+        type: String, required: false
     },
     state: { 
         type: String 
     },
     city: { 
-        type: String, required: true 
+        type: String, required: false
     }
 }, {
     _id: false 
@@ -16,70 +16,66 @@ const RegionSchema = new mongoose.Schema({
 
 const LocationSchema = new mongoose.Schema({
     address: { 
-        type: String, required: true 
+        type: String, required: false
     },
     region: { 
-        type: RegionSchema, required: true 
+        type: RegionSchema, required: false
     }
 }, { 
     _id: false
 });
 
-const SocialMediaSchema = new mongoose.Schema({
-    platform: { 
-        type: String, required: true 
-    },
-    url: { 
-        type: String, required: true 
-    }
-}, {
-    _id: false 
-});
 
 const CompanySchema = new mongoose.Schema({
     name: { 
         type: String, 
-        required: [true, 'Company must has name.'] 
+        required: [false, 'Company must has name.'] 
     },
     logoBackground: String,
     logo: String,
     url: { 
         type: String,
-        required: [true, 'Company must has url.']
+        required: [false, 'Company must has url.']
     },
     stacks: { 
         type: [String],
-        required: [true, 'Company must has stacks.']
+        required: [false, 'Company must has stacks.']
     },
     progLangs: { 
         type: [String], 
-        required: [true, 'Company must has programming Languages.'] 
+        required: [false, 'Company must has programming Languages.'] 
     },
     frontend: [String],
     backend: [String],
     isHiring: Boolean,
     offerInternships: Boolean,
     p: Number,
-    location: [LocationSchema],
+    // location: {
+    //     type: [LocationSchema],
+    //     _id: false
+    // },
     slug: { 
         type: String, 
-        required: [true, 'Company must has slug.'], 
+        required: [false, 'Company must has slug.'], 
         unique: true 
     },
     description: { 
         type: String, 
-        required: [true, 'Company must has description.'] 
+        required: [false, 'Company must has description.'] 
     },
     industry: { 
         type: [String], 
-        required: [true, 'Company must has industry.']
+        required: [false, 'Company must has industry.']
     },
-    socialMedia: [SocialMediaSchema],
+    socialMedia: {
+        type: Map,
+        of: String
+    },
     careersLinks: [String],
     verified: Boolean,
     uniqueName: { 
-        type: String, 
-        required: [true, 'Company must has unique name.'], 
+        type: String,
+        required: [false, 'Company must has unique name.'], 
         unique: true 
     },
     sourceOfData: [String],
@@ -87,16 +83,13 @@ const CompanySchema = new mongoose.Schema({
         type: Boolean, 
         default: false 
     },
-    linkedinCompanyId: String,
-    lastUpdate: {
-        type: Date,
-        default: Date.now
-    }
+    linkedinCompanyId: String
 }, { 
     toJSON: true,
     toObject: true,
     timestamps: true 
 });
+
 
 const Company = mongoose.model("Company", CompanySchema);
 
