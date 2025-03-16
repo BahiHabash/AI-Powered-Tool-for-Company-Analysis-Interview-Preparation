@@ -1,5 +1,5 @@
 require('dotenv').config({ path: './.env' });
-require('./db.js');
+require('./db.js')();
 
 const app = require('./app');
 
