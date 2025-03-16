@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import Nav from "./Components/Nav.jsx";
+import Landing from "./Pages/Landing";
 
 function App() {
   return (
-    <div>
-      <h1>Vite + React</h1>
-      <Nav />
+    <div className="bg-[#120F25] w-full h-full">
+    <Landing />
     </div>
   );
 }
