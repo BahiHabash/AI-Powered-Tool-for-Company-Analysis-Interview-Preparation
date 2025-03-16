@@ -9,9 +9,13 @@ companyRouter
     .get(companyController.getAllCompanies);
 
 companyRouter
+    .get('/search', companyController.searchCompanies);
+
+companyRouter
     .route('/:id')
     .get(companyController.getCompany)
     .patch(companyController.updateCompany)
     .delete(companyController.deleteCompany);
+
 
 module.exports = companyRouter;

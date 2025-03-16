@@ -1,10 +1,18 @@
+const slugify = require('slugify');
+
 const Company = require('../models/company.model');
+const APIFeatures = require('../utils/APIFeatures');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 
+exports.getAllCompanies = catchAsync(async (req, res, next) => { 
+    let features = new APIFeatures(Company.find(), req.query)
+        .filter()
+        .sort()
+        .fields()
+        .paginate();
 
-exports.getAllCompanies = catchAsync(async (req, res, next) => { console.log('here')
-    const companies = await Company.find();
+    const companies = await features.queryDB;
 
     res.status(200).json({
         status: 'success', 
@@ -67,5 +75,25 @@ exports.deleteCompany = catchAsync(async (req, res, next) => {
     res.status(200).json({
         status: 'success',
         data: null
+    });
+});
+
+exports.searchCompanies = catchAsync(async (req, res, next) => {
+    const { name } = req.query;
+console.log(req.query)
+    if (!name) {
+        return next( new AppError(`Please provide a company name to search.`, 400) );
+    }
+    
+    const slug = slugify(name, { lower: true, strict: true });
+
+    const companies = await Company.find({ slug });
+
+    res.status(200).json({
+        status: 'success', 
+        result: companies.length,
+        data: {
+            companies
+        }
     });
 });
