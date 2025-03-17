@@ -14,7 +14,7 @@ exports.getAllCompanies = catchAsync(async (req, res, next) => {
 
     const companies = await features.queryDB;
 
-    res.status(200).json({
+    return res.status(200).json({
         status: 'success', 
         result: companies.length,
         data: {
@@ -30,7 +30,7 @@ exports.getCompany = catchAsync(async (req, res, next) => {
         return next( new AppError(`No such company with the id: ${req.params.id}.`, 404) );
     }
 
-    res.status(200).json({
+    return res.status(200).json({
         status: 'success', 
         data: {
             company
@@ -42,7 +42,7 @@ exports.getCompany = catchAsync(async (req, res, next) => {
 exports.createCompany = catchAsync(async (req, res, next) => {
     const company = await Company.create(req.body)
 
-    res.status(200).json({
+    return res.status(200).json({
         status: 'success',
         data: {
             company
@@ -57,7 +57,7 @@ exports.updateCompany = catchAsync(async (req, res, next) => {
         return next( new AppError(`No such company with the id: ${req.params.id}.`, 404) );
     }
 
-    res.status(200).json({
+    return res.status(200).json({
         status: 'success', 
         data: {
             comapany: newCompany
@@ -72,7 +72,7 @@ exports.deleteCompany = catchAsync(async (req, res, next) => {
         return next(new AppError(`No such company with the id: ${req.params.id}.`, 404));
     }
 
-    res.status(200).json({
+    return res.status(200).json({
         status: 'success',
         data: null
     });
@@ -89,7 +89,7 @@ console.log(req.query)
 
     const companies = await Company.find({ slug });
 
-    res.status(200).json({
+    return res.status(200).json({
         status: 'success', 
         result: companies.length,
         data: {

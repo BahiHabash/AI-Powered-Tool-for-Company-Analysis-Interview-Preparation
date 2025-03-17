@@ -4,7 +4,8 @@ const cors = require('cors');
 
 const AppError = require('./utils/appError');
 const errorController = require('./middlewares/error.middleware');
-const companyRouter = require('./routes/company.route');
+const cvRoutes = require('./routes/cv.routes');
+const companyRouter = require('./routes/company.routes');
 
 
 
@@ -20,7 +21,9 @@ if (process.env.NODE_ENV === 'development') {
     app.use( morgan('dev') );
 }
 
-// app.use('/', (req, res, next) => res.send('Welcom !'));
+
+// Routes
+app.use("/api/v1/cv", cvRoutes);
 app.use('/api/v1/company', companyRouter);
 
 app.all('*', (req, res, next) =>
