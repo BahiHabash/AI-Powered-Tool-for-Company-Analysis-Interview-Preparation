@@ -7,8 +7,8 @@ const Nav = () => {
       w-full
     >
       <ul className="flex w-full">
-        <li className="ml-44 p-1.5">
-          <img src="/Client/public/assets/Vector.png" />
+        <li className="ml-32 p-1.5">
+          <img src="/assets/Vector.png" />
         </li>
         <li className="ml-72 p-1.5">
           <a href="/">Home</a>
@@ -19,8 +19,8 @@ const Nav = () => {
         <li className="ml-72 p-1.5">
           <a href="/signin">Sign in</a>
         </li>
-        <li className="bg-[#6B7280] text-white rounded-full p-1.5 pl-2 ml-10 shadow-md flex justify-evenly">
-          <a href="">Start Now <img className="p-1.5 pl-2 inline-flex" src="/Client/public/assets/Component 1.svg" />
+        <li className="bg-[#6B7280] text-white rounded-full p-1.5 pl-4.5 ml-10 mb-[20px] flex justify-evenly">
+          <a href="">Start Now <img className="p-1.5 pl-2 inline-flex" src="/assets/Component 1.svg" />
           </a>
           </li>
       </ul>

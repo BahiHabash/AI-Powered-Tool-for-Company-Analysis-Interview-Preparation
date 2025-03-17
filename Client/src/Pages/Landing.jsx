@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
-import Signin from "./Signin";
 
 function Landing() {
   return (
@@ -19,11 +18,11 @@ function Landing() {
           culture in one place
         </p>
         <div className="bg-[#9333EA] text-white rounded-full p-1.5 pl-2 ml-10 shadow-md flex justify-center items-center inline-flex">
-          <a className="inline-flex" href="/signin">
+          <a className="inline-flex text-center justify-center items-center pl-3" href="/signin">
             Get Started
             <img
-              className="p-1.5 pl-6"
-              src="/Client/public/assets/Component 1.svg"
+              className="p-1.5 pl-3"
+              src="/assets/Component 1.svg"
             />
           </a>
         </div>
@@ -60,7 +59,7 @@ function Landing() {
                   Gain deep insights into company culture, technologies, job
                   openings, and real employee experiences before you apply.
                 </p>
-                <img src="/Client/public/assets/Send thousands of emails.png" />
+                <img src="/assets/Send thousands of emails.png" className=" rounded-xl mt-2" />
               </div>
               <div className="border-2 border-transparent shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4">
                 <h1 className="text-[#F9FAFB] text-lg">Mock Interviews</h1>
@@ -68,23 +67,27 @@ function Landing() {
                   Sharpen your interview skills with AI-powered practice
                   sessions, instant feedback, and expert recommendations.
                 </p>
-                <img src="/Client/public/assets/Feature-2.0b8b35af.svg fill.png" />
+                <img src="/assets/Feature-2.0b8b35af.svg fill.png" className=" rounded-xl mt-7" />
               </div>
             </div>
           </div>
           <div className="flex m-8 justify-center items-center">
-            <div className="border-2 w-[65%] border-transparent text-start shadow-[#1F2937] shadow-lg rounded-2xl p-4 m-4">
+            <div className="border-2 w-[65%] flex border-transparent text-start shadow-[#1F2937] shadow-lg rounded-2xl p-4 m-4">
+              <div>
               <h1 className="text-[#F9FAFB] text-lg">CV Analysis</h1>
               <p className="text-[#D1D5DB] text-sm mt-[6px]">
                 Optimize your resume with AI-driven suggestions to match job
                 requirements and stand out to recruiters. Take control of your
                 career journey today! 🚀
               </p>
-              <img src="/Client/assets/image_fx_ (10) 2.png" />
+              </div>
+              <div>
+              <img src="/assets/image_fx_ (10) 2.png" className=" rounded-xl pl-4" />
+              </div>
             </div>
           </div>
         </div>
-        <div className="bg-[url(/Client/public/assets/Background pattern.png)] bg-cover bg-center bg-no-repeat mt-32">
+        <div className="bg-[url(/assets/Background pattern.png)] bg-cover bg-center bg-no-repeat mt-32">
           <h1 className="text-white text-2xl m-[11px] font-bold">
             Unlock the Power of AI for Your Career Growth
           </h1>
@@ -93,12 +96,12 @@ function Landing() {
             helps you analyze companies, prepare for interviews, and refine your
             CV to stand out.
           </p>
-          <div className="bg-[#9333EA] mb-36 text-white rounded-full p-1.5 pl-2 ml-10 shadow-md flex justify-center items-center inline-flex">
-            <a className="inline-flex" href="/signin">
+          <div className="bg-[#9333EA] mb-36 text-white rounded-full p-1.5 pl-2 ml-10 shadow-md flex justify-center text-center items-center inline-flex">
+            <a className="inline-flex text-center justify-center items-center pl-3" href="/signin">
               Start now → and take control of your career journey today!
               <img
-                className="p-1.5 pl-6"
-                src="/Client/public/assets/Component 1.svg"
+                className="p-1.5 pl-3"
+                src="/assets/Component 1.svg"
               />
             </a>
           </div>
