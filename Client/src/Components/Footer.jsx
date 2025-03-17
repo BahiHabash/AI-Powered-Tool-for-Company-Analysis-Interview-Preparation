@@ -12,7 +12,7 @@ function Footer() {
               src="/assets/Facebook.png"
             />
           </a>
-          </li>
+        </li>
         <li className="ml-4 p-1.5">
           <a href="">
             <img
@@ -21,7 +21,7 @@ function Footer() {
             />
           </a>
         </li>
-        <li className= "ml-4 p-1.5">
+        <li className="ml-4 p-1.5">
           <a href="">
             <img
               className="p-1.5 pl-2 inline-flex"
