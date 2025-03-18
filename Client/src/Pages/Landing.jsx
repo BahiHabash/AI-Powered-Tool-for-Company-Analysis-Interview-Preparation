@@ -38,7 +38,7 @@ function Landing() {
             }}
           >
             <textarea
-              placeholder="Ask whatever you want...."
+              placeholder="Write the Company Name...."
               className="w-4xl text-black resize-none placeholder-black outline-none"
               rows={5}
             />
