@@ -20,9 +20,14 @@ const Nav = () => {
           <a href="/signin">Sign in</a>
         </li>
         <li className="bg-[#6B7280] text-white rounded-full p-1.5 pl-4.5 ml-10 mb-[20px] flex justify-evenly">
-          <a href="">Start Now <img className="p-1.5 pl-2 inline-flex" src="/assets/Component 1.svg" />
+          <a href="">
+            Start Now{" "}
+            <img
+              className="p-1.5 pl-2 inline-flex"
+              src="/assets/Component 1.svg"
+            />
           </a>
-          </li>
+        </li>
       </ul>
     </nav>
   );
