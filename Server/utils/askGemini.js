@@ -19,7 +19,7 @@ exports.getFeadBack = async function(filePath, userPrompt) {
         const result = await model.generateContent(finalPrompt);
         const feadBack = result.response.candidates[0].content.parts[0].text;
         
-        return feadBack.slice(3, -4);
+        return feadBack.slice(7, -4);
     } catch (error) {
         console.error("Error processing CV with AI:", error);
     }

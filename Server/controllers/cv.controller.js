@@ -16,23 +16,30 @@ exports.analyseCV = catchAsync(async (req, res, next) => {
     const filePath = req.file.path;
     // const extractedText = await cvParser.extractTextFromCV(filePath); // Extract raw text from the CV
 
-    const result = await askGemini.getFeadBack(filePath, process.env.CV_ANALYSIS_PROMPT);
+    const feadback = JSON.parse( await askGemini.getFeadBack(filePath, process.env.CV_ANALYSIS_PROMPT) );
 
     // Delete the uploaded file after processing
     fs.unlinkSync(filePath);
     
-    if (!result) {
+    if (!feadback) {
         return next( new AppError('Failed to extract text from CV', 400) );
     }
 
     // Stream response as a downloadable JSON file
-    const jsonStream = new Readable();
-    jsonStream.push( JSON.stringify({ text: result }, null, 4) );
-    jsonStream.push(null);
+    // const jsonStream = new Readable();
+    // jsonStream.push( JSON.stringify({ text: result }, null, 4) );
+    // jsonStream.push(null);
 
-    res.setHeader("Content-Disposition", 'attachment; filename="cv_extracted_text.json"');
-    res.setHeader("Content-Type", "application/json");
-    jsonStream.pipe(res);
+    // res.setHeader("Content-Disposition", 'attachment; filename="cv_extracted_text.json"');
+    // res.setHeader("Content-Type", "application/json");
+    // jsonStream.pipe(res);
+console.log(feadback)
+    res.status(200).json({
+        status: 'success', 
+        data: {
+            feadback
+        }
+    });
 });
 
 
@@ -49,3 +56,6 @@ const storage = multer.diskStorage({
 });
 
 exports.upload = multer({ storage });
+
+
+
