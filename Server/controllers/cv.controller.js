@@ -5,7 +5,7 @@ const multer = require("multer");
 
 const AppError = require("../utils/appError");
 const catchAsync = require("../utils/catchAsync");
-const cvParser = require("../utils/cvParser");
+// const cvParser = require("../utils/cvParser");
 const askGemini = require("../utils/askGemini");
 
 exports.analyseCV = catchAsync(async (req, res, next) => {
@@ -24,16 +24,7 @@ exports.analyseCV = catchAsync(async (req, res, next) => {
     if (!feadback) {
         return next( new AppError('Failed to extract text from CV', 400) );
     }
-
-    // Stream response as a downloadable JSON file
-    // const jsonStream = new Readable();
-    // jsonStream.push( JSON.stringify({ text: result }, null, 4) );
-    // jsonStream.push(null);
-
-    // res.setHeader("Content-Disposition", 'attachment; filename="cv_extracted_text.json"');
-    // res.setHeader("Content-Type", "application/json");
-    // jsonStream.pipe(res);
-console.log(feadback)
+    
     res.status(200).json({
         status: 'success', 
         data: {

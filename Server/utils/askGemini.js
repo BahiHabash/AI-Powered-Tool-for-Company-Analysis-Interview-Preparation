@@ -24,3 +24,4 @@ exports.getFeadBack = async function(filePath, userPrompt) {
         console.error("Error processing CV with AI:", error);
     }
 }
+
