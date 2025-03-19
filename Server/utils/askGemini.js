@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const pdfParse = require("pdf-parse");
+const prompts = require("./prompts");
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
@@ -12,8 +13,7 @@ exports.getFeadBack = async function(filePath, userPrompt) {
         const parsedCV = await pdfParse(dataBuffer);
         
         // Combine the CV text with the user prompt
-        let finalPrompt = process.env.GEMINI_CV_ANALYSIS_PROMPT.replace('<CV_TEXT>', parsedCV.text);
-            finalPrompt = finalPrompt.replace('<PROMPT>', userPrompt);
+        let finalPrompt = prompts.CV_ANALYSIS_PROMPT.replace('<CV_TEXT>', parsedCV.text);
 
         // Send to Gemini Flash
         const result = await model.generateContent(finalPrompt);

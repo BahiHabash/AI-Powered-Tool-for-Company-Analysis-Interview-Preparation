@@ -1,11 +1,10 @@
 const fs  = require("fs");
 const path  = require("path");
-const { Readable } = require("stream");
 const multer = require("multer");
 
 const AppError = require("../utils/appError");
 const catchAsync = require("../utils/catchAsync");
-// const cvParser = require("../utils/cvParser");
+const prompts = require("../utils/prompts");
 const askGemini = require("../utils/askGemini");
 
 exports.analyseCV = catchAsync(async (req, res, next) => {
@@ -14,12 +13,10 @@ exports.analyseCV = catchAsync(async (req, res, next) => {
     }
 
     const filePath = req.file.path;
-    // const extractedText = await cvParser.extractTextFromCV(filePath); // Extract raw text from the CV
 
-    const feadback = JSON.parse( await askGemini.getFeadBack(filePath, process.env.CV_ANALYSIS_PROMPT) );
+    const feadback = JSON.parse( await askGemini.getFeadBack(filePath, prompts.CV_ANALYSIS_PROMPT) );
 
-    // Delete the uploaded file after processing
-    fs.unlinkSync(filePath);
+    fs.unlinkSync(filePath);     // Delete the uploaded file after processing
     
     if (!feadback) {
         return next( new AppError('Failed to extract text from CV', 400) );
