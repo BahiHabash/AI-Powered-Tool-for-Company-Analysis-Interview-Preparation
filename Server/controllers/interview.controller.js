@@ -9,7 +9,7 @@ exports.getQuestions = catchAsync(async (req, res, next) => {
     const cvText = req.cvText;
 
     if (!role && !job && !cvText && !company && !industry) {
-        return next(new AppError('Please provide at least one of the following: role, job description, or CV text.', 400));
+        // return next(new AppError('Please provide at least one of the following: role, job description, or CV text.', 400));
     }
 
     let embededText = [role, job, company, industry, cvText]

@@ -104,3 +104,45 @@ Interview Transcript:
 <INTERVIEW_TRANSCRIPT>
 `;
 
+exports.SEARCH_BY_COMPANY_NAME=`
+I want you to provide the data of a company named <COMPANY_NAME> in exactly the following JSON format:
+
+{
+  "name": "string",
+  "logoBackground": "string",
+  "logo": "string",
+  "url": "string",
+  "stacks": [ "string" ],
+  "progLangs": [ "string" ],
+  "frontend": [ "string" ],
+  "backend": [ "string" ],
+  "isHiring": boolean,
+  "offerInternships": boolean,
+  "location": [
+    {
+      "address": "string",
+      "region": {
+        "country": "string",
+        "state": "string",
+        "city": "string"
+      }
+    }
+  ],
+  "description": "string",
+  "industry": [ "string" ],
+  "socialMedia": {
+    "Linkedin": "string"
+  },
+  "careersLinks": [ "string" ],
+  "verified": boolean,
+  "sourceOfData": [ "string" ],
+  "hidden": boolean,
+  "linkedinCompanyId": "string",
+  "createdAt": "ISO timestamp",
+  "updatedAt": "ISO timestamp",
+  "slug": "string"
+}
+
+The response should strictly follow this structure and formatting.
+Do not add any explanation or text—just output the JSON.
+`
