@@ -16,12 +16,14 @@ function Landing() {
 
     try {
       const response = await fetch(
-        `{{base_url}}/company/search?name=${encodeURIComponent(companyName)}`
+        `http://127.0.0.1:5500/api/v1/company/search?name=${encodeURIComponent(
+          companyName
+        )}`
       );
       if (!response.ok) throw new Error("Failed to fetch data");
 
       const data = await response.json();
-      setCompanyData(data);
+      setCompanyData(data.data);
     } catch (error) {
       console.error("Error fetching company:", error);
     }
@@ -97,11 +99,67 @@ function Landing() {
               </button>
             </div>
             {companyData && (
-              <div className="mt-4 p-2 bg-gray-100 rounded-lg">
-                <h3 className="text-lg font-bold">Company Details:</h3>
-                <pre className="text-sm text-gray-700">
-                  {JSON.stringify(companyData, null, 2)}
-                </pre>
+              <div className="mt-8 w-full max-w-4xl grid  grid-cols-1 md:grid-cols-1 gap-6">
+                {companyData.companies.map((company) => (
+                  <div
+                    key={company._id}
+                    className="bg-white shadow-md border border-purple-700 rounded-xl p-5"
+                  >
+                    <div className="flex items-center space-x-4">
+                      <img
+                        src={company.logo}
+                        alt={company.name}
+                        className="w-16 h-16 object-cover rounded-lg border"
+                      />
+                      <div>
+                        <h3 className="text-lg font-semibold">
+                          {company.name}
+                        </h3>
+                        <a
+                          href={company.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-purple-500 hover:underline"
+                        >
+                          Visit Website
+                        </a>
+                      </div>
+                    </div>
+
+                    <p className="mt-3 text-gray-600 text-start">{company.description}</p>
+
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {company.stacks.map((stack) => (
+                        <span
+                          key={stack}
+                          className="bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
+                        >
+                          {stack}
+                        </span>
+                      ))}
+                    </div>
+
+                    <div className="mt-4 flex justify-between text-gray-700 text-sm">
+                      <span>📍 {company.location[0].address}</span>
+                      <span>
+                        {company.isHiring
+                          ? "✅ Employment available"
+                          : "❌ Employment unavailable"}
+                      </span>
+                    </div>
+
+                    {company.careersLinks.length > 0 && (
+                      <a
+                        href={company.careersLinks[0]}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block mt-4 text-blue-500 hover:underline"
+                      >
+                        See Jobs
+                      </a>
+                    )}
+                  </div>
+                ))}
               </div>
             )}
           </div>
@@ -136,7 +194,7 @@ function Landing() {
               <div className="border-2 border-transparent shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4">
                 <h1
                   className="text-[#F9FAFB] text-lg"
-                  onClick={() => (navigate("/interview"))}
+                  onClick={() => navigate("/interview")}
                   ref={interviewsRef}
                 >
                   Mock Interviews
@@ -155,7 +213,7 @@ function Landing() {
           <div className="flex m-8 justify-center items-center">
             <div
               className="border-2 w-[65%] flex border-transparent text-start shadow-[#1F2937] shadow-lg rounded-2xl p-4 m-4"
-              onClick={() => (navigate("/cv"))}
+              onClick={() => navigate("/cv")}
               ref={cvRef}
             >
               <div>
