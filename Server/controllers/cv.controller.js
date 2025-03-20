@@ -1,22 +1,18 @@
-const fs  = require("fs");
-const path  = require("path");
-const multer = require("multer");
-
 const AppError = require("../utils/appError");
 const catchAsync = require("../utils/catchAsync");
 const prompts = require("../utils/prompts");
 const askGemini = require("../utils/askGemini");
+const parsePDF = require("../utils/parsePDF");
 
 exports.analyseCV = catchAsync(async (req, res, next) => {
-    if (!req.file) {
-        return next( new AppError(`No file uploaded.`, 400) );
+    if (!req.cvText) {
+        return next( new AppError(`No CV file uploaded.`, 400) );
     }
 
-    const filePath = req.file.path;
+    // Combine the CV text with the user prompt
+    let prompt = prompts.CV_ANALYSIS_PROMPT.replace('<CV_TEXT>', req.cvText);
 
-    const feadback = JSON.parse( await askGemini.getFeadBack(filePath, prompts.CV_ANALYSIS_PROMPT) );
-
-    fs.unlinkSync(filePath);     // Delete the uploaded file after processing
+    const feadback = JSON.parse( await askGemini.ask(prompt) );
     
     if (!feadback) {
         return next( new AppError('Failed to extract text from CV', 400) );
@@ -31,19 +27,9 @@ exports.analyseCV = catchAsync(async (req, res, next) => {
 });
 
 
-
-// Configure multer to store files in the 'uploads' directory
-const storage = multer.diskStorage({
-    destination: (req, file, cb) => {
-        cb(null, path.join(__dirname, '..', 'Data', 'uploads')); // Ensure this path is correct
-    },
-    filename: (req, file, cb) => {
-        const fileExt = path.extname(file.originalname); // Get file extension
-        cb(null, `cv-${Date.now()}-${Math.trunc(Math.random() * 10e5)}${fileExt}`);
-    },
+exports.parseCV = catchAsync(async (req, res, next) => {
+    req.cvText = await parsePDF(req.file);
+    next();
 });
-
-exports.upload = multer({ storage });
-
 
 

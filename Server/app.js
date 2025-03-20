@@ -6,6 +6,7 @@ const AppError = require('./utils/appError');
 const errorController = require('./middlewares/error.middleware');
 const cvRoutes = require('./routes/cv.routes');
 const companyRouter = require('./routes/company.routes');
+const interviewRouter = require('./routes/interview.routes');
 
 
 
@@ -25,6 +26,7 @@ if (process.env.NODE_ENV === 'development') {
 // Routes
 app.use("/api/v1/cv", cvRoutes);
 app.use('/api/v1/company', companyRouter);
+app.use('/api/v1/interview', interviewRouter);
 
 app.all('*', (req, res, next) =>
     next( new AppError(`Can't found ${req.originalUrl} on this server`, 404) )
