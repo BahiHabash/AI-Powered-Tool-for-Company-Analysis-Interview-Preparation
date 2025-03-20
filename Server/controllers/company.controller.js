@@ -4,6 +4,8 @@ const Company = require('../models/company.model');
 const APIFeatures = require('../utils/APIFeatures');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
+const askGemini = require('../utils/askGemini');
+const prompts = require('../utils/prompts');
 
 exports.getAllCompanies = catchAsync(async (req, res, next) => { 
     let features = new APIFeatures(Company.find(), req.query)
@@ -87,13 +89,20 @@ console.log(req.query)
     
     const slug = slugify(name, { lower: true, strict: true });
 
-    const companies = await Company.find({ slug });
+    let company = await Company.findOne({ slug });
+
+    // if no existed in the db (search about it)
+    if (!company) {
+        prompt = prompts.SEARCH_BY_COMPANY_NAME.replace('<COMPANY_NAME>', slug);
+        company = JSON.parse(await askGemini.ask(prompt)) ?? 'N/A';
+        console.log(company)
+    }
 
     return res.status(200).json({
         status: 'success', 
-        result: companies.length,
+        result: company.length,
         data: {
-            companies
+            company
         }
     });
 });
