@@ -1,110 +1,3 @@
-// import React from "react";
-// import Nav from "../Components/Nav";
-// import Footer from "../Components/Footer";
-
-// function Interviews() {
-//   return (
-//     <div className="w-full h-full text-white">
-//       <Nav />
-//       <div className="text-center justify-center items-center">
-//         <div className=" flex flex-col text-white justify-center items-center p-12 pb-[93px] w-full h-full">
-//           <h2 className="text-center font-bold text-3xl mt-20 mb-20">
-//             Mock Interview
-//           </h2>
-//           <form className=" flex flex-wrap text-center p-8 items-center justify-center">
-//             <div className="flex">
-//               <label htmlFor="JobTitle" className="mb-3 text-lg text-left">
-//                 Job Title :
-//               </label>
-//               <input
-//                 type="text"
-//                 id="JobTitle"
-//                 name="JobTitle"
-//                 className="mb-3 ml-3 mr-3 bg-[#1d2631] p-1.5 text-white rounded-2xl shadow-2xl"
-//               />
-//             </div>
-//             <div className="flex">
-//               <label htmlFor="company" className="mb-3 text-lg text-left">
-//                 Company :
-//               </label>
-//               <input
-//                 type="text"
-//                 id="company"
-//                 name="company"
-//                 className="mb-3 ml-3 bg-[#1d2631] p-1.5 text-white rounded-2xl shadow-2xl"
-//               />
-//             </div>
-//             <div className="flex">
-//               <label htmlFor="industry" className="mb-3 ml-3 text-lg text-left">
-//                 Industry :
-//               </label>
-//               <input
-//                 type="text"
-//                 id="industry"
-//                 name="industry"
-//                 className="mb-3 ml-3 bg-[#1d2631] p-1.5 text-white rounded-2xl shadow-2xl"
-//               />
-//             </div>
-//             <div className="flex mt-3">
-//               <label htmlFor="description" className="mb-3 text-lg text-left">
-//                 Job Description :
-//               </label>
-//               <input
-//                 type="text"
-//                 id="description"
-//                 name="description"
-//                 className="mb-3 ml-3 bg-[#1d2631] p-1.5 text-white rounded-2xl shadow-2xl"
-//               />
-//             </div>
-//             <div className="flex items-center ml-3 text-white bg-[#35465a] space-x-2 p-2 rounded-lg hover:bg-[#1d2631] cursor-pointer">
-//               <input
-//                 type="file"
-//                 id="fileInput"
-//                 className="hidden"
-//                 accept=".pdf, .docx"
-//               />
-//               <label
-//                 htmlFor="fileInput"
-//                 className="flex items-center bg-transparent gap-2  text-md cursor-pointer"
-//               >
-//                 <span>📁</span> Attach Your CV
-//               </label>
-//             </div>
-//             <button
-//               type="submit"
-//               className="bg-[#9333EA] text-center w-[90%] text-white rounded-full pr-6 pl-6 p-1.5 mt-8 ml-12 justify-center items-center"
-//             >
-//               Generate Mock Interview
-//             </button>
-//           </form>
-//         </div>
-//         <div className="mt-32">
-//           <h1 className="text-white text-2xl m-[11px] font-bold">
-//             Unlock the Power of AI for Your Career Growth
-//           </h1>
-//           <p className="text-[#D1D5DB] text-sm mb-8">
-//             Take the guesswork out of job applications! Our AI-powered platform
-//             helps you analyze companies, prepare for interviews, and refine your
-//             CV to stand out.
-//           </p>
-//           <div className="bg-[#9333EA] mb-36 text-white rounded-full p-1.5 pl-2 ml-10 shadow-md flex justify-center text-center items-center inline-flex">
-//             <a
-//               className="inline-flex text-center justify-center items-center pl-3"
-//               href="/signin"
-//             >
-//               Start now → and take control of your career journey today!
-//               <img className="p-1.5 pl-3" src="/assets/Component 1.svg" />
-//             </a>
-//           </div>
-//         </div>
-//       </div>
-//       <Footer />
-//     </div>
-//   );
-// }
-
-// export default Interviews;
-
 import React, { useState } from "react";
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
@@ -118,49 +11,65 @@ const Interviews = () => {
     cv: null,
   });
 
-  const [questions, setQuestions] = useState([]);
-  const [responses, setResponses] = useState({});
+  const [questions, setQuestions] = useState([]); // الأسئلة
+  const [answers, setAnswers] = useState({}); // إجابات المستخدم
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [responseData, setResponseData] = useState(null);
 
-  const BASE_URL = "http://127.0.0.1:5500/api/v1"; // Replace with your actual API URL
+  const [currentStep, setCurrentStep] = useState(0); // تتبع المرحلة الحالية
+  const questionsPerPage = 8; // عدد الأسئلة في كل مرحلة
 
-  // Handle form inputs
+  const BASE_URL = "http://127.0.0.1:5500/api/v1";
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // Handle CV upload
   const handleFileChange = (e) => {
     setFormData({ ...formData, cv: e.target.files[0] });
   };
 
-  // Fetch interview questions
   const fetchQuestions = async () => {
     setLoading(true);
     setError("");
-  
+    setResponseData(null);
+
     try {
-      console.log("Sending request to:", `${BASE_URL}/interview/questions`);
-  
-      const response = await fetch(`${BASE_URL}/interview/questions`, {
-        method: "POST", // Change from GET to POST
+      const queryParams = new URLSearchParams({
+        role: formData.jobTitle || "",
+        job: formData.description || "",
+        industry: formData.industry || "",
+        cv: formData.cv ? formData.cv.name : "",
+        company: formData.company || "",
+      }).toString();
+
+      const url = `${BASE_URL}/interview/questions?${queryParams}`;
+      console.log("Fetching questions from:", url);
+
+      const response = await fetch(url, {
+        method: "GET",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          role: formData.jobTitle || "",
-          jobDescription: formData.description || "",
-          cvText: formData.cv ? formData.cv.name : "", // Placeholder for CV text
-        }),
       });
-  
+
       if (!response.ok) {
         const errorData = await response.json();
         throw new Error(errorData.message || "Failed to fetch questions.");
       }
-  
+
       const data = await response.json();
-      console.log("API Response:", data);
-      setQuestions(data.questions || []);
+      console.log("API Questions Response:", data);
+
+      const extractedQuestions = Object.values(data.data.questions).flat();
+      setQuestions(extractedQuestions);
+
+      const initialAnswers = {};
+      extractedQuestions.forEach((question, index) => {
+        initialAnswers[index] = "";
+      });
+      setAnswers(initialAnswers);
+
+      setCurrentStep(0); // إعادة ضبط المرحلة عند استلام الأسئلة
     } catch (err) {
       console.error("Fetch Error:", err);
       setError(err.message);
@@ -168,35 +77,59 @@ const Interviews = () => {
       setLoading(false);
     }
   };
-  
 
-  // Handle user response input
-  const handleResponseChange = (e, question) => {
-    setResponses({ ...responses, [question]: e.target.value });
+  const handleAnswerChange = (index, value) => {
+    setAnswers({ ...answers, [index]: value });
   };
 
-  // Submit responses for evaluation
-  const submitResponses = async () => {
+  const submitAnswers = async () => {
     setLoading(true);
     setError("");
 
     try {
-      const response = await fetch(`${BASE_URL}/interview/evaluation`, {
-        method: "POST",
+      const queryParams = new URLSearchParams({
+        questions: JSON.stringify(
+          questions.map((q, index) => ({
+            question: q,
+            answer: answers[index] || "",
+          }))
+        ),
+      }).toString();
+
+      const url = `${BASE_URL}/interview/evaluation?${queryParams}`;
+      console.log("Fetching evaluation from:", url);
+
+      const response = await fetch(url, {
+        method: "GET",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ responses }),
       });
 
-      if (!response.ok) throw new Error("Failed to evaluate responses.");
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || "Failed to evaluate answers.");
+      }
 
-      const result = await response.json();
-      alert("Evaluation Complete: " + JSON.stringify(result, null, 2));
+      const data = await response.json();
+      console.log("Evaluation Response:", data);
+
+      setResponseData(data);
     } catch (err) {
+      console.error("Submission Error:", err);
       setError(err.message);
     } finally {
       setLoading(false);
     }
   };
+
+  // حساب المراحل
+  const totalSteps = Math.ceil(questions.length / questionsPerPage);
+
+  // تحديد الأسئلة المعروضة في المرحلة الحالية
+  const startIndex = currentStep * questionsPerPage;
+  const currentQuestions = questions.slice(
+    startIndex,
+    startIndex + questionsPerPage
+  );
 
   return (
     <div className="w-full h-full text-white">
@@ -207,139 +140,194 @@ const Interviews = () => {
             Mock Interview
           </h2>
 
-          {/* Form */}
           <form
-            className="flex flex-wrap text-center p-8 items-center justify-center"
+            className="flex flex-col text-start p-8 items-start justify-start"
             onSubmit={(e) => {
               e.preventDefault();
               fetchQuestions();
             }}
           >
-            <div className="flex">
-              <label htmlFor="jobTitle" className="mb-3 text-lg text-left">
-                Job Title :
-              </label>
-              <input
-                type="text"
-                id="jobTitle"
-                name="jobTitle"
-                className="mb-3 ml-3 mr-3 bg-[#1d2631] p-1.5 text-white rounded-2xl shadow-2xl"
-                onChange={handleChange}
-              />
-            </div>
+            <input
+              type="text"
+              name="jobTitle"
+              placeholder="Job Title"
+              onChange={handleChange}
+              className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
+            />
+            <input
+              type="text"
+              name="company"
+              placeholder="Company"
+              onChange={handleChange}
+              className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
+            />
+            <input
+              type="text"
+              name="industry"
+              placeholder="Industry"
+              onChange={handleChange}
+              className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
+            />
+            <textarea
+              name="description"
+              placeholder="Job Description"
+              onChange={handleChange}
+              className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
+            ></textarea>
 
-            <div className="flex">
-              <label htmlFor="company" className="mb-3 text-lg text-left">
-                Company :
-              </label>
-              <input
-                type="text"
-                id="company"
-                name="company"
-                className="mb-3 ml-3 bg-[#1d2631] p-1.5 text-white rounded-2xl shadow-2xl"
-                onChange={handleChange}
-              />
-            </div>
+            <input
+              type="file"
+              accept=".pdf, .docx"
+              onChange={handleFileChange}
+              className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
+            />
 
-            <div className="flex">
-              <label htmlFor="industry" className="mb-3 ml-3 text-lg text-left">
-                Industry :
-              </label>
-              <input
-                type="text"
-                id="industry"
-                name="industry"
-                className="mb-3 ml-3 bg-[#1d2631] p-1.5 text-white rounded-2xl shadow-2xl"
-                onChange={handleChange}
-              />
-            </div>
-
-            <div className="flex mt-3">
-              <label htmlFor="description" className="mb-3 text-lg text-left">
-                Job Description :
-              </label>
-              <input
-                type="text"
-                id="description"
-                name="description"
-                className="mb-3 ml-3 bg-[#1d2631] p-1.5 text-white rounded-2xl shadow-2xl"
-                onChange={handleChange}
-              />
-            </div>
-
-            {/* File Upload */}
-            <div className="flex items-center ml-3 text-white bg-[#35465a] space-x-2 p-2 rounded-lg hover:bg-[#1d2631] cursor-pointer">
-              <input
-                type="file"
-                id="fileInput"
-                className="hidden"
-                accept=".pdf, .docx"
-                onChange={handleFileChange}
-              />
-              <label
-                htmlFor="fileInput"
-                className="flex items-center bg-transparent gap-2 text-md cursor-pointer"
-              >
-                <span>📁</span> Attach Your CV
-              </label>
-            </div>
-
-            {/* Submit Button */}
             <button
               type="submit"
-              className="bg-[#9333EA] text-center w-[90%] text-white rounded-full pr-6 pl-6 p-1.5 mt-8 ml-12 justify-center items-center"
+              className="bg-[#9333EA] text-white rounded-full p-2 mt-8"
             >
               {loading ? "Generating..." : "Generate Mock Interview"}
             </button>
           </form>
 
-          {/* Error Message */}
-          {error && <p className="text-red-500 mt-4">{error}</p>}
-
-          {/* Questions & Responses */}
           {questions.length > 0 && (
-            <div className="mt-12">
-              <h3 className="text-xl font-bold mb-4">Interview Questions</h3>
-              {questions.map((question, index) => (
-                <div key={index} className="mb-6">
-                  <p className="text-lg font-semibold">{question}</p>
+            <div className="mt-10 w-full max-w-2xl">
+              <h3 className="text-xl font-bold mb-4">
+                Step {currentStep + 1} of {totalSteps}
+              </h3>
+              {currentQuestions.map((question, index) => (
+                <div key={index} className="mb-4">
+                  <p className="text-white mb-2">{question}</p>
                   <textarea
-                    className="w-full bg-[#1d2631] text-white p-2 rounded-md mt-2"
-                    rows="3"
-                    placeholder="Write your response here..."
-                    onChange={(e) => handleResponseChange(e, question)}
+                    className="w-full bg-gray-800 text-white p-2 rounded-lg"
+                    value={answers[startIndex + index] || ""}
+                    onChange={(e) =>
+                      handleAnswerChange(startIndex + index, e.target.value)
+                    }
                   />
                 </div>
               ))}
 
-              {/* Submit Answers */}
-              <button
-                onClick={submitResponses}
-                className="bg-green-500 text-white rounded-full px-6 py-2 mt-6"
-              >
-                {loading ? "Submitting..." : "Submit Answers for Evaluation"}
-              </button>
+              <div className="flex justify-between mt-4">
+                <button
+                  onClick={() =>
+                    setCurrentStep((prev) => Math.max(prev - 1, 0))
+                  }
+                  disabled={currentStep === 0}
+                  className="bg-gray-600 text-white rounded-full p-2 disabled:opacity-50"
+                >
+                  Previous
+                </button>
+
+                {currentStep === totalSteps - 1 ? (
+                  <button
+                    onClick={submitAnswers}
+                    className="bg-green-500 text-white rounded-full p-2"
+                  >
+                    Submit Answers
+                  </button>
+                ) : (
+                  <button
+                    onClick={() =>
+                      setCurrentStep((prev) =>
+                        Math.min(prev + 1, totalSteps - 1)
+                      )
+                    }
+                    className="bg-blue-500 text-white rounded-full p-2"
+                  >
+                    Next
+                  </button>
+                )}
+              </div>
             </div>
           )}
-        </div>
-      </div>
-      <div className="text-center justify-center items-center mt-32">
-        <h1 className="text-white text-2xl m-[11px] font-bold">
-          Unlock the Power of AI for Your Career Growth
-        </h1>
-        <p className="text-[#D1D5DB] text-sm mb-8">
-          Take the guesswork out of job applications! Our AI-powered platform
-          helps you analyze companies, prepare for interviews, and refine your
-          CV to stand out.
-        </p>
-        <div className="bg-[#9333EA] mb-36 text-white rounded-full p-1.5 pl-2 ml-10 shadow-md flex justify-center text-center items-center inline-flex">
-          <a
-            className="inline-flex text-center justify-center items-center pl-3"
-            href="/signin"
-          >
-            Start now → and take control of your career journey today!
-            <img className="p-1.5 pl-3" src="/assets/Component 1.svg" />
-          </a>
+
+          {/* عرض النتيجة المسترجعة بعد إرسال الإجابات */}
+          {responseData && (
+            <div className="mt-10 bg-gray-900 p-6 rounded-lg shadow-lg text-white w-full max-w-2xl">
+              <h3 className="text-2xl font-bold mb-4 text-green-400">
+                📋 Interview Evaluation
+              </h3>
+
+              {/* نقاط القوة */}
+              <div className="mb-4">
+                <h4 className="text-lg font-semibold text-green-300">
+                  ✅ Strengths:
+                </h4>
+                {responseData.data.evaluation.strengths.length > 0 ? (
+                  <ul className="list-disc pl-5 text-start">
+                    {responseData.data.evaluation.strengths.map(
+                      (point, idx) => (
+                        <li key={idx} className="text-gray-300">
+                          {point}
+                        </li>
+                      )
+                    )}
+                  </ul>
+                ) : (
+                  <p className="text-gray-400 italic">
+                    No strengths identified.
+                  </p>
+                )}
+              </div>
+
+              {/* نقاط الضعف */}
+              <div className="mb-4">
+                <h4 className="text-lg font-semibold text-red-300">
+                  ❌ Weaknesses:
+                </h4>
+                {responseData.data.evaluation.weaknesses.length > 0 ? (
+                  <ul className="list-disc pl-5 text-start">
+                    {responseData.data.evaluation.weaknesses.map(
+                      (point, idx) => (
+                        <li key={idx} className="text-gray-300">
+                          {point}
+                        </li>
+                      )
+                    )}
+                  </ul>
+                ) : (
+                  <p className="text-gray-400 italic">
+                    No weaknesses identified.
+                  </p>
+                )}
+              </div>
+
+              {/* التوصيات */}
+              <div className="mb-4">
+                <h4 className="text-lg font-semibold text-yellow-300">
+                  📌 Recommendations:
+                </h4>
+                {responseData.data.evaluation.recommendations.length > 0 ? (
+                  <ul className="list-disc pl-5 text-start">
+                    {responseData.data.evaluation.recommendations.map(
+                      (point, idx) => (
+                        <li key={idx} className="text-gray-300">
+                          {point}
+                        </li>
+                      )
+                    )}
+                  </ul>
+                ) : (
+                  <p className="text-gray-400 italic">
+                    No recommendations provided.
+                  </p>
+                )}
+              </div>
+
+              {/* التقييم العام */}
+              <div className="p-4 bg-gray-800 rounded-lg mt-4">
+                <h4 className="text-lg font-semibold text-blue-400">
+                  📊 Overall Assessment:
+                </h4>
+                <p className="text-gray-300">
+                  {responseData.data.evaluation.overall_assessment}
+                </p>
+              </div>
+            </div>
+          )}
+
+          {error && <p className="text-red-500 mt-4">{error}</p>}
         </div>
       </div>
       <Footer />
