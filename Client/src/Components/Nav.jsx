@@ -19,10 +19,7 @@ const Nav = () => {
         <li className="ml-10 p-1.5">
           <a href="/interview">Mock Interviewer</a>
         </li>
-        <li className="ml-56 p-1.5">
-          <a href="/signin">Sign in</a>
-        </li>
-        <li className="bg-[#6B7280] text-white rounded-full p-1.5 pl-4.5 ml-10 mb-[20px] flex justify-evenly">
+        <li className="bg-[#6B7280] text-white rounded-full p-1.5 pl-4.5 ml-60 mb-[20px] flex justify-evenly">
           <a href="">
             Start Now{" "}
             <img
