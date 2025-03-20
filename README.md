@@ -117,3 +117,13 @@ DATABASE_PASSWORD=pPpkUmLKvBJlMdwr
 # Gemini
 GEMINI_API_KEY=AIdsSyAa2ISxjQoDVEyNWQ7mswyJn-80TtW2T0k
 ```
+
+---
+
+## 📌 Getting Database & Gemini API Key
+
+| **Step** | **Resource** | **Link** |
+|--------|-------------|-------|
+| 1 | Get your MongoDB Database - **MongoDB Atlas** | [MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-database) |
+| 2 | Get your Gemini API Key - **Google AI Studio** | [GEMINI API KEY](https://aistudio.google.com/apikey) |
+
