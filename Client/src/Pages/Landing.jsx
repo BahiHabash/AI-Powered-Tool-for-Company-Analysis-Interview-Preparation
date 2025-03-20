@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
 
 function Landing() {
   const [companyName, setCompanyName] = useState("");
   const [companyData, setCompanyData] = useState(null);
+  const companyDivRef = useRef(null);
+  const cvRef = useRef(null);
+  const interviewsRef = useRef(null);
+  const navigate = useNavigate();
 
   const fetchCompany = async () => {
     if (!companyName.trim()) return;
@@ -19,6 +24,12 @@ function Landing() {
       setCompanyData(data);
     } catch (error) {
       console.error("Error fetching company:", error);
+    }
+  };
+
+  const scrollToCompanyDiv = () => {
+    if (companyDivRef.current) {
+      companyDivRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -45,7 +56,7 @@ function Landing() {
             <img className="p-1.5 pl-3" src="/assets/Component 1.svg" />
           </a>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center" ref={companyDivRef}>
           <div
             className="justify-center text-black items-center w-4xl mt-32 shadow-2xl bg-white p-2 rounded-2xl"
             style={{
@@ -73,7 +84,7 @@ function Landing() {
                 />
                 <label
                   htmlFor="fileInput"
-                  className="flex items-center bg-transparent gap-2 text-gray-500 text-md cursor-pointer hover:text-gray-700"
+                  className="flex items-center hidden bg-transparent gap-2 text-gray-500 text-md cursor-pointer hover:text-gray-700"
                 >
                   <span>📁</span> Add Attachment
                 </label>
@@ -108,7 +119,10 @@ function Landing() {
         <div>
           <div className="flex m-8 justify-center items-center">
             <div className="flex w-[65%] justify-center items-center">
-              <div className="border-2 border-transparent shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4">
+              <div
+                className="border-2 border-transparent shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4"
+                onClick={scrollToCompanyDiv}
+              >
                 <h1 className="text-[#F9FAFB] text-lg">Company Analysis</h1>
                 <p className="text-[#D1D5DB] text-sm mt-[6px]">
                   Gain deep insights into company culture, technologies, job
@@ -120,7 +134,13 @@ function Landing() {
                 />
               </div>
               <div className="border-2 border-transparent shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4">
-                <h1 className="text-[#F9FAFB] text-lg">Mock Interviews</h1>
+                <h1
+                  className="text-[#F9FAFB] text-lg"
+                  onClick={() => (navigate("/interview"))}
+                  ref={interviewsRef}
+                >
+                  Mock Interviews
+                </h1>
                 <p className="text-[#D1D5DB] text-sm mt-[6px]">
                   Sharpen your interview skills with AI-powered practice
                   sessions, instant feedback, and expert recommendations.
@@ -133,7 +153,11 @@ function Landing() {
             </div>
           </div>
           <div className="flex m-8 justify-center items-center">
-            <div className="border-2 w-[65%] flex border-transparent text-start shadow-[#1F2937] shadow-lg rounded-2xl p-4 m-4">
+            <div
+              className="border-2 w-[65%] flex border-transparent text-start shadow-[#1F2937] shadow-lg rounded-2xl p-4 m-4"
+              onClick={() => (navigate("/cv"))}
+              ref={cvRef}
+            >
               <div>
                 <h1 className="text-[#F9FAFB] text-lg">CV Analysis</h1>
                 <p className="text-[#D1D5DB] text-sm mt-[6px]">
@@ -151,7 +175,7 @@ function Landing() {
             </div>
           </div>
         </div>
-        <div className="bg-[url(/assets/Background pattern.png)] bg-cover bg-center bg-no-repeat mt-32">
+        <div className="mt-32">
           <h1 className="text-white text-2xl m-[11px] font-bold">
             Unlock the Power of AI for Your Career Growth
           </h1>

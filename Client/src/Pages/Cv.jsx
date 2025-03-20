@@ -25,7 +25,7 @@ function Landing() {
           <DropFileInput onFileChange={(files) => onFileChange(files)} />
         </div>
 
-        <div className="bg-[url(/assets/Background pattern.png)] bg-cover bg-center bg-no-repeat mt-32">
+        <div className="mt-32">
           <h1 className="text-white text-2xl m-[11px] font-bold">
             Unlock the Power of AI for Your Career Growth
           </h1>
