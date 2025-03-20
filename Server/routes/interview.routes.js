@@ -5,13 +5,13 @@ const uploadeMiddleware = require("../middlewares/upload.middleware");
 const interviewRouter = express.Router();
 
 interviewRouter
-    .get("/questions", 
+    .post("/questions", 
         uploadeMiddleware.upload.single('cv'),
         interviewController.parseCV,
         interviewController.getQuestions
     );
     
 interviewRouter
-    .get("/evaluation", interviewController.evaluateAnswers);
+    .post("/evaluation", interviewController.evaluateAnswers);
 
 module.exports = interviewRouter;
