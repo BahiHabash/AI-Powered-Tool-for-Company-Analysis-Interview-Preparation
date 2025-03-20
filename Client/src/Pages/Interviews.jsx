@@ -18,7 +18,7 @@ const Interviews = () => {
   const [responseData, setResponseData] = useState(null);
 
   const [currentStep, setCurrentStep] = useState(0); // تتبع المرحلة الحالية
-  const questionsPerPage = 8; // عدد الأسئلة في كل مرحلة
+  const questionsPerPage = 5; // عدد الأسئلة في كل مرحلة
 
   const BASE_URL = "http://127.0.0.1:5500/api/v1";
 
@@ -36,20 +36,22 @@ const Interviews = () => {
     setResponseData(null);
 
     try {
-      const queryParams = new URLSearchParams({
+      const url = `${BASE_URL}/interview/questions`;
+
+      const requestBody = {
         role: formData.jobTitle || "",
         job: formData.description || "",
         industry: formData.industry || "",
         cv: formData.cv ? formData.cv.name : "",
         company: formData.company || "",
-      }).toString();
+      };
 
-      const url = `${BASE_URL}/interview/questions?${queryParams}`;
-      console.log("Fetching questions from:", url);
+      console.log("Fetching questions with:", requestBody);
 
       const response = await fetch(url, {
-        method: "GET",
+        method: "POST",
         headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(requestBody),
       });
 
       if (!response.ok) {
@@ -87,21 +89,21 @@ const Interviews = () => {
     setError("");
 
     try {
-      const queryParams = new URLSearchParams({
-        questions: JSON.stringify(
-          questions.map((q, index) => ({
-            question: q,
-            answer: answers[index] || "",
-          }))
-        ),
-      }).toString();
+      const url = `${BASE_URL}/interview/evaluation`;
 
-      const url = `${BASE_URL}/interview/evaluation?${queryParams}`;
-      console.log("Fetching evaluation from:", url);
+      const requestBody = {
+        questions: questions.map((q, index) => ({
+          question: q,
+          answer: answers[index] || "",
+        })),
+      };
+
+      console.log("Submitting evaluation with:", requestBody);
 
       const response = await fetch(url, {
-        method: "GET",
+        method: "POST",
         headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(requestBody),
       });
 
       if (!response.ok) {
@@ -170,6 +172,8 @@ const Interviews = () => {
             />
             <textarea
               name="description"
+              rows={10}
+              cols={60}
               placeholder="Job Description"
               onChange={handleChange}
               className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
