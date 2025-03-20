@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Landing from "./Pages/Landing";
 import Signin from "./Pages/Signin";
+import Cv from "./Pages/Cv";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/signin" element={<Signin />} />
+          <Route path="/cv" element={<Cv />} />
         </Routes>
       </Router>
     </div>

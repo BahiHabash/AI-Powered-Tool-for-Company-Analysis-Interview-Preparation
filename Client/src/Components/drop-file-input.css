@@ -1,0 +1,16 @@
+.drop-file-input.dragover {
+  opacity: 0.6;
+}
+
+
+.drop-file-preview__item__del {
+  transform: translateY(-50%);
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.drop-file-preview__item:hover .drop-file-preview__item__del {
+  opacity: 1;
+}
