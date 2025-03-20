@@ -123,7 +123,7 @@ const Interviews = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const BASE_URL = "YOUR_API_BASE_URL"; // Replace with your actual API URL
+  const BASE_URL = "http://127.0.0.1:5500/api/v1"; // Replace with your actual API URL
 
   // Handle form inputs
   const handleChange = (e) => {
@@ -139,23 +139,36 @@ const Interviews = () => {
   const fetchQuestions = async () => {
     setLoading(true);
     setError("");
-
+  
     try {
+      console.log("Sending request to:", `${BASE_URL}/interview/questions`);
+  
       const response = await fetch(`${BASE_URL}/interview/questions`, {
-        method: "GET",
+        method: "POST", // Change from GET to POST
         headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          role: formData.jobTitle || "",
+          jobDescription: formData.description || "",
+          cvText: formData.cv ? formData.cv.name : "", // Placeholder for CV text
+        }),
       });
-
-      if (!response.ok) throw new Error("Failed to fetch questions.");
-
+  
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || "Failed to fetch questions.");
+      }
+  
       const data = await response.json();
+      console.log("API Response:", data);
       setQuestions(data.questions || []);
     } catch (err) {
+      console.error("Fetch Error:", err);
       setError(err.message);
     } finally {
       setLoading(false);
     }
   };
+  
 
   // Handle user response input
   const handleResponseChange = (e, question) => {
