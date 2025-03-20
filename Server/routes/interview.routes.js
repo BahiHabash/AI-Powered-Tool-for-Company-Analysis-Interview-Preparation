@@ -12,6 +12,6 @@ interviewRouter
     );
     
 interviewRouter
-    .post("/evaluation", interviewController.evaluateAnswers);
+    .get("/evaluation", interviewController.evaluateAnswers);
 
 module.exports = interviewRouter;
