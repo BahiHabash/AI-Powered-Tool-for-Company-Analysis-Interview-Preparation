@@ -82,7 +82,7 @@ exports.deleteCompany = catchAsync(async (req, res, next) => {
 
 exports.searchCompanies = catchAsync(async (req, res, next) => {
     const { name } = req.query;
-console.log(req.query)
+    
     if (!name) {
         return next( new AppError(`Please provide a company name to search.`, 400) );
     }
@@ -95,7 +95,8 @@ console.log(req.query)
     if (!company) {
         prompt = prompts.SEARCH_BY_COMPANY_NAME.replace('<COMPANY_NAME>', slug);
         company = JSON.parse(await askGemini.ask(prompt)) ?? 'N/A';
-        console.log(company)
+        // add to the dataBase
+        await Company.create(company);
     }
 
     return res.status(200).json({

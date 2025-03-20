@@ -59,60 +59,44 @@ Our AI-powered platform helps job seekers analyze companies, optimize their CVs,
 
 ---
 
-# 🚀 Free API Keys to use
+## 🚀 Project Setup Instructions
 
-## 🔹 1. Company & Job Market Data
-| API | Free Tier | Use Case |
-|------|-----------|-----------|
-| **[LinkedIn Jobs API (Unofficial)](https://rapidapi.com/solutionsbyrayray/api/linkedin-jobs-search/)** | Limited free requests | Scrape job postings and hiring trends. |
-| **[Glassdoor API](https://www.glassdoor.com/developer/index.htm)** | Requires approval | Company reviews, salary estimates, and culture insights. |
-| **[Indeed API](https://developer.indeed.com/)** | Limited requests | Job postings and employer reviews. |
-| **[OpenCorporates](https://api.opencorporates.com/documentation/API-Reference)** | 1000 requests/month | General company data, subsidiaries, and legal records. |
-| **[Google Search API (SerpAPI)](https://serpapi.com/)** | 100 free searches/month | Real-time scraping of job posts, company news, etc. |
+This guide will help you run both the **Backend**, **Frontend**, and **Data Scripts**.
 
 ---
 
-## 🔹 2. AI & NLP Enhancements
-| API | Free Tier | Use Case |
-|------|-----------|-----------|
-| **[Gemini Flash (Google AI)](https://ai.google.dev/)** | Free tier | AI-driven insights, mock interviews, and CV analysis. |
-| **[OpenAI API (GPT-4)](https://platform.openai.com/signup/)** | Limited free credits | Additional NLP capabilities if needed. |
-| **[Hugging Face Inference API](https://huggingface.co/docs/api-inference/)** | Free models | Sentiment analysis, text summarization, and entity extraction. |
-| **[IBM Watson NLP](https://www.ibm.com/cloud/watson-natural-language-understanding)** | Free 30K characters/month | Extracts skills, job roles, and sentiment from text. |
+## 📌 Backend Setup
+
+| Step | Command | Description |
+|----- |-------- |------------ |
+| 1 | `cd ./AI-Powered-Tool-for-Company-Analysis-Interview-Preparation/Server` | Navigate to the `Server` folder |
+| 2 | `npm i` | Install all backend dependencies |
+| 3 | `npm run start` | Run the backend server |
 
 ---
 
-## 🔹 3. Web Scraping & News Analysis
-| API | Free Tier | Use Case |
-|------|-----------|-----------|
-| **[NewsAPI](https://newsapi.org/)** | 1000 requests/month | Fetch latest company-related news. |
-| **[ScraperAPI](https://www.scraperapi.com/)** | 1000 free requests | Bypass captchas and fetch job posts. |
-| **[Wayback Machine API](https://archive.org/help/wayback_api.php)** | Free | Historical company website analysis. |
+## 📌 Frontend Setup
+
+| Step | Command | Description |
+|----- |-------- |------------ |
+| 1 | `cd ./AI-Powered-Tool-for-Company-Analysis-Interview-Preparation/Client` | Navigate to the `Client` folder |
+| 2 | `npm i` | Install all frontend dependencies |
+| 3 | `npm run dev` | Run the frontend development server |
 
 ---
 
-## 🔹 4. Resume & Job Matching
-| API | Free Tier | Use Case |
-|------|-----------|-----------|
-| **[SkillSyncer API](https://www.skillsyncer.com/)** | Free for basic usage | Match CVs to job descriptions. |
-| **[Resume Parsing API (Affinda)](https://www.affinda.com/)** | 50 free CV parses/month | Extract structured data from CVs. |
-| **[Jaccard Similarity API](https://rapidapi.com/)** | Free tier | AI-based CV-job matching via NLP similarity. |
+## 📌 Data Scripts
+
+| Step | Action | Link / Description |
+|----- |------- |--------------------|
+| 1 | Go to Data Scripts Folder | [Data Scripts](https://github.com/engmohamedtarek1/AI-Powered-Tool-for-Company-Analysis-Interview-Preparation/tree/main/Server/Data) |
+| 2 | Run necessary scripts as needed | Follow specific script instructions in the `Data` folder |
 
 ---
 
-## 🔹 5. Speech & Voice Analysis (Mock Interviews)
-| API | Free Tier | Use Case |
-|------|-----------|-----------|
-| **[Google Speech-to-Text](https://cloud.google.com/speech-to-text/)** | 60 minutes free/month | Convert spoken answers to text for mock interviews. |
-| **[Deepgram API](https://deepgram.com/)** | 200 minutes free | Real-time transcription for interviews. |
-| **[ElevenLabs Text-to-Speech](https://elevenlabs.io/)** | Free voices | AI-generated voice responses for mock interview simulation. |
-
----
-
-## 🏆 Best Strategy
-- **Use Gemini Flash** for core AI processing.
-- **Scrape company/job data** using OpenCorporates, LinkedIn Jobs API, and Google Search API.
-- **Use NLP APIs** (IBM Watson, Hugging Face) for advanced text processing.
-- **Integrate speech APIs** (Google Speech-to-Text, Deepgram) for voice-based mock interviews.
+## ✅ Notes:
+- Make sure both **backend** and **frontend** servers are running simultaneously.
+- Check the `.env` files if environment variables are required.
+- For any issues, ensure Node.js and npm are installed properly.
 
 ---
