@@ -95,7 +95,7 @@ Provide your evaluation in the following JSON structure:
   "recommendations": [
     "Suggest actionable steps for the candidate's improvement."
   ],
-  "overall_assessment": "Provide a concise summary of the candidate's suitability for the <ROLE> position."
+  "overall_assessment": "Provide a concise summary of the candidate's suitability"
 }
 \`\`\`
 
