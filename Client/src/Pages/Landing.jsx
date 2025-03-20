@@ -23,7 +23,7 @@ function Landing() {
       if (!response.ok) throw new Error("Failed to fetch data");
 
       const data = await response.json();
-      setCompanyData(data.data);
+      setCompanyData(data.data.company);
     } catch (error) {
       console.error("Error fetching company:", error);
     }
@@ -72,7 +72,7 @@ function Landing() {
             <textarea
               placeholder="Write the Company Name...."
               className="w-4xl text-black resize-none placeholder-black outline-none"
-              rows={5}
+              rows={3}
               value={companyName}
               onChange={(e) => setCompanyName(e.target.value)}
             />
@@ -100,36 +100,35 @@ function Landing() {
             </div>
             {companyData && (
               <div className="mt-8 w-full max-w-4xl grid  grid-cols-1 md:grid-cols-2 gap-6">
-                {companyData.companies.map((company) => (
-                  <div
-                    key={company._id}
-                    className="bg-white shadow-md border border-purple-700 rounded-xl p-5"
-                  >
+                {companyData && (
+                  <div className="mt-8 w-full max-w-4xl bg-white shadow-md rounded-xl p-5">
                     <div className="flex items-center space-x-4">
                       <img
-                        src={company.logo}
-                        alt={company.name}
-                        className="w-16 h-16 object-cover rounded-lg border"
+                        src={companyData.logo}
+                        alt={companyData.name}
+                        className="h-20 p-4 object-cover rounded-lg border"
                       />
                       <div>
-                        <h3 className="text-lg font-semibold">
-                          {company.name}
+                        <h3 className="text-xl font-semibold">
+                          {companyData.name}
                         </h3>
                         <a
-                          href={company.url}
+                          href={companyData.url}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-purple-500 hover:underline"
                         >
-                          Visit Website
+                          زيارة الموقع
                         </a>
                       </div>
                     </div>
 
-                    <p className="mt-3 text-gray-600">{company.description}</p>
+                    <p className="mt-3 text-gray-600">
+                      {companyData.description}
+                    </p>
 
                     <div className="mt-4 flex flex-wrap gap-2">
-                      {company.stacks.map((stack) => (
+                      {companyData.stacks.map((stack) => (
                         <span
                           key={stack}
                           className="bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full"
@@ -140,26 +139,26 @@ function Landing() {
                     </div>
 
                     <div className="mt-4 flex justify-between text-gray-700 text-sm">
-                      <span>📍 {company.location[0].address}</span>
+                      <span>📍 {companyData.location[0].address}</span>
                       <span>
-                        {company.isHiring
-                          ? "✅ Employment available"
-                          : "❌ Employment unavailable"}
+                        {companyData.isHiring
+                          ? "✅ توظيف متاح"
+                          : "❌ لا يوجد وظائف"}
                       </span>
                     </div>
 
-                    {company.careersLinks.length > 0 && (
+                    {companyData.careersLinks.length > 0 && (
                       <a
-                        href={company.careersLinks[0]}
+                        href={companyData.careersLinks[0]}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block mt-4 text-blue-500 hover:underline"
                       >
-                        See Jobs
+                        عرض الوظائف
                       </a>
                     )}
                   </div>
-                ))}
+                )}
               </div>
             )}
           </div>
