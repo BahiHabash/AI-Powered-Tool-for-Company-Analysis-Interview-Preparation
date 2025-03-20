@@ -48,35 +48,6 @@ const DropFileInput = (props) => {
           onChange={onFileDrop}
         />
       </div>
-      {fileList.length > 0 ? (
-        <div className="drop-file-preview mt-8">
-          <p className="drop-file-preview__title mb-5 font-medium">
-            Ready to upload
-          </p>
-          {fileList.map((item, index) => (
-            <div
-              key={index}
-              className="drop-file-preview__item relative flex mb-2.5 p-4 rounded-[20px] bg-gray-800"
-            >
-              <img
-                src="https://media.geeksforgeeks.org/wp-content/uploads/20240307210250/file-blank-solid-240.png"
-                alt=""
-                className="w-12 mr-5"
-              />
-              <div className="drop-file-preview__item__info flex flex-col justify-between">
-                <p className="font-medium">{item.name}</p>
-                <p className="font-medium">{item.size}B</p>
-              </div>
-              <span
-                className="drop-file-preview__item__del  w-10 h-10 rounded-full flex items-center justify-center"
-                onClick={() => fileRemove(item)}
-              >
-                x
-              </span>
-            </div>
-          ))}
-        </div>
-      ) : null}
     </>
   );
 };
