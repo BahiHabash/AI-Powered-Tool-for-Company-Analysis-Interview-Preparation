@@ -149,49 +149,66 @@ const Interviews = () => {
               fetchQuestions();
             }}
           >
-            <input
-              type="text"
-              name="jobTitle"
-              placeholder="Job Title"
-              onChange={handleChange}
-              className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
-            />
-            <input
-              type="text"
-              name="company"
-              placeholder="Company"
-              onChange={handleChange}
-              className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
-            />
-            <input
-              type="text"
-              name="industry"
-              placeholder="Industry"
-              onChange={handleChange}
-              className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
-            />
+            <div className="flex">
+              <input
+                type="text"
+                name="jobTitle"
+                placeholder="Job Title"
+                onChange={handleChange}
+                className="p-2 mb-3 mr-3 bg-gray-800 text-white rounded-lg"
+              />
+              <input
+                type="text"
+                name="company"
+                placeholder="Company"
+                onChange={handleChange}
+                className="p-2 mb-3 mr-3 bg-gray-800 text-white rounded-lg"
+              />
+              <input
+                type="text"
+                name="industry"
+                placeholder="Industry"
+                onChange={handleChange}
+                className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
+              />
+            </div>
             <textarea
               name="description"
               rows={10}
-              cols={60}
+              cols={80}
               placeholder="Job Description"
               onChange={handleChange}
               className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
             ></textarea>
-
-            <input
+            <div className="flex justify-center text-center pt-3 ml-2 ml-28">
+            {/* <input
               type="file"
               accept=".pdf, .docx"
               onChange={handleFileChange}
               className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
-            />
-
+            /> */}
+            <div className="flex items-center space-x-2 p-2 mb-3 bg-gray-800 text-white rounded-lg cursor-pointer hover:bg-gray-600">
+              <input
+                type="file"
+                id="fileInput"
+                className="hidden"
+                accept=".pdf, .docx"
+                onChange={handleFileChange}
+              />
+              <label
+                htmlFor="fileInput"
+                className="flex items-center bg-transparent gap-2 text-white text-md cursor-pointer"
+              >
+                <span>📁</span> Add Attachment
+              </label>
+            </div>
             <button
               type="submit"
-              className="bg-[#9333EA] text-white rounded-full p-2 mt-8"
+              className="bg-[#9333EA] text-white rounded-full ml-8 p-2"
             >
               {loading ? "Generating..." : "Generate Mock Interview"}
             </button>
+            </div>
           </form>
 
           {questions.length > 0 && (
