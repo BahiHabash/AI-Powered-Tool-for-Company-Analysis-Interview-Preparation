@@ -99,7 +99,7 @@ function Landing() {
               </button>
             </div>
             {companyData && (
-              <div className="mt-8 w-full max-w-4xl grid  grid-cols-1 md:grid-cols-1 gap-6">
+              <div className="mt-8 w-full max-w-4xl grid  grid-cols-1 md:grid-cols-2 gap-6">
                 {companyData.companies.map((company) => (
                   <div
                     key={company._id}
@@ -126,7 +126,7 @@ function Landing() {
                       </div>
                     </div>
 
-                    <p className="mt-3 text-gray-600 text-start">{company.description}</p>
+                    <p className="mt-3 text-gray-600">{company.description}</p>
 
                     <div className="mt-4 flex flex-wrap gap-2">
                       {company.stacks.map((stack) => (
