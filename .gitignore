@@ -1,5 +1,6 @@
 # Enviroment
 .env
+app.py
 
 # Logs
 logs
