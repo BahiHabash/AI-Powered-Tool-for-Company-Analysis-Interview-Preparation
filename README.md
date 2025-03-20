@@ -100,3 +100,20 @@ This guide will help you run both the **Backend**, **Frontend**, and **Data Scri
 - For any issues, ensure Node.js and npm are installed properly.
 
 ---
+
+## 📌 Environment Variables
+
+Create a `.env` file in the `Server` directory and add the following:
+
+```env
+# Environment
+PORT=5500
+NODE_ENV=development
+
+# Database
+DATABASE_URL=mongodb+srv://name:<DATABASE_PASSWORD>@cluster0.tw0gc.mongodb.net/project_name?retryWrites=true&w=majority&appName=Cluster0
+DATABASE_PASSWORD=pPpkUmLKvBJlMdwr
+
+# Gemini
+GEMINI_API_KEY=AIdsSyAa2ISxjQoDVEyNWQ7mswyJn-80TtW2T0k
+```
