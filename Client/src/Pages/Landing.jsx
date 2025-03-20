@@ -1,8 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "../Components/Nav";
 import Footer from "../Components/Footer";
 
 function Landing() {
+  const [companyName, setCompanyName] = useState("");
+  const [companyData, setCompanyData] = useState(null);
+
+  const fetchCompany = async () => {
+    if (!companyName.trim()) return;
+
+    try {
+      const response = await fetch(
+        `{{base_url}}/company/search?name=${encodeURIComponent(companyName)}`
+      );
+      if (!response.ok) throw new Error("Failed to fetch data");
+
+      const data = await response.json();
+      setCompanyData(data);
+    } catch (error) {
+      console.error("Error fetching company:", error);
+    }
+  };
+
   return (
     <div className="bg-[#120F25] w-full h-full text-white">
       <Nav />
@@ -28,19 +47,21 @@ function Landing() {
         </div>
         <div className="flex justify-center items-center">
           <div
-            className="justify-center text-black items-center w-4xl mt-32 shadow-2xl bg-white p-2 rounded-2xl "
+            className="justify-center text-black items-center w-4xl mt-32 shadow-2xl bg-white p-2 rounded-2xl"
             style={{
               boxShadow: `
-      0px 0px 60px #7C3AED, 
-      0px 0px 80px #9867F0, 
-      0px 0px 90px #ED4E50
-    `,
+            0px 0px 60px #7C3AED, 
+            0px 0px 80px #9867F0, 
+            0px 0px 90px #ED4E50
+          `,
             }}
           >
             <textarea
               placeholder="Write the Company Name...."
               className="w-4xl text-black resize-none placeholder-black outline-none"
               rows={5}
+              value={companyName}
+              onChange={(e) => setCompanyName(e.target.value)}
             />
             <div className="flex justify-between pl-3 pr-3 items-center">
               <div className="flex items-center space-x-2 p-2 rounded-lg hover:bg-gray-100 cursor-pointer">
@@ -57,10 +78,21 @@ function Landing() {
                   <span>📁</span> Add Attachment
                 </label>
               </div>
-              <button className="bg-[#9233eadc] hover:bg-[#9233ea] text-white font-extrabold text-3xl rounded-2xl pl-2 pr-2 pb-1 shadow-md flex justify-center items-center text-center inline-flex">
-                →{" "}
+              <button
+                onClick={fetchCompany}
+                className="bg-[#9233eadc] hover:bg-[#9233ea] text-white font-extrabold text-3xl rounded-2xl pl-2 pr-2 pb-1 shadow-md flex justify-center items-center text-center inline-flex"
+              >
+                →
               </button>
             </div>
+            {companyData && (
+              <div className="mt-4 p-2 bg-gray-100 rounded-lg">
+                <h3 className="text-lg font-bold">Company Details:</h3>
+                <pre className="text-sm text-gray-700">
+                  {JSON.stringify(companyData, null, 2)}
+                </pre>
+              </div>
+            )}
           </div>
         </div>
         <div>
