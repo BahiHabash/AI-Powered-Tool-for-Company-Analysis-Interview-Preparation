@@ -99,7 +99,7 @@ function Landing() {
               </button>
             </div>
             {companyData && (
-              <div className="mt-8 w-full max-w-4xl grid  grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="mt-4 w-full max-w-4xl grid  grid-cols-1 md:grid-cols-1 gap-6">
                 {companyData && (
                   <div className="mt-8 w-full max-w-4xl bg-white shadow-md rounded-xl p-5">
                     <div className="flex items-center space-x-4">
@@ -123,7 +123,7 @@ function Landing() {
                       </div>
                     </div>
 
-                    <p className="mt-3 text-gray-600">
+                    <p className="mt-3 text-gray-600 text-start">
                       {companyData.description}
                     </p>
 
@@ -177,7 +177,7 @@ function Landing() {
           <div className="flex m-8 justify-center items-center">
             <div className="flex w-[65%] justify-center items-center">
               <div
-                className="border-2 border-transparent shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4"
+                className="border-2 cursor-pointer border-transparent shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4"
                 onClick={scrollToCompanyDiv}
               >
                 <h1 className="text-[#F9FAFB] text-lg">Company Analysis</h1>
@@ -190,7 +190,7 @@ function Landing() {
                   className=" rounded-xl mt-2"
                 />
               </div>
-              <div className="border-2 border-transparent shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4">
+              <div className="border-2 border-transparent cursor-pointer shadow-[#1F2937] text-start shadow-lg rounded-2xl p-4 m-4">
                 <h1
                   className="text-[#F9FAFB] text-lg"
                   onClick={() => navigate("/interview")}
@@ -211,7 +211,7 @@ function Landing() {
           </div>
           <div className="flex m-8 justify-center items-center">
             <div
-              className="border-2 w-[65%] flex border-transparent text-start shadow-[#1F2937] shadow-lg rounded-2xl p-4 m-4"
+              className="border-2 w-[65%] flex border-transparent cursor-pointer text-start shadow-[#1F2937] shadow-lg rounded-2xl p-4 m-4"
               onClick={() => navigate("/cv")}
               ref={cvRef}
             >
