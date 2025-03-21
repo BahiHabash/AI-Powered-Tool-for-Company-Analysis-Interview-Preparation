@@ -30,7 +30,8 @@ exports.getQuestions = catchAsync(async (req, res, next) => {
 });
 
 exports.evaluateAnswers = catchAsync(async (req, res, next) => { 
-    const interview = JSON.stringify(req.body.interview || {});
+    const interview = JSON.stringify(req.body.questions || {});
+    // console.log(req.body)
 
     if (!interview) {
         return next( new AppError(`Please provide the interview's Q&A to evaluate.`, 400) );
