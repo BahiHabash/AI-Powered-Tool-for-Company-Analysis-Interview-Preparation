@@ -174,7 +174,7 @@ const Interviews = () => {
             </div>
             <textarea
               name="description"
-              rows={10}
+              rows={5}
               cols={80}
               placeholder="Job Description"
               onChange={handleChange}
