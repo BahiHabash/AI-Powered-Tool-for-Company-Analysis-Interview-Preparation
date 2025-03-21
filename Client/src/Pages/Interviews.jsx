@@ -181,12 +181,6 @@ const Interviews = () => {
               className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
             ></textarea>
             <div className="flex justify-center text-center pt-3 ml-2 ml-28">
-            {/* <input
-              type="file"
-              accept=".pdf, .docx"
-              onChange={handleFileChange}
-              className="p-2 mb-3 bg-gray-800 text-white rounded-lg"
-            /> */}
             <div className="flex items-center space-x-2 p-2 mb-3 bg-gray-800 text-white rounded-lg cursor-pointer hover:bg-gray-600">
               <input
                 type="file"
@@ -199,7 +193,7 @@ const Interviews = () => {
                 htmlFor="fileInput"
                 className="flex items-center bg-transparent gap-2 text-white text-md cursor-pointer"
               >
-                <span>📁</span> Add Attachment
+                <span>📁</span>Attach Your CV
               </label>
             </div>
             <button
