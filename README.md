@@ -1,6 +1,6 @@
 # AI-Powered-Tool-for-Company-Analysis-Interview-Preparation
-Salam Hackathon Project
-
+Salam Hackathon Project **([Project Demo](https://drive.google.com/file/d/1Py8BXztEblhoYIf9jsfoyoIdybJcLnW7/view?usp=sharing))
+**
 ## 🎯 Overview
 
 Our AI-powered platform helps job seekers analyze companies, optimize their CVs, and prepare for interviews with AI-driven insights and mock interview simulations.
